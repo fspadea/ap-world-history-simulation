@@ -903,8 +903,9 @@ const ALL_TESTS = [
       {
         id: "set1",
         setNum: 1,
+        figureId: "sim2-set1-song-dynasty-trade-map",
         title: "Set 1 — Document: Zhao Rugua, Description of the Peoples of the Southern Sea (c. 1225)",
-        passage: "Zhao Rugua served as the Superintendent of Maritime Trade in the port of Quanzhou during the Southern Song Dynasty. His compilation drew on interviews with foreign and Chinese merchants who traveled the maritime routes of East and Southeast Asia.\n\n\"The kingdom of Srivijaya controls the strait through which all ships must pass on their way between the Indian Ocean and the South China Sea. The ruler levies duties on every vessel that enters his waters and maintains a large fleet to enforce his authority. The merchants of this kingdom trade in frankincense, camphor, sandalwood, and ivory, exchanging them for silk, porcelain, and iron goods from China. The people follow the teachings of the Buddha and construct temples of great magnificence. Chinese merchants who settle there often adopt local customs and marry local women, and their children speak both Chinese and the Malay tongue. The junks that sail these waters carry hundreds of men and are provisioned for voyages of many months.\""
+        passage: "Use the map and the passage below to answer Questions 1–11.\n\nZhao Rugua served as the Superintendent of Maritime Trade in the port of Quanzhou during the Southern Song Dynasty. His compilation drew on interviews with foreign and Chinese merchants who traveled the maritime routes of East and Southeast Asia.\n\n\"The kingdom of Srivijaya controls the strait through which all ships must pass on their way between the Indian Ocean and the South China Sea. The ruler levies duties on every vessel that enters his waters and maintains a large fleet to enforce his authority. The merchants of this kingdom trade in frankincense, camphor, sandalwood, and ivory, exchanging them for silk, porcelain, and iron goods from China. The people follow the teachings of the Buddha and construct temples of great magnificence. Chinese merchants who settle there often adopt local customs and marry local women, and their children speak both Chinese and the Malay tongue. The junks that sail these waters carry hundreds of men and are provisioned for voyages of many months.\""
       },
       {
         id: "set2",
@@ -1638,7 +1639,14 @@ const ALL_TESTS = [
         stimulusType: "secondary",
         sources: [
           {
-            label: "Source",
+            label: "Source 1",
+            title: "Photograph of Mahatma Gandhi leading the Salt March, India, 1930",
+            description: "Gandhi led a 240-mile march to the sea to protest the British salt tax, a key moment in India's independence movement.",
+            figureId: "sim2-saq2-gandhi-salt-march",
+            text: ""
+          },
+          {
+            label: "Source 2",
             title: "Benedict Anderson, Imagined Communities: Reflections on the Origin and Spread of Nationalism (1983)",
             description: "Benedict Anderson was a political scientist and historian who studied the origins and global spread of nationalist ideologies. This excerpt is from his influential study of how national identities are constructed.",
             text: "The nation is an imagined political community — imagined because the members of even the smallest nation will never know most of their fellow members, meet them, or even hear of them, yet in the minds of each lives the image of their communion. Nationalism in the colonial world was shaped by the administrative and educational institutions of the colonial state itself. Colonial boundaries created the framework within which new national identities took shape. The spread of print capitalism — newspapers, novels, and pamphlets in vernacular languages — enabled people who had never met to imagine themselves as part of a shared national community, turning colonial subjects into citizens of nations yet to be born."
@@ -1739,6 +1747,7 @@ const ALL_TESTS = [
           {
             num: 7,
             source: "Alexander Falconbridge, An Account of the Slave Trade on the Coast of Africa (1788)",
+            figureId: "sim2-dbq-doc4-slave-ship-diagram",
             text: "The traders on the African coast told me that the interior wars, which formerly were undertaken for territorial disputes or matters of honour, have now become principally wars for the purpose of making slaves to sell to the Europeans. Entire villages are attacked and their inhabitants carried off. The chiefs who engage in this traffic have become dependent upon European goods — particularly firearms, gunpowder, and rum — and must continue to supply captives in order to obtain them."
           }
         ],

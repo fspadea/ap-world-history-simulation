@@ -83,6 +83,21 @@ const FIGURES = {
     src: "/images/sim1-dbq-doc6-dutch-batavia.png",
     alt: "17th-century painting of the Dutch colonial port of Batavia (Jakarta), showing VOC merchant ships, colonial buildings, and local boats.",
   },
+
+  // ── Simulation 2 Visuals ───────────────────────────────────────────────
+
+  "sim2-set1-song-dynasty-trade-map": {
+    src: "/images/sim2-set1-song-dynasty-trade-map.png",
+    alt: "Map of East and Southeast Asian maritime trade routes circa 1200 CE during the Song Dynasty, showing ports at Quanzhou and Guangzhou with routes to Srivijaya, Java, Champa, Korea, and Japan.",
+  },
+  "sim2-saq2-gandhi-salt-march": {
+    src: "/images/sim2-saq2-gandhi-salt-march.png",
+    alt: "Photograph of Mahatma Gandhi leading the Salt March in India, 1930, walking with a large procession of followers along a rural road.",
+  },
+  "sim2-dbq-doc4-slave-ship-diagram": {
+    src: "/images/sim2-dbq-doc4-slave-ship-diagram.png",
+    alt: "Cross-section diagram of the British slave ship Brookes, showing enslaved Africans packed tightly into the lower deck, 1788.",
+  },
 };
 
 export function renderVisual(figureId) {
