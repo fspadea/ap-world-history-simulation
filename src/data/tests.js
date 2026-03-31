@@ -16,8 +16,9 @@ const ALL_TESTS = [
       {
         id: "set2",
         setNum: 2,
+        figureId: "sim1-set2-ottoman-empire-map",
         title: "Set 2 — Document: Ottoman Imperial Decree on Provincial Administration (c. 1560)",
-        passage: "The following is an adapted excerpt from an Ottoman imperial decree issued during the reign of Sultan Suleiman I regarding the governance of provincial territories and the responsibilities of appointed administrators.\n\n\"Let it be known that the appointed governors of each province shall ensure the collection of taxes in accordance with the law, neither demanding more than what is prescribed nor permitting the evasion of lawful obligation. The timar holders shall maintain cavalry soldiers in proportion to the revenue of their assigned lands and shall present them for military service when summoned by the imperial court. No governor shall interfere with the affairs of the religious judges, who shall adjudicate disputes according to the sacred law. The wellbeing of the subject peoples, whether Muslim or non-Muslim, is entrusted to the care of these officials, and any oppression or misrule shall be reported to the Sublime Porte for correction.\""
+        passage: "Use the map and the passage below to answer Questions 12–22.\n\nThe following is an adapted excerpt from an Ottoman imperial decree issued during the reign of Sultan Suleiman I regarding the governance of provincial territories and the responsibilities of appointed administrators.\n\n\"Let it be known that the appointed governors of each province shall ensure the collection of taxes in accordance with the law, neither demanding more than what is prescribed nor permitting the evasion of lawful obligation. The timar holders shall maintain cavalry soldiers in proportion to the revenue of their assigned lands and shall present them for military service when summoned by the imperial court. No governor shall interfere with the affairs of the religious judges, who shall adjudicate disputes according to the sacred law. The wellbeing of the subject peoples, whether Muslim or non-Muslim, is entrusted to the care of these officials, and any oppression or misrule shall be reported to the Sublime Porte for correction.\""
       },
       {
         id: "set3",
@@ -745,7 +746,14 @@ const ALL_TESTS = [
         stimulusType: "secondary",
         sources: [
           {
-            label: "Source",
+            label: "Source 1",
+            title: "Mughal miniature painting depicting Emperor Akbar holding court (durbar), c. 1590",
+            description: "This Mughal miniature painting shows Emperor Akbar presiding over his court, surrounded by Hindu and Muslim officials and courtiers.",
+            figureId: "sim1-saq2-mughal-miniature",
+            text: ""
+          },
+          {
+            label: "Source 2",
             title: "John Darwin, After Tamerlane: The Rise and Fall of Global Empires (2008)",
             description: "John Darwin is a British historian who has written extensively on the history of global empires. This excerpt is from his comparative study of imperial state-building.",
             text: "The great land-based empires of the early modern period \u2014 the Ottoman, Safavid, Mughal, and Qing \u2014 all faced a common set of challenges in governing their vast and diverse territories. Each relied on a combination of military force, bureaucratic administration, and the strategic accommodation of local elites and religious traditions. The success of these empires depended not merely on their capacity for conquest, but on their ability to create systems of governance that generated loyalty, or at least acquiescence, among subject populations. Where emperors failed to balance centralized authority with local autonomy, as in the later Mughal period, the result was provincial rebellion and imperial fragmentation."
@@ -816,6 +824,7 @@ const ALL_TESTS = [
           {
             num: 1,
             source: "Afonso de Albuquerque, Letter to King Manuel I of Portugal (1510)",
+            figureId: "sim1-dbq-doc3-portuguese-carrack",
             text: "If Your Highness seizes Goa and Malacca, then Cairo and Mecca will be entirely ruined, and Venice will receive no spices unless her merchants go and buy them in Portugal. I am certain that if we take this trade of Malacca away from the Moors, they will have no means of carrying it on, for they have no other route by which they can transport spices to their own lands. Your Highness will thus control the commerce of the whole of the East."
           },
           {
@@ -831,6 +840,7 @@ const ALL_TESTS = [
           {
             num: 4,
             source: "Jan Pieterszoon Coen, Letter to the Directors of the Dutch East India Company (1619)",
+            figureId: "sim1-dbq-doc6-dutch-batavia",
             text: "Your Honors should know by experience that trade in Asia must be driven and maintained under the protection and favor of Your Honors' own weapons, and that the weapons must be paid for by the profits from the trade, so that we cannot carry on trade without war nor war without trade. We must establish ourselves firmly in the Spice Islands and drive out the English and all other competitors. The native peoples must be compelled to deliver their spices exclusively to our company at prices that we determine."
           },
           {
@@ -841,6 +851,7 @@ const ALL_TESTS = [
           {
             num: 6,
             source: "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano (1789)",
+            figureId: "sim1-dbq-doc5-atlantic-slave-trade",
             text: "When I arrived at the coast, I was immediately handled and tossed up to see if I were sound by some of the crew. I was soon put down under the decks, and there I received such a salutation in my nostrils as I had never experienced in my life. The closeness of the place and the heat of the climate, added to the number in the ship, which was so crowded that each had scarcely room to turn himself, almost suffocated us. The shrieks of the women, and the groans of the dying, rendered the whole a scene of horror almost inconceivable."
           },
           {
