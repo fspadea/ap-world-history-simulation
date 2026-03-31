@@ -890,6 +890,888 @@ const ALL_TESTS = [
   },
 
   // ========================================================================
+  // SIMULATION 2: Practice Simulation 2
+  // ========================================================================
+  {
+    id: "sim2",
+    label: "Practice Simulation 2",
+    description: "Full-length AP World History: Modern exam — 55 MC + SAQ + DBQ + LEQ",
+    badge: "Practice",
+    year: 2025,
+    totalMCTime: 3300,
+    mcSets: [
+      {
+        id: "set1",
+        setNum: 1,
+        title: "Set 1 — Document: Zhao Rugua, Description of the Peoples of the Southern Sea (c. 1225)",
+        passage: "Zhao Rugua served as the Superintendent of Maritime Trade in the port of Quanzhou during the Southern Song Dynasty. His compilation drew on interviews with foreign and Chinese merchants who traveled the maritime routes of East and Southeast Asia.\n\n\"The kingdom of Srivijaya controls the strait through which all ships must pass on their way between the Indian Ocean and the South China Sea. The ruler levies duties on every vessel that enters his waters and maintains a large fleet to enforce his authority. The merchants of this kingdom trade in frankincense, camphor, sandalwood, and ivory, exchanging them for silk, porcelain, and iron goods from China. The people follow the teachings of the Buddha and construct temples of great magnificence. Chinese merchants who settle there often adopt local customs and marry local women, and their children speak both Chinese and the Malay tongue. The junks that sail these waters carry hundreds of men and are provisioned for voyages of many months.\""
+      },
+      {
+        id: "set2",
+        setNum: 2,
+        title: "Set 2 — Document: Jean Chardin, Travels in Persia (1686)",
+        passage: "Jean Chardin was a French jeweler and traveler who spent extended periods in the Safavid Empire during the reign of Shah Abbas II and Shah Suleiman. His account provides detailed observations of Persian society, economy, and governance.\n\n\"Isfahan is one of the largest and most beautiful cities in the world. Its great bazaar stretches for miles, covered by vaulted brick roofs, and within it one finds merchants from every nation — Armenians, Indians, Turks, and even some Europeans — trading in silks, carpets, spices, and precious stones. The Shah maintains his authority through appointed governors in each province, yet the real power in the countryside often belongs to the tribal chiefs who command the loyalty of their kinsmen. The Persians are devoted followers of the Shia branch of Islam and regard their Shah as the Shadow of God on Earth. The royal workshops produce the finest carpets, textiles, and illustrated manuscripts, and the Shah patronizes poets and scholars who gather at his court. The Armenian merchants of Julfa, whom Shah Abbas I resettled near Isfahan, control much of the silk trade with Europe and enjoy the protection of the crown.\""
+      },
+      {
+        id: "set3",
+        setNum: 3,
+        title: "Set 3 — Document: Simón Bolívar, Letter from Jamaica (1815)",
+        passage: "Simón Bolívar was a Venezuelan military and political leader who played a central role in the independence movements of several South American countries. He wrote this letter while in exile in Jamaica, reflecting on the state of the Spanish American revolutions.\n\n\"We are a small segment of the human race; we possess a world apart, surrounded by vast seas. Although in some ways our situation resembles that of the peoples who freed themselves from Rome, our case is more extraordinary and complex. We have been denied active participation in our own governance. We have been told that we were incapable of directing our own affairs. Under Spanish rule, Americans held no position of authority — not as diplomats, not as military leaders, not as governors. The habit of obedience has robbed us of the experience necessary for self-government. The rights of man and of the citizen, proclaimed with such force by the philosophers of France, have inspired our struggle, yet our path to liberty is obstructed by three centuries of colonial subjugation and by the divisions among our own peoples.\""
+      },
+      {
+        id: "set4",
+        setNum: 4,
+        title: "Set 4 — Document: Dadabhai Naoroji, Poverty and Un-British Rule in India (1901)",
+        passage: "Dadabhai Naoroji was an Indian scholar, businessman, and political leader who served as a member of the British Parliament. He was one of the earliest critics of British economic policy in India and developed the 'drain of wealth' theory.\n\n\"The condition of India is one of continuous and increasing impoverishment. The revenues drawn from the Indian people are spent not for the benefit of India but are transferred to England in the form of salaries for British officials, pensions, military expenditures, and profits extracted by British merchants. India is compelled to export more than she imports, yet the surplus does not enrich her people — it drains away to a foreign land. The once-flourishing textile industries of India have been destroyed by the importation of machine-made British goods, and the artisans who once earned a livelihood have been reduced to starvation. The railroads built by the British serve not the needs of the Indian people but the purpose of carrying raw materials to the ports for export to England. This is not governance; it is a system of organized plunder.\""
+      },
+      {
+        id: "set5",
+        setNum: 5,
+        title: "Set 5 — Document: Ho Chi Minh, Declaration of Independence of the Democratic Republic of Vietnam (1945)",
+        passage: "Ho Chi Minh was a Vietnamese revolutionary leader who led the Viet Minh independence movement against both Japanese occupation and French colonial rule. He proclaimed Vietnamese independence in Hanoi on September 2, 1945.\n\n\"All men are created equal; they are endowed by their Creator with certain unalienable Rights; among these are Life, Liberty, and the pursuit of Happiness. This immortal statement was made in the Declaration of Independence of the United States of America in 1776. In a broader sense, this means: All the peoples on the earth are equal from birth, all the peoples have a right to live, to be happy, and to be free. The Declaration of the French Revolution in 1791 also states: All men are born free and with equal rights. Nevertheless, for more than eighty years, the French imperialists, abusing the standard of Liberty, Equality, and Fraternity, have violated our fatherland and oppressed our fellow citizens. They have built more prisons than schools. They have mercilessly slain our patriots. They have drowned our uprisings in rivers of blood.\""
+      }
+    ],
+    mcQuestions: [
+      // SET 1 — Questions 1-11: Song Dynasty China & East Asian Trade (c. 1200-1450)
+      {
+        num: 1,
+        set: 1,
+        stem: "Zhao Rugua's description of Srivijaya's control of maritime straits most directly illustrates which of the following features of Indian Ocean trade in the period c. 1200-1450?",
+        choices: [
+          "A", "The ability of strategically located states to profit from controlling key trade chokepoints",
+          "B", "The dominance of Chinese naval forces throughout Southeast Asian waters",
+          "C", "The decline of maritime commerce in favor of overland Silk Road trade",
+          "D", "The absence of any state regulation of Indian Ocean commerce"
+        ],
+        answer: "A"
+      },
+      {
+        num: 2,
+        set: 1,
+        stem: "The intermarriage between Chinese merchants and local women described in the passage is best understood as an example of which of the following historical processes?",
+        choices: [
+          "A", "Forced assimilation imposed by the Song Dynasty on overseas communities",
+          "B", "Cultural syncretism resulting from sustained commercial contact between different societies",
+          "C", "The deliberate Chinese policy of colonizing Southeast Asian territories",
+          "D", "The rejection of Chinese culture by merchants who settled abroad"
+        ],
+        answer: "B"
+      },
+      {
+        num: 3,
+        set: 1,
+        stem: "The goods exchanged between Srivijaya and China as described by Zhao Rugua most directly reflect which of the following patterns of Indian Ocean trade?",
+        choices: [
+          "A", "The exchange of raw materials from Southeast Asia for manufactured goods from China",
+          "B", "The exclusive trade of military weapons between maritime empires",
+          "C", "The dominance of European merchants in facilitating East-West commerce",
+          "D", "The decline of Chinese manufacturing during the Song Dynasty"
+        ],
+        answer: "A"
+      },
+      {
+        num: 4,
+        set: 1,
+        stem: "The reference to Buddhist temples in Srivijaya most directly supports which of the following claims about the period c. 1200-1450?",
+        choices: [
+          "A", "Buddhism had completely replaced all indigenous religions in Southeast Asia",
+          "B", "Religious traditions spread along trade routes and were adopted by commercial states",
+          "C", "The Song Dynasty imposed Buddhism as the official religion of its trading partners",
+          "D", "Buddhist monks rather than merchants controlled Indian Ocean trade networks"
+        ],
+        answer: "B"
+      },
+      {
+        num: 5,
+        set: 1,
+        stem: "The Song Dynasty's interest in maritime trade, as reflected in the appointment of officials like Zhao Rugua, represented a significant departure from which of the following earlier Chinese practices?",
+        choices: [
+          "A", "The Tang Dynasty's policy of actively promoting overland trade along the Silk Roads",
+          "B", "The traditional Confucian disdain for merchants and preference for an agrarian economy",
+          "C", "The Han Dynasty's reliance on maritime trade as the primary source of imperial revenue",
+          "D", "The Ming Dynasty's policy of sponsoring large-scale maritime expeditions"
+        ],
+        answer: "B"
+      },
+      {
+        num: 6,
+        set: 1,
+        stem: "Which of the following technological developments most directly enabled the long-distance maritime voyages described by Zhao Rugua?",
+        choices: [
+          "A", "The development of the magnetic compass, stern-post rudder, and improved junk ship design in China",
+          "B", "The invention of the steam engine and iron-hulled ships in Britain",
+          "C", "The adoption of the lateen sail from European Mediterranean vessels",
+          "D", "The construction of canal systems connecting Chinese rivers to the Indian Ocean"
+        ],
+        answer: "A"
+      },
+      {
+        num: 7,
+        set: 1,
+        stem: "The economic system described by Zhao Rugua, in which Srivijaya taxed passing trade, is most comparable to which of the following?",
+        choices: [
+          "A", "The Egyptian Mamluk Sultanate's taxation of goods passing through the Red Sea corridor",
+          "B", "The Mongol Empire's practice of destroying all commercial cities in conquered territories",
+          "C", "The European feudal system's reliance on agricultural surplus from manorial estates",
+          "D", "The Aztec tribute system's collection of goods from conquered peoples through military force"
+        ],
+        answer: "A"
+      },
+      {
+        num: 8,
+        set: 1,
+        stem: "A historian could best use Zhao Rugua's account as evidence for which of the following arguments?",
+        choices: [
+          "A", "The Song Dynasty exercised direct political control over Southeast Asian kingdoms",
+          "B", "Chinese commercial networks were deeply integrated into the broader Indian Ocean trading world during the thirteenth century",
+          "C", "Southeast Asian states were economically self-sufficient and had no need for foreign trade",
+          "D", "Indian Ocean trade declined significantly during the Song Dynasty period"
+        ],
+        answer: "B"
+      },
+      {
+        num: 9,
+        set: 1,
+        stem: "The commercial prosperity of Song Dynasty China described by sources like Zhao Rugua was most directly supported by which of the following domestic developments?",
+        choices: [
+          "A", "The widespread adoption of Christianity by Chinese merchants and officials",
+          "B", "The introduction of fast-ripening Champa rice, which increased agricultural productivity and supported population growth",
+          "C", "The centralization of all manufacturing in state-owned factories",
+          "D", "The elimination of all internal trade barriers through the abolition of the imperial examination system"
+        ],
+        answer: "B"
+      },
+      {
+        num: 10,
+        set: 1,
+        stem: "Which of the following best explains why the Song Dynasty relied more heavily on maritime trade than previous Chinese dynasties?",
+        choices: [
+          "A", "The loss of northern territories to the Jurchen Jin Dynasty cut off access to overland Silk Road routes",
+          "B", "The Song Dynasty had conquered all of Southeast Asia and needed to administer its colonies",
+          "C", "Maritime trade was cheaper than all forms of overland transport in every period of Chinese history",
+          "D", "The Mongol Empire had completely blocked all maritime routes, forcing the Song to find alternatives"
+        ],
+        answer: "A"
+      },
+      {
+        num: 11,
+        set: 1,
+        stem: "The networks described by Zhao Rugua were most directly disrupted in the fifteenth century by which of the following developments?",
+        choices: [
+          "A", "The Ming Dynasty's decision to restrict private overseas trade and the eventual arrival of Portuguese merchants in the Indian Ocean",
+          "B", "The complete collapse of Chinese porcelain production due to resource depletion",
+          "C", "The conquest of all Southeast Asian states by the Ottoman Empire",
+          "D", "The replacement of maritime trade by transcontinental railroad networks"
+        ],
+        answer: "A"
+      },
+      // SET 2 — Questions 12-22: Safavid Empire & Persian Culture (c. 1450-1750)
+      {
+        num: 12,
+        set: 2,
+        stem: "Chardin's description of Isfahan's bazaar, with merchants from many nations, most directly illustrates which of the following features of the Safavid Empire?",
+        choices: [
+          "A", "The Safavid Empire's complete isolation from international trade networks",
+          "B", "Isfahan's role as a major commercial center connecting overland and maritime trade routes",
+          "C", "The Safavid prohibition on foreign merchants entering Persian territory",
+          "D", "The decline of urban commercial life under Safavid rule"
+        ],
+        answer: "B"
+      },
+      {
+        num: 13,
+        set: 2,
+        stem: "The tension between appointed governors and tribal chiefs described by Chardin most directly reflects which of the following challenges faced by early modern empires?",
+        choices: [
+          "A", "The difficulty of maintaining centralized authority over diverse and geographically dispersed populations",
+          "B", "The complete absence of any system of provincial administration in the Safavid Empire",
+          "C", "The Safavid decision to abolish all tribal structures in favor of a purely bureaucratic state",
+          "D", "The preference of Safavid shahs for governing through democratic assemblies"
+        ],
+        answer: "A"
+      },
+      {
+        num: 14,
+        set: 2,
+        stem: "The Safavid adoption of Shia Islam as the state religion, as referenced by Chardin, most directly served which of the following purposes?",
+        choices: [
+          "A", "Aligning the Safavid Empire with the religious practices of the Ottoman Empire to promote cooperation",
+          "B", "Creating a distinct religious identity that differentiated the Safavid state from its Sunni Ottoman and Mughal rivals",
+          "C", "Encouraging the conversion of all European merchants to Islam",
+          "D", "Eliminating all forms of religious practice within the Safavid Empire"
+        ],
+        answer: "B"
+      },
+      {
+        num: 15,
+        set: 2,
+        stem: "The resettlement of Armenian merchants to Julfa, near Isfahan, as described by Chardin, is most comparable to which of the following practices in other early modern empires?",
+        choices: [
+          "A", "The Ottoman devshirme system of recruiting Christian boys for service",
+          "B", "The Spanish expulsion of Jews and Muslims during the Reconquista",
+          "C", "The Qing Dynasty's strategic resettlement of populations to develop frontier regions",
+          "D", "The Mughal destruction of all non-Muslim commercial communities"
+        ],
+        answer: "C"
+      },
+      {
+        num: 16,
+        set: 2,
+        stem: "The Armenian merchants' role in the Safavid silk trade described by Chardin best illustrates which of the following economic practices of early modern empires?",
+        choices: [
+          "A", "The use of religious and ethnic minority communities as commercial intermediaries connecting empires to global markets",
+          "B", "The Safavid policy of prohibiting all subjects from engaging in international trade",
+          "C", "The complete dependence of European economies on Safavid manufactured goods",
+          "D", "The absence of any long-distance trade networks in the early modern Middle East"
+        ],
+        answer: "A"
+      },
+      {
+        num: 17,
+        set: 2,
+        stem: "The royal patronage of arts and scholarship described by Chardin most directly reflects which of the following characteristics of early modern Islamic empires?",
+        choices: [
+          "A", "The rejection of all artistic and literary traditions in favor of purely military pursuits",
+          "B", "The use of cultural production to legitimize royal authority and project imperial prestige",
+          "C", "The decline of all forms of artistic achievement during the Safavid period",
+          "D", "The exclusive reliance on European artists and scholars at the Safavid court"
+        ],
+        answer: "B"
+      },
+      {
+        num: 18,
+        set: 2,
+        stem: "Which of the following best explains why the Safavid Empire's economy was particularly dependent on the silk trade during the period described by Chardin?",
+        choices: [
+          "A", "Silk was the only commodity produced anywhere in the Safavid Empire",
+          "B", "European demand for Persian silk provided crucial revenue, and Shah Abbas I had established state monopolies over its production and export",
+          "C", "The Safavid Empire had conquered China and controlled all global silk production",
+          "D", "Silk was used exclusively for military uniforms and had no civilian applications"
+        ],
+        answer: "B"
+      },
+      {
+        num: 19,
+        set: 2,
+        stem: "A historian using Chardin's account as a source would most need to consider which of the following limitations?",
+        choices: [
+          "A", "Chardin never visited Persia and based his account entirely on secondhand reports",
+          "B", "As a European observer, Chardin's perspective was shaped by his own cultural assumptions and may have misunderstood certain Persian institutions",
+          "C", "Chardin's account was written in Persian and has never been accurately translated",
+          "D", "Chardin was an official of the Safavid government and therefore could not criticize its policies"
+        ],
+        answer: "B"
+      },
+      {
+        num: 20,
+        set: 2,
+        stem: "The description of the Shah as the 'Shadow of God on Earth' most directly reflects which of the following concepts in Safavid political ideology?",
+        choices: [
+          "A", "The separation of religious and political authority characteristic of European Enlightenment thought",
+          "B", "The divine right of kings as articulated by European monarchs like Louis XIV",
+          "C", "The Safavid claim to religious as well as political authority, rooted in their descent from Sufi spiritual leaders",
+          "D", "The Safavid rejection of Islam in favor of Zoroastrian religious traditions"
+        ],
+        answer: "C"
+      },
+      {
+        num: 21,
+        set: 2,
+        stem: "The Safavid Empire's relationships with its neighbors, as implied by Chardin's account, were most significantly shaped by which of the following?",
+        choices: [
+          "A", "Persistent military and ideological rivalry with the Sunni Ottoman Empire over religious legitimacy and territorial control",
+          "B", "A stable alliance with the Ottoman Empire based on shared Shia religious beliefs",
+          "C", "Complete diplomatic isolation from all other states in the region",
+          "D", "The Safavid Empire's voluntary subordination to Mughal political authority"
+        ],
+        answer: "A"
+      },
+      {
+        num: 22,
+        set: 2,
+        stem: "Which of the following developments most directly contributed to the decline of the Safavid Empire in the decades following Chardin's visit?",
+        choices: [
+          "A", "The discovery of the Americas, which eliminated European demand for Asian goods",
+          "B", "Weak successors to Shah Abbas I, increasing provincial autonomy, and military pressure from Afghan tribal forces",
+          "C", "The Safavid conversion to Sunni Islam, which alienated the majority of the population",
+          "D", "The Industrial Revolution in Europe, which destroyed the market for all handcrafted Persian goods"
+        ],
+        answer: "B"
+      },
+      // SET 3 — Questions 23-33: Atlantic Revolutions & Enlightenment (c. 1750-1900)
+      {
+        num: 23,
+        set: 3,
+        stem: "Bolívar's reference to the 'rights of man and of the citizen, proclaimed by the philosophers of France' most directly reflects the influence of which of the following on Latin American independence movements?",
+        choices: [
+          "A", "The Protestant Reformation and its emphasis on individual interpretation of scripture",
+          "B", "Enlightenment political philosophy, particularly concepts of natural rights and popular sovereignty",
+          "C", "The Scientific Revolution and its emphasis on empirical methods of inquiry",
+          "D", "Romantic nationalism and its celebration of ethnic and linguistic identity"
+        ],
+        answer: "B"
+      },
+      {
+        num: 24,
+        set: 3,
+        stem: "Bolívar's complaint that Americans 'held no position of authority' under Spanish rule most directly addresses which of the following features of the colonial system?",
+        choices: [
+          "A", "The encomienda system's exploitation of indigenous labor",
+          "B", "The exclusion of creoles (American-born Spaniards) from high-ranking administrative and military positions, which were reserved for peninsulares",
+          "C", "The Spanish Inquisition's persecution of religious minorities in the Americas",
+          "D", "The mercantilist restrictions on colonial manufacturing and trade"
+        ],
+        answer: "B"
+      },
+      {
+        num: 25,
+        set: 3,
+        stem: "Bolívar's argument that 'the habit of obedience has robbed us of the experience necessary for self-government' most directly raises concerns about which of the following challenges facing newly independent nations?",
+        choices: [
+          "A", "The difficulty of establishing stable democratic institutions in societies with no tradition of self-governance",
+          "B", "The inability of Latin American nations to develop any form of economic activity",
+          "C", "The refusal of the Catholic Church to support Latin American independence",
+          "D", "The complete absence of any educated elite in the Spanish American colonies"
+        ],
+        answer: "A"
+      },
+      {
+        num: 26,
+        set: 3,
+        stem: "Bolívar's comparison of the Spanish American situation to 'peoples who freed themselves from Rome' most directly serves which of the following rhetorical purposes?",
+        choices: [
+          "A", "Arguing that Latin American independence was part of a longer historical tradition of peoples resisting imperial domination",
+          "B", "Claiming that the Spanish Empire was militarily weaker than the Roman Empire",
+          "C", "Suggesting that Latin Americans should adopt Roman political institutions after independence",
+          "D", "Demonstrating that European civilization was superior to all others"
+        ],
+        answer: "A"
+      },
+      {
+        num: 27,
+        set: 3,
+        stem: "The 'divisions among our own peoples' mentioned by Bolívar most directly refers to which of the following social realities of colonial Spanish America?",
+        choices: [
+          "A", "Religious conflicts between Catholics and Protestants in the colonies",
+          "B", "Racial and class divisions within the colonial caste system separating peninsulares, creoles, mestizos, indigenous peoples, and enslaved Africans",
+          "C", "Linguistic barriers between Spanish-speaking and English-speaking colonists",
+          "D", "Geographic isolation that prevented communication between different colonial regions"
+        ],
+        answer: "B"
+      },
+      {
+        num: 28,
+        set: 3,
+        stem: "Which of the following events most directly precipitated the crisis that enabled the Spanish American independence movements described by Bolívar?",
+        choices: [
+          "A", "The Seven Years' War and the subsequent imposition of new British taxes on the American colonies",
+          "B", "Napoleon's invasion of Spain in 1808, which undermined the legitimacy of Spanish royal authority in the colonies",
+          "C", "The Congress of Vienna's decision to restore absolute monarchy throughout Europe and the Americas",
+          "D", "The abolition of slavery by the British Parliament, which destabilized colonial economies"
+        ],
+        answer: "B"
+      },
+      {
+        num: 29,
+        set: 3,
+        stem: "The political ideas expressed by Bolívar were most similar to those articulated in which of the following documents?",
+        choices: [
+          "A", "The Communist Manifesto by Karl Marx and Friedrich Engels",
+          "B", "The United States Declaration of Independence and the French Declaration of the Rights of Man and of the Citizen",
+          "C", "The Ninety-Five Theses by Martin Luther",
+          "D", "The Treaty of Westphalia ending the Thirty Years' War"
+        ],
+        answer: "B"
+      },
+      {
+        num: 30,
+        set: 3,
+        stem: "Which of the following best describes a significant outcome of the independence movements led by figures like Bolívar?",
+        choices: [
+          "A", "The establishment of stable democracies with universal suffrage throughout Latin America",
+          "B", "The creation of independent nation-states that often experienced political instability, caudillo rule, and continued social inequality",
+          "C", "The immediate abolition of all racial and class distinctions in the new republics",
+          "D", "The reunification of all former Spanish colonies into a single federal republic"
+        ],
+        answer: "B"
+      },
+      {
+        num: 31,
+        set: 3,
+        stem: "Bolívar's letter reflects the broader influence of the Atlantic revolutions on global political change. Which of the following revolutions was most directly influenced by the same Enlightenment ideas Bolívar references?",
+        choices: [
+          "A", "The Glorious Revolution of 1688 in England",
+          "B", "The Haitian Revolution of 1791-1804",
+          "C", "The Taiping Rebellion of 1850-1864 in China",
+          "D", "The Meiji Restoration of 1868 in Japan"
+        ],
+        answer: "B"
+      },
+      {
+        num: 32,
+        set: 3,
+        stem: "A historian studying Bolívar's Letter from Jamaica would most likely use it as evidence for which of the following claims?",
+        choices: [
+          "A", "Latin American independence leaders were primarily motivated by economic concerns rather than political ideals",
+          "B", "Enlightenment ideas were adapted and applied to colonial contexts by creole elites seeking to justify self-governance",
+          "C", "The Spanish American independence movements were led exclusively by indigenous peoples",
+          "D", "Bolívar rejected all European intellectual traditions in favor of purely American ideas"
+        ],
+        answer: "B"
+      },
+      {
+        num: 33,
+        set: 3,
+        stem: "Which of the following best describes a significant difference between the American Revolution and the Latin American independence movements described by Bolívar?",
+        choices: [
+          "A", "The American Revolution was influenced by Enlightenment ideas while Latin American movements were not",
+          "B", "Latin American societies were more racially and socially stratified, creating deeper internal divisions that complicated the independence process",
+          "C", "The American Revolution resulted in political instability while Latin American independence produced stable democracies",
+          "D", "Latin American independence movements occurred before the American Revolution and served as its inspiration"
+        ],
+        answer: "B"
+      },
+      // SET 4 — Questions 34-44: New Imperialism in Africa & Asia (c. 1750-1900)
+      {
+        num: 34,
+        set: 4,
+        stem: "Naoroji's 'drain of wealth' theory, as presented in the passage, most directly challenges which of the following justifications for British imperialism in India?",
+        choices: [
+          "A", "The claim that British rule modernized India and improved its economic prosperity",
+          "B", "The argument that India had no economic resources worth exploiting",
+          "C", "The belief that Indian civilization was older and more advanced than British civilization",
+          "D", "The theory that colonial territories naturally benefited from being part of a larger empire"
+        ],
+        answer: "A"
+      },
+      {
+        num: 35,
+        set: 4,
+        stem: "Naoroji's description of the destruction of Indian textile industries most directly resulted from which of the following developments?",
+        choices: [
+          "A", "Indian artisans' voluntary abandonment of textile production in favor of agriculture",
+          "B", "The flooding of Indian markets with cheaper, machine-produced British textiles following the Industrial Revolution",
+          "C", "The Indian Mutiny of 1857, which destroyed most textile manufacturing centers",
+          "D", "The British government's policy of investing heavily in Indian industrial development"
+        ],
+        answer: "B"
+      },
+      {
+        num: 36,
+        set: 4,
+        stem: "Naoroji's critique of railroads built by the British in India most directly illustrates which of the following patterns of imperial economic development?",
+        choices: [
+          "A", "Infrastructure was designed to facilitate the extraction and export of raw materials rather than to serve the needs of local populations",
+          "B", "Colonial railroads were entirely funded by Indian taxpayers and operated for their benefit",
+          "C", "The British refused to build any modern infrastructure in India",
+          "D", "Indian railroads were used exclusively for passenger transport and had no economic function"
+        ],
+        answer: "A"
+      },
+      {
+        num: 37,
+        set: 4,
+        stem: "Naoroji's arguments are best understood within the context of which of the following broader intellectual and political movements?",
+        choices: [
+          "A", "The Social Darwinist movement, which justified European racial superiority",
+          "B", "The early Indian nationalist movement, which used economic analysis to critique British colonial policies",
+          "C", "The Pan-Islamic movement, which sought to unite all Muslim peoples against European domination",
+          "D", "The Marxist revolutionary movement, which called for the immediate violent overthrow of all governments"
+        ],
+        answer: "B"
+      },
+      {
+        num: 38,
+        set: 4,
+        stem: "The economic relationship between Britain and India described by Naoroji is most comparable to which of the following?",
+        choices: [
+          "A", "The relationship between the United States and the Soviet Union during the Cold War",
+          "B", "The relationship between European colonial powers and African colonies during the Scramble for Africa",
+          "C", "The relationship between China and its Central Asian trading partners along the Silk Road",
+          "D", "The relationship between the Roman Empire and its federated Germanic allies"
+        ],
+        answer: "B"
+      },
+      {
+        num: 39,
+        set: 4,
+        stem: "Which of the following best explains why Naoroji chose to present his arguments in terms of economic data rather than moral or religious appeals?",
+        choices: [
+          "A", "He believed that factual economic evidence would be more persuasive to British audiences who valued empiricism and rational argument",
+          "B", "Indian culture had no tradition of moral or philosophical reasoning",
+          "C", "The British government had prohibited all non-economic arguments against colonial rule",
+          "D", "Economic arguments were the only type of criticism permitted by the Indian National Congress"
+        ],
+        answer: "A"
+      },
+      {
+        num: 40,
+        set: 4,
+        stem: "Naoroji's critique of British rule in India most directly influenced which of the following later developments?",
+        choices: [
+          "A", "The British decision to immediately grant India full independence in 1901",
+          "B", "The growth of the Indian independence movement, including the strategies of leaders like Gandhi and Nehru",
+          "C", "The British expansion of colonial territories in Southeast Asia",
+          "D", "The decline of nationalist movements in India in favor of acceptance of British rule"
+        ],
+        answer: "B"
+      },
+      {
+        num: 41,
+        set: 4,
+        stem: "The 'New Imperialism' of the late nineteenth century, which Naoroji critiques, differed from earlier forms of European expansion primarily in which of the following ways?",
+        choices: [
+          "A", "It involved the direct political control of vast territories in Africa and Asia, driven by industrial demand for raw materials and strategic competition",
+          "B", "It was limited entirely to the Western Hemisphere and did not affect Africa or Asia",
+          "C", "It was motivated exclusively by religious missionary activity with no economic component",
+          "D", "It was characterized by peaceful negotiation rather than military conquest"
+        ],
+        answer: "A"
+      },
+      {
+        num: 42,
+        set: 4,
+        stem: "Which of the following was a major factor enabling European imperial expansion in Africa and Asia during the period Naoroji describes?",
+        choices: [
+          "A", "The voluntary invitation of European powers by African and Asian rulers to govern their territories",
+          "B", "Technological advantages including steamships, the telegraph, quinine, and advanced weaponry",
+          "C", "The collapse of all indigenous political structures before any European contact",
+          "D", "The complete absence of any resistance to European rule in colonized territories"
+        ],
+        answer: "B"
+      },
+      {
+        num: 43,
+        set: 4,
+        stem: "A historian analyzing Naoroji's account should most importantly consider which of the following about the author's perspective?",
+        choices: [
+          "A", "Naoroji had never visited India and had no firsthand knowledge of conditions there",
+          "B", "As an Indian nationalist, Naoroji may have emphasized the negative economic effects of British rule to support his political arguments for greater Indian self-governance",
+          "C", "Naoroji was a British government official who was defending colonial policies",
+          "D", "Naoroji's account was written before British rule began and therefore describes a hypothetical situation"
+        ],
+        answer: "B"
+      },
+      {
+        num: 44,
+        set: 4,
+        stem: "The pattern of economic exploitation Naoroji describes in India was most directly resisted in which of the following ways during the early twentieth century?",
+        choices: [
+          "A", "The swadeshi movement, which promoted Indian-made goods and boycotted British manufactures",
+          "B", "The complete militarization of Indian society and the declaration of war against Britain",
+          "C", "The voluntary return of all British profits to the Indian treasury",
+          "D", "The Indian adoption of British economic models without modification"
+        ],
+        answer: "A"
+      },
+      // SET 5 — Questions 45-55: Global Cold War & Decolonization (c. 1900-present)
+      {
+        num: 45,
+        set: 5,
+        stem: "Ho Chi Minh's deliberate quotation of the United States Declaration of Independence in his speech most directly served which of the following purposes?",
+        choices: [
+          "A", "Expressing admiration for American culture and requesting annexation by the United States",
+          "B", "Appealing to American ideals of self-determination to legitimize Vietnamese independence and highlight the hypocrisy of Western colonial powers",
+          "C", "Rejecting all Western political thought in favor of traditional Vietnamese values",
+          "D", "Demonstrating that the Vietnamese revolution was identical in all respects to the American Revolution"
+        ],
+        answer: "B"
+      },
+      {
+        num: 46,
+        set: 5,
+        stem: "Ho Chi Minh's accusation that the French 'built more prisons than schools' most directly addresses which of the following criticisms of European colonialism?",
+        choices: [
+          "A", "The failure of colonial powers to fulfill their stated 'civilizing mission' and instead using repression to maintain control",
+          "B", "The French policy of investing heavily in Vietnamese education at the expense of public safety",
+          "C", "The complete absence of any French presence in Vietnamese civil administration",
+          "D", "The Vietnamese preference for traditional education over French-style schooling"
+        ],
+        answer: "A"
+      },
+      {
+        num: 47,
+        set: 5,
+        stem: "The timing of Ho Chi Minh's declaration in September 1945 was most directly influenced by which of the following events?",
+        choices: [
+          "A", "The French defeat of Japan and reestablishment of colonial authority in Indochina",
+          "B", "The Japanese surrender ending World War II, which created a power vacuum in colonial Southeast Asia",
+          "C", "The United Nations' declaration granting immediate independence to all colonial territories",
+          "D", "The Soviet Union's invasion of Southeast Asia to establish communist governments"
+        ],
+        answer: "B"
+      },
+      {
+        num: 48,
+        set: 5,
+        stem: "Ho Chi Minh's blending of Enlightenment political philosophy with anti-colonial nationalism is most comparable to the approach taken by which of the following leaders?",
+        choices: [
+          "A", "Otto von Bismarck, who unified Germany through conservative realpolitik",
+          "B", "Jawaharlal Nehru, who combined democratic ideals with anti-imperial resistance in India",
+          "C", "Joseph Stalin, who rejected all Western political thought in favor of Marxist-Leninist ideology",
+          "D", "Benito Mussolini, who promoted authoritarian fascism as an alternative to liberal democracy"
+        ],
+        answer: "B"
+      },
+      {
+        num: 49,
+        set: 5,
+        stem: "The Vietnamese independence movement led by Ho Chi Minh most directly became entangled in which of the following global conflicts?",
+        choices: [
+          "A", "World War I and the Paris Peace Conference of 1919",
+          "B", "The Cold War, as the United States and Soviet Union supported opposing sides in the struggle for Vietnam",
+          "C", "The Arab-Israeli conflict and the struggle over Palestinian self-determination",
+          "D", "The Sino-Japanese War and Japan's attempt to establish a Pacific empire"
+        ],
+        answer: "B"
+      },
+      {
+        num: 50,
+        set: 5,
+        stem: "Which of the following best describes the broader pattern of decolonization that Ho Chi Minh's declaration represents?",
+        choices: [
+          "A", "A peaceful and voluntary process in which European powers willingly granted independence to all their colonies",
+          "B", "A global wave of independence movements in Asia and Africa fueled by wartime disruption, nationalist ideologies, and Cold War dynamics",
+          "C", "A process limited entirely to Southeast Asia that had no parallel in other regions",
+          "D", "A movement led exclusively by communist revolutionary parties with no nationalist component"
+        ],
+        answer: "B"
+      },
+      {
+        num: 51,
+        set: 5,
+        stem: "The French response to Ho Chi Minh's declaration of independence most directly led to which of the following?",
+        choices: [
+          "A", "The immediate recognition of Vietnamese independence by France and the United Nations",
+          "B", "The First Indochina War (1946-1954), in which France attempted to reassert colonial control over Vietnam",
+          "C", "A peaceful negotiation resulting in Vietnamese autonomy within the French Union",
+          "D", "The French withdrawal from all colonial territories worldwide"
+        ],
+        answer: "B"
+      },
+      {
+        num: 52,
+        set: 5,
+        stem: "Ho Chi Minh's reference to the French Revolution's principles of 'Liberty, Equality, and Fraternity' most directly illustrates which of the following features of twentieth-century anti-colonial movements?",
+        choices: [
+          "A", "The wholesale rejection of all European ideas by colonized peoples",
+          "B", "The strategic appropriation of Western political ideals to expose the contradictions between European principles and colonial practices",
+          "C", "The desire of all colonized peoples to become culturally identical to their European rulers",
+          "D", "The irrelevance of European political thought to anti-colonial struggles"
+        ],
+        answer: "B"
+      },
+      {
+        num: 53,
+        set: 5,
+        stem: "The Non-Aligned Movement, which Vietnam and other newly independent nations joined, was most directly a response to which of the following Cold War dynamics?",
+        choices: [
+          "A", "The threat of nuclear war between the United States and China",
+          "B", "The pressure on developing nations to choose sides between the Western and Eastern blocs, often at the cost of national sovereignty",
+          "C", "The expansion of the European Union into Asia and Africa",
+          "D", "The decline of international organizations like the United Nations"
+        ],
+        answer: "B"
+      },
+      {
+        num: 54,
+        set: 5,
+        stem: "Which of the following best describes a major long-term consequence of the decolonization process exemplified by Vietnam's struggle for independence?",
+        choices: [
+          "A", "The complete elimination of all economic ties between former colonies and former colonial powers",
+          "B", "The emergence of new nation-states that often struggled with political instability, economic dependency, and the legacies of colonial boundaries and institutions",
+          "C", "The immediate achievement of economic prosperity and political stability by all newly independent nations",
+          "D", "The return of colonial rule in most formerly colonized territories by the end of the twentieth century"
+        ],
+        answer: "B"
+      },
+      {
+        num: 55,
+        set: 5,
+        stem: "A historian studying Ho Chi Minh's declaration would most likely use it as evidence for which of the following arguments about decolonization?",
+        choices: [
+          "A", "Anti-colonial leaders selectively drew on multiple intellectual traditions, including Western liberalism and Marxism, to build broad coalitions for independence",
+          "B", "All decolonization movements were purely communist in ideology and had no connection to liberal political thought",
+          "C", "The United States consistently supported anti-colonial movements during the Cold War era",
+          "D", "Ho Chi Minh was primarily motivated by religious rather than political considerations"
+        ],
+        answer: "A"
+      }
+    ],
+    questions: [
+      // SAQ 1 — Primary source, Zheng He's voyages
+      {
+        num: 1,
+        type: "saq",
+        title: "SAQ 1 — Zheng He's Voyages",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "primary",
+        sources: [
+          {
+            label: "Source",
+            title: "Ma Huan, The Overall Survey of the Ocean's Shores (c. 1433)",
+            description: "Ma Huan was a Chinese Muslim interpreter who accompanied Admiral Zheng He on three of his seven voyages through the Indian Ocean. His account describes the peoples, customs, and trade goods of the lands they visited.",
+            text: "When the treasure ships of the imperial fleet arrived at the kingdom of Calicut on the coast of India, the local king sent officials in small boats to welcome them. The people of this land are divided into five classes, and the Muslims among them are treated with respect and permitted to conduct their religious practices freely. The merchants deal in pepper, precious stones, pearls, and coral, and they use gold and silver coins for their transactions. The treasure ships carried silk, porcelain, musk, and other Chinese goods, which were exchanged according to prices agreed upon by officials of both sides. The Admiral presented gifts from the Emperor of China to the local king, including silk robes, gold, and silver, and received in return tribute of local products and a letter of gratitude to the Son of Heaven."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE purpose of Zheng He's voyages as illustrated by the source." },
+          { letter: "B", prompt: "Explain ONE way that Zheng He's voyages reflected the political goals of the early Ming Dynasty." },
+          { letter: "C", prompt: "Explain ONE reason why the Ming Dynasty ended the voyages after 1433." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a purpose such as establishing tributary relationships, projecting Chinese imperial prestige, facilitating diplomatic exchanges, or promoting trade in Chinese goods like silk and porcelain." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a political goal such as demonstrating Ming power after the overthrow of the Mongol Yuan Dynasty, asserting Chinese centrality in the regional order, securing diplomatic recognition from foreign rulers, or extending the tribute system." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a reason such as the enormous cost of the expeditions, Confucian officials' opposition to maritime ventures and commerce, the perceived greater threat from northern nomadic peoples, or the political triumph of the scholar-gentry over court eunuchs who sponsored the voyages." }
+        ]
+      },
+      // SAQ 2 — Secondary source, nationalism & independence movements
+      {
+        num: 2,
+        type: "saq",
+        title: "SAQ 2 — Nationalism and Independence Movements",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "secondary",
+        sources: [
+          {
+            label: "Source",
+            title: "Benedict Anderson, Imagined Communities: Reflections on the Origin and Spread of Nationalism (1983)",
+            description: "Benedict Anderson was a political scientist and historian who studied the origins and global spread of nationalist ideologies. This excerpt is from his influential study of how national identities are constructed.",
+            text: "The nation is an imagined political community — imagined because the members of even the smallest nation will never know most of their fellow members, meet them, or even hear of them, yet in the minds of each lives the image of their communion. Nationalism in the colonial world was shaped by the administrative and educational institutions of the colonial state itself. Colonial boundaries created the framework within which new national identities took shape. The spread of print capitalism — newspapers, novels, and pamphlets in vernacular languages — enabled people who had never met to imagine themselves as part of a shared national community, turning colonial subjects into citizens of nations yet to be born."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way that colonial institutions contributed to the development of nationalist movements, according to Anderson's argument." },
+          { letter: "B", prompt: "Explain ONE specific historical example that supports Anderson's claim that colonial boundaries shaped new national identities." },
+          { letter: "C", prompt: "Explain ONE limitation of Anderson's argument when applied to a specific nationalist or independence movement." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes how colonial institutions fostered nationalism, such as Western-style education creating a class of educated elites who articulated nationalist ideas, colonial administrative units providing the territorial basis for future nations, or colonial languages becoming shared languages of resistance." },
+          { row: "B", category: "Part B", points: 1, description: "Provides a specific example such as Indian nationalism developing within the boundaries of British India, Indonesian nationalism emerging within the Dutch East Indies, or Nigerian national identity forming around the borders drawn by British colonizers despite the country's diverse ethnic groups." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a limitation such as nationalism sometimes preceding colonial boundaries (as in China or Japan), ethnic and religious identities often proving stronger than national identity (as in the partition of India), or the role of pre-colonial cultural traditions in shaping resistance that Anderson's framework underemphasizes." }
+        ]
+      },
+      // SAQ 3 — No stimulus, Environmental changes from Columbian Exchange
+      {
+        num: 3,
+        type: "saq",
+        title: "SAQ 3 — Environmental Changes from the Columbian Exchange",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way the introduction of Old World species to the Americas transformed the environment in the period c. 1450-1750." },
+          { letter: "B", prompt: "Explain ONE way the transfer of New World crops to Afro-Eurasia affected population growth or agricultural practices." },
+          { letter: "C", prompt: "Explain ONE way the environmental changes of the Columbian Exchange contributed to changes in labor systems in the Americas." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes an environmental transformation such as the introduction of horses and cattle transforming the Great Plains, European livestock overgrazing and altering landscapes, the spread of Old World weeds and grasses displacing native plant species, or deforestation from sugar plantation agriculture." },
+          { row: "B", category: "Part B", points: 1, description: "Explains an effect such as the introduction of potatoes and maize enabling population growth in Europe, Africa, and China; the adoption of American crops allowing cultivation of previously marginal lands; or the role of new calorie-dense crops in supporting urbanization and industrialization." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a connection such as the demographic collapse of indigenous populations from disease leading to the importation of enslaved Africans, the expansion of plantation agriculture (sugar, tobacco) creating demand for coerced labor, or the development of the hacienda system to exploit American land with mixed labor forces." }
+        ]
+      },
+      // SAQ 4 — No stimulus, Women in revolutionary movements
+      {
+        num: 4,
+        type: "saq",
+        title: "SAQ 4 — Women in Revolutionary Movements",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE role women played in revolutionary or independence movements in the period c. 1750-1900." },
+          { letter: "B", prompt: "Explain ONE way that revolutionary ideals about rights and equality affected women's demands for greater political or social participation." },
+          { letter: "C", prompt: "Explain ONE reason why women's gains during revolutionary periods were often limited or reversed after the revolutions ended." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a role such as women's participation in the French Revolution (the March on Versailles, political clubs), women serving as spies and suppliers in Latin American independence wars, women's involvement in abolitionist movements, or women's roles in the Haitian Revolution." },
+          { row: "B", category: "Part B", points: 1, description: "Explains how revolutionary ideals affected women's demands, such as Olympe de Gouges's Declaration of the Rights of Woman (1791) applying Enlightenment principles to argue for women's equality, the Seneca Falls Convention of 1848 using the language of the Declaration of Independence, or women in nationalist movements arguing that national liberation required gender equality." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a reason such as the persistence of patriarchal social structures, the reassertion of traditional gender roles after the crisis period ended, the Napoleonic Code's restriction of women's rights after the French Revolution, or male revolutionary leaders viewing women's participation as temporary and exceptional rather than permanent." }
+        ]
+      },
+      // DBQ — Transatlantic slave trade effects on Africa and the Americas (c. 1500-1800)
+      {
+        num: 5,
+        type: "dbq",
+        title: "Document-Based Question",
+        points: 7,
+        suggestedTime: 60,
+        prompt: "Evaluate the extent to which the transatlantic slave trade transformed societies in both Africa and the Americas in the period c. 1500-1800.",
+        documents: [
+          {
+            num: 1,
+            source: "Olaudah Equiano, The Interesting Narrative of the Life of Olaudah Equiano (1789)",
+            text: "I was soon put down under the decks, and there I received such a greeting in my nostrils as I had never experienced in my life. The closeness of the place and the heat, added to the number in the ship, which was so crowded that each had scarcely room to turn himself, almost suffocated us. The shrieks of the women, and the groans of the dying, rendered the whole a scene of horror almost inconceivable. I now wished for the last friend, death, to relieve me."
+          },
+          {
+            num: 2,
+            source: "King Nzinga Mbemba (Afonso I) of Kongo, Letter to King João III of Portugal (1526)",
+            text: "Each day the traders are kidnapping our people — children of this country, sons of our nobles and vassals, even people of our own family. This corruption and depravity are so widespread that our land is entirely depopulated. We need in this kingdom only priests and schoolteachers, and no merchandise, unless it be wine and flour for the holy sacrament. It is our wish that this kingdom not be a place for the trade or transport of slaves."
+          },
+          {
+            num: 3,
+            source: "Adapted from a table showing estimated numbers of enslaved Africans transported across the Atlantic by European powers, 1500-1800",
+            text: "Portugal/Brazil: approximately 4.6 million; Britain: approximately 2.7 million; France: approximately 1.3 million; Spain: approximately 1.1 million; Netherlands: approximately 500,000; Total: approximately 10.2 million. The peak decades of the trade were the 1780s and 1790s, when approximately 80,000 Africans were transported annually."
+          },
+          {
+            num: 4,
+            source: "Father António Vieira, Sermon to the Slaves of a Sugar Mill in Bahia, Brazil (1633)",
+            text: "You are told that your condition resembles that of Christ upon the cross, and that your sufferings in this life will be rewarded in the next. Consider that in your captivity you have been brought to the knowledge of the true faith and baptized in the holy waters of the Church. Your masters owe you sustenance and instruction in the faith, and you owe them your obedience and labor. Such is the order that God in His wisdom has ordained."
+          },
+          {
+            num: 5,
+            source: "Willem Bosman, A New and Accurate Description of the Coast of Guinea (1705)",
+            text: "The trade here in slaves is conducted by the African kings and merchants themselves. When one nation makes war upon another, the captives are brought to the coast and sold to the Europeans. The kings grow rich from this commerce and purchase firearms, cloth, and spirits from us in return. Those kings who refuse to participate in the trade find themselves at a disadvantage, for their rivals, armed with European weapons, grow stronger while they grow weaker."
+          },
+          {
+            num: 6,
+            source: "Adapted from plantation records of a sugar estate in Saint-Domingue (Haiti), 1770",
+            text: "Total enslaved workers: 215. Deaths this year: 32. New purchases to replace losses: 28. Children born: 6. The overseer reports that the work regimen during the harvest requires 18-hour days. The average working life of a newly arrived African on the estate is estimated at seven years. Expenditure on food for the enslaved: 4% of operating costs. Revenue from sugar and rum exports: 180,000 livres."
+          },
+          {
+            num: 7,
+            source: "Alexander Falconbridge, An Account of the Slave Trade on the Coast of Africa (1788)",
+            text: "The traders on the African coast told me that the interior wars, which formerly were undertaken for territorial disputes or matters of honour, have now become principally wars for the purpose of making slaves to sell to the Europeans. Entire villages are attacked and their inhabitants carried off. The chiefs who engage in this traffic have become dependent upon European goods — particularly firearms, gunpowder, and rum — and must continue to supply captives in order to obtain them."
+          }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 3, description: "Uses at least 3 documents to address the topic (1pt), uses at least 4 documents and explains how they support the argument (2pts), uses at least 1 piece of evidence beyond the documents (1pt)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Sources at least 2 documents by explaining point of view, purpose, historical situation, or audience (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      },
+      // LEQ — Migration across periods
+      {
+        num: 6,
+        type: "leq",
+        title: "Long Essay Question",
+        points: 6,
+        suggestedTime: 40,
+        options: [
+          { id: 2, prompt: "In the period 1200-1450, evaluate the extent to which migrations of peoples transformed the political and cultural landscapes of Afro-Eurasia." },
+          { id: 3, prompt: "In the period 1450-1750, evaluate the extent to which migration across the Atlantic world transformed the societies of the Americas." },
+          { id: 4, prompt: "In the period 1750-1900, evaluate the extent to which industrialization drove new patterns of migration and transformed the societies that migrants entered." }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 2, description: "Provides specific examples of evidence relevant to the topic (1pt). Uses specific and relevant examples of evidence to support an argument (2pts)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Uses historical reasoning to frame or structure an argument (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      }
+    ]
+  },
+
+  // ========================================================================
   // EXAM 1: Official 2025 Set 1
   // ========================================================================
   {
