@@ -143,6 +143,21 @@ const FIGURES = {
     src: "/images/sim5-dbq-doc1-black-death-flagellants.png",
     alt: "Medieval manuscript illumination depicting flagellants during the Black Death in Europe, circa 1349, with plague victims on the streets.",
   },
+
+  // ── Simulation 6 Visuals ───────────────────────────────────────────────
+
+  "sim6-set1-mansa-musa-pilgrimage": {
+    src: "/images/sim6-set1-mansa-musa-pilgrimage.png",
+    alt: "Medieval illustration inspired by the Catalan Atlas depicting Mansa Musa's hajj to Mecca, c. 1324, holding gold with a caravan crossing the Sahara.",
+  },
+  "sim6-set4-hitler-mussolini": {
+    src: "/images/sim6-set4-hitler-mussolini.png",
+    alt: "Black-and-white photograph of a fascist rally in the 1930s, showing a massive crowd in formation with banners and monumental architecture.",
+  },
+  "sim6-dbq-doc1-luther-95-theses": {
+    src: "/images/sim6-dbq-doc1-luther-95-theses.png",
+    alt: "16th-century woodcut depicting Martin Luther nailing his 95 Theses to the door of the Castle Church in Wittenberg, 1517.",
+  },
 };
 
 export function renderVisual(figureId) {

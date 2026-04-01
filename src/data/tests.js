@@ -4441,6 +4441,887 @@ const ALL_TESTS = [
         ]
       }
     ]
+  },
+  {
+    id: "sim6",
+    label: "Practice Simulation 6",
+    description: "Full-length AP World History: Modern exam — 55 MC + SAQ + DBQ + LEQ",
+    badge: "Practice",
+    year: 2025,
+    totalMCTime: 3300,
+    mcSets: [
+      {
+        id: "set1",
+        setNum: 1,
+        figureId: "sim6-set1-mansa-musa-pilgrimage",
+        title: "Set 1 — West African Kingdoms: Ghana, Mali, and Songhai (c. 1200-1450)",
+        passage: "West Africa between roughly 750 and 1600 CE produced a succession of powerful states whose wealth rested upon control of the trans-Saharan gold-salt trade. The Ghana Empire (c. 750-1076), centered in the Sahel region between the Sahara Desert and the West African forests, grew rich by taxing gold traveling northward and salt traveling southward. After Ghana's decline, the Mali Empire (c. 1235-1460) rose under Sundiata Keita, who consolidated Mande-speaking peoples into a vast state. Mali's most celebrated ruler, Mansa Musa (r. 1312-1337), undertook a famous pilgrimage to Mecca in 1324-1325, distributing so much gold along the way that he reportedly depressed the price of gold in Cairo for over a decade. Mansa Musa established Timbuktu as a major center of Islamic learning, attracting scholars from across the Muslim world to its Sankore Mosque and university. The Songhai Empire (c. 1464-1591) succeeded Mali as the dominant West African state. Under Sunni Ali (r. 1464-1492) and Askia Muhammad (r. 1493-1528), Songhai expanded along the Niger River, developing a sophisticated bureaucracy with provincial governors, a professional army, and an elaborate system of Islamic courts. Askia Muhammad promoted Islamic scholarship and standardized weights and measures to facilitate trade. The Songhai Empire fell in 1591 when Moroccan forces equipped with firearms — a military technology not yet widespread in sub-Saharan Africa — crossed the Sahara and defeated the Songhai army at the Battle of Tondibi, demonstrating the growing importance of gunpowder weaponry in determining the balance of power."
+      },
+      {
+        id: "set2",
+        setNum: 2,
+        title: "Set 2 — The Russian Empire: Peter the Great through Catherine the Great (c. 1450-1750)",
+        passage: "Russia's transformation from a landlocked Muscovite principality into a vast Eurasian empire represents one of the most dramatic state-building enterprises of the early modern period. Ivan III (r. 1462-1505) threw off Mongol suzerainty and proclaimed Moscow the 'Third Rome,' heir to the Byzantine legacy after Constantinople's fall. Ivan IV ('the Terrible,' r. 1547-1584) expanded Russian territory into Siberia by sponsoring Cossack expeditions under Yermak, while simultaneously terrorizing the Russian nobility (boyars) through his oprichnina — a reign of terror designed to break aristocratic opposition to centralized power. The serf system, which bound Russian peasants to the land and to their lords, was progressively tightened: the 1649 Ulozhenie law code made serfdom hereditary and permanent, reducing millions of peasants to a status barely distinguishable from slavery. Peter the Great (r. 1682-1725) forcibly Westernized Russia after visiting Western Europe during his 'Grand Embassy' of 1697-1698. He built the new capital of St. Petersburg on the Baltic coast as Russia's 'window to Europe,' compelled nobles to shave their beards and wear Western clothing, reformed the military and navy along European lines, and subordinated the Russian Orthodox Church to state authority. Catherine the Great (r. 1762-1796), a German-born princess who seized power from her husband, continued Russian expansion, annexing Crimea, partitioning Poland, and extending Russian territory to the Black Sea. Though she corresponded with Enlightenment philosophers like Voltaire and briefly considered emancipating the serfs, Catherine ultimately strengthened serfdom and crushed the Pugachev Rebellion (1773-1775), a massive peasant uprising that threatened the social order."
+      },
+      {
+        id: "set3",
+        setNum: 3,
+        title: "Set 3 — Qing Dynasty Decline and Reform (c. 1750-1900)",
+        passage: "The Qing Dynasty (1644-1912), founded by the Manchu people who conquered Ming China, presided over one of the most populous and economically productive empires in the world during its zenith. By the mid-nineteenth century, however, the dynasty faced a cascade of internal and external crises that threatened its survival. The First Opium War (1839-1842) erupted when the Qing government attempted to halt the British East India Company's illegal opium trade, which was causing widespread addiction and draining silver from the Chinese economy. Britain's decisive naval victory forced China to sign the Treaty of Nanjing (1842), the first of what Chinese historians call the 'unequal treaties,' which ceded Hong Kong to Britain, opened five treaty ports to foreign trade, and imposed extraterritoriality — exempting British subjects from Chinese law. The Taiping Rebellion (1850-1864), led by Hong Xiuquan, who claimed to be the younger brother of Jesus Christ, was a millenarian movement that established a rival state in southern China and may have caused 20 to 30 million deaths — making it the deadliest civil war in history. The Self-Strengthening Movement (c. 1861-1895), championed by reform-minded officials like Li Hongzhang, sought to adopt Western military technology and industrial methods while preserving Confucian values and institutions — captured in the slogan 'Chinese learning for the essence, Western learning for practical application.' The Sino-Japanese War of 1894-1895 exposed the inadequacy of these half-measures when Japan's modernized military decisively defeated China's forces. The Boxer Rebellion of 1899-1901, supported tacitly by the Empress Dowager Cixi, saw Chinese martial arts societies — the 'Boxers' — attack foreign legations and Chinese Christians in a desperate bid to expel foreign influence, only to be crushed by an eight-nation expeditionary force that imposed further humiliating concessions."
+      },
+      {
+        id: "set4",
+        setNum: 4,
+        figureId: "sim6-set4-hitler-mussolini",
+        title: "Set 4 — The Interwar Period and the Rise of Totalitarianism (c. 1918-1939)",
+        passage: "The aftermath of the First World War created conditions that gave rise to totalitarian regimes across Europe. The Treaty of Versailles (1919) imposed punishing terms on Germany: territorial losses, disarmament, acceptance of sole war guilt through Article 231, and reparations payments so enormous that the economist John Maynard Keynes warned they would destabilize the European economy. The Weimar Republic, Germany's fragile democratic experiment, struggled with hyperinflation (peaking in 1923 when a loaf of bread cost billions of marks), political violence from extremists on both left and right, and a widespread sense of national humiliation. The Great Depression, triggered by the American stock market crash of 1929, devastated the German economy and propelled Adolf Hitler's National Socialist (Nazi) Party to power by 1933. Hitler dismantled democratic institutions, established a one-party dictatorship, persecuted Jews and other minorities through the Nuremberg Laws (1935), and rearmed Germany in violation of the Versailles treaty. In the Soviet Union, Joseph Stalin consolidated absolute power after Lenin's death in 1924, launching forced collectivization of agriculture — which caused the Holodomor famine in Ukraine (1932-1933), killing millions — and a crash industrialization program through the Five-Year Plans. Stalin's Great Purge (1936-1938) eliminated perceived political rivals through show trials and mass executions. In Italy, Benito Mussolini had established the first fascist dictatorship in 1922, pioneering the use of state-controlled media, paramilitary violence, and ultra-nationalist ideology that would inspire imitators across Europe. Japan's military-dominated government pursued aggressive expansion in East Asia, invading Manchuria in 1931 and launching a full-scale war against China in 1937."
+      },
+      {
+        id: "set5",
+        setNum: 5,
+        title: "Set 5 — The Middle East Since 1945 (c. 1945-present)",
+        passage: "The modern Middle East has been shaped by the intersection of decolonization, Cold War rivalries, the politics of oil, religious revivalism, and the Arab-Israeli conflict. The creation of the State of Israel in 1948, following the United Nations partition of the British Mandate for Palestine, triggered the first Arab-Israeli war and the displacement of approximately 700,000 Palestinian Arabs — an event known to Palestinians as the Nakba ('catastrophe'). Subsequent wars in 1967 and 1973 reshaped territorial boundaries and deepened the conflict. The 1973 war led to the OPEC oil embargo, in which Arab oil-producing states weaponized petroleum exports against Western nations that supported Israel, quadrupling oil prices and demonstrating the geopolitical power of Middle Eastern energy resources. The Iranian Revolution of 1979, which overthrew the Western-backed Shah Mohammad Reza Pahlavi and installed an Islamic republic under Ayatollah Ruhollah Khomeini, represented a dramatic rejection of Western-style modernization in favor of Shia Islamic governance. The revolution inspired Islamist movements across the Muslim world and initiated decades of tension between Iran and the United States. The Iran-Iraq War (1980-1988), the Gulf War (1990-1991), and the Iraq War (2003-2011) further destabilized the region. In 2010-2012, the Arab Spring — a wave of pro-democracy protests that swept Tunisia, Egypt, Libya, Syria, and other countries — raised hopes for political liberalization, but in most cases resulted in authoritarian retrenchment, civil war, or state collapse. The Syrian Civil War, which began in 2011, produced millions of refugees and drew in regional and global powers, underscoring the continuing volatility of the region."
+      }
+    ],
+    mcQuestions: [
+      // SET 1 — Questions 1-11: West African Kingdoms (c. 1200-1450)
+      {
+        num: 1,
+        set: 1,
+        stem: "The succession of empires described in the passage — Ghana, Mali, and Songhai — most directly illustrates which of the following patterns in world history?",
+        choices: [
+          "A", "States that control key nodes in long-distance trade networks can accumulate great wealth and power",
+          "B", "Empires in sub-Saharan Africa developed entirely independently of outside cultural influences",
+          "C", "Military technology was irrelevant to political power in pre-modern West Africa",
+          "D", "West African states were primarily maritime powers dependent on oceanic trade routes"
+        ],
+        answer: "A"
+      },
+      {
+        num: 2,
+        set: 1,
+        stem: "Mansa Musa's pilgrimage to Mecca in 1324-1325 is most significant in world history because it demonstrated which of the following?",
+        choices: [
+          "A", "The complete replacement of indigenous African religions by Islam in all of West Africa",
+          "B", "The integration of West African rulers and economies into the broader Islamic world through trade and religious networks",
+          "C", "The military dominance of the Mali Empire over North African and Middle Eastern states",
+          "D", "The technological superiority of West African civilizations over contemporary European societies"
+        ],
+        answer: "B"
+      },
+      {
+        num: 3,
+        set: 1,
+        stem: "The establishment of Timbuktu as a center of Islamic learning under Mansa Musa most closely parallels which of the following developments in other regions during the same period?",
+        choices: [
+          "A", "The founding of universities in medieval Europe, such as the University of Paris and Oxford",
+          "B", "The establishment of Shinto shrines throughout medieval Japan",
+          "C", "The construction of the Great Wall of China during the Ming Dynasty",
+          "D", "The spread of printing technology in Korea under the Goryeo Dynasty"
+        ],
+        answer: "A"
+      },
+      {
+        num: 4,
+        set: 1,
+        stem: "The passage indicates that the gold-salt trade was central to West African state formation primarily because it allowed rulers to do which of the following?",
+        choices: [
+          "A", "Eliminate all competition from rival states through direct military force",
+          "B", "Establish diplomatic relations exclusively with European Christian kingdoms",
+          "C", "Control and tax the exchange of essential commodities moving between distinct ecological zones",
+          "D", "Develop industrial manufacturing to compete with Asian economies"
+        ],
+        answer: "C"
+      },
+      {
+        num: 5,
+        set: 1,
+        stem: "Askia Muhammad's promotion of Islamic scholarship and standardization of weights and measures in the Songhai Empire most directly served which of the following purposes?",
+        choices: [
+          "A", "Eliminating all non-Islamic cultural practices throughout the empire",
+          "B", "Preparing the empire to resist Portuguese naval expansion along the West African coast",
+          "C", "Facilitating commercial exchange and strengthening administrative cohesion across a large and diverse empire",
+          "D", "Converting the population of sub-Saharan Africa entirely to Sunni Islam"
+        ],
+        answer: "C"
+      },
+      {
+        num: 6,
+        set: 1,
+        stem: "The defeat of the Songhai Empire by Moroccan forces at the Battle of Tondibi in 1591 best illustrates which of the following broader historical developments?",
+        choices: [
+          "A", "Religious differences between Songhai and Morocco were the sole cause of the conflict",
+          "B", "African kingdoms universally adopted European military technology by the sixteenth century",
+          "C", "The trans-Saharan trade had completely collapsed before the Moroccan invasion",
+          "D", "The spread of gunpowder weapons increasingly determined military and political outcomes across Afro-Eurasia"
+        ],
+        answer: "D"
+      },
+      {
+        num: 7,
+        set: 1,
+        stem: "A historian seeking to evaluate the accuracy of accounts describing Mansa Musa's distribution of gold during his pilgrimage would most likely need to consider which of the following?",
+        choices: [
+          "A", "The accounts may reflect exaggeration typical of medieval travel literature and oral traditions",
+          "B", "Gold had no monetary value in the medieval Islamic world",
+          "C", "Mansa Musa's pilgrimage was fabricated by later European historians",
+          "D", "North African and Egyptian observers had no knowledge of the trans-Saharan gold trade"
+        ],
+        answer: "D"
+      },
+      {
+        num: 8,
+        set: 1,
+        stem: "Which of the following best describes the role of Islam in the political systems of the West African empires discussed in the passage?",
+        choices: [
+          "A", "Islam served as a unifying cultural and legal framework that facilitated governance and trade across diverse populations",
+          "B", "Islam was forcibly imposed on all subjects of Ghana, Mali, and Songhai through systematic military campaigns",
+          "C", "Islam played no role in the governance of West African states, which relied entirely on indigenous political traditions",
+          "D", "Islamic religious leaders held supreme political authority, with secular rulers serving as their subordinates"
+        ],
+        answer: "C"
+      },
+      {
+        num: 9,
+        set: 1,
+        stem: "The development of a professional army and provincial governors under the Songhai Empire most closely resembles administrative practices in which of the following contemporary states?",
+        choices: [
+          "A", "The decentralized feudal kingdoms of medieval Western Europe",
+          "B", "The theocratic government of the Papal States in Italy",
+          "C", "The bureaucratic and military systems of the Ottoman Empire",
+          "D", "The stateless societies of the Pacific Islands"
+        ],
+        answer: "C"
+      },
+      {
+        num: 10,
+        set: 1,
+        stem: "Which of the following was a significant long-term consequence of the collapse of the Songhai Empire in 1591?",
+        choices: [
+          "A", "The immediate establishment of European colonial rule throughout West Africa",
+          "B", "The complete disappearance of Islam from West Africa",
+          "C", "Political fragmentation in the Western Sudan that made the region more vulnerable to the Atlantic slave trade",
+          "D", "The emergence of a unified West African republic modeled on European nation-states"
+        ],
+        answer: "C"
+      },
+      {
+        num: 11,
+        set: 1,
+        stem: "The passage's description of the ecological zones involved in the gold-salt trade — forests producing gold and desert regions producing salt — best illustrates which of the following concepts in world history?",
+        choices: [
+          "A", "Environmental complementarity as a driver of long-distance trade between regions with different resources",
+          "B", "The absence of any connection between geography and patterns of economic exchange",
+          "C", "The superiority of pastoral nomadic economies over settled agricultural societies",
+          "D", "The irrelevance of climate and geography to the development of trade networks"
+        ],
+        answer: "C"
+      },
+      // SET 2 — Questions 12-22: Russian Empire (c. 1450-1750)
+      {
+        num: 12,
+        set: 2,
+        stem: "Peter the Great's program of Westernization following his 'Grand Embassy' most directly illustrates which of the following patterns in early modern world history?",
+        choices: [
+          "A", "All non-Western societies eagerly adopted European cultural practices without resistance",
+          "B", "Rulers selectively borrowed foreign technologies, institutions, and cultural practices to strengthen their states",
+          "C", "Western Europe was the only source of technological and cultural innovation in the early modern period",
+          "D", "Russia had no distinct cultural traditions before Peter the Great's reign"
+        ],
+        answer: "B"
+      },
+      {
+        num: 13,
+        set: 2,
+        stem: "The progressive tightening of serfdom in Russia, culminating in the 1649 Ulozhenie, is most comparable to which of the following developments in other regions?",
+        choices: [
+          "A", "The abolition of slavery in the British Empire during the nineteenth century",
+          "B", "The emancipation of serfs in Japan under the Meiji Restoration",
+          "C", "The expansion of democratic suffrage in Western Europe during the Enlightenment",
+          "D", "The development of the encomienda and hacienda systems in Spanish America, which bound indigenous laborers to the land"
+        ],
+        answer: "D"
+      },
+      {
+        num: 14,
+        set: 2,
+        stem: "Ivan IV's oprichnina — his campaign of terror against the Russian nobility — most directly served which of the following political objectives?",
+        choices: [
+          "A", "Strengthening centralized autocratic power by eliminating potential aristocratic opposition",
+          "B", "Promoting religious tolerance by breaking the political power of the Orthodox Church",
+          "C", "Establishing a constitutional monarchy with shared power between the tsar and the nobility",
+          "D", "Encouraging democratic participation among the Russian peasantry"
+        ],
+        answer: "A"
+      },
+      {
+        num: 15,
+        set: 2,
+        stem: "Catherine the Great's correspondence with Enlightenment philosophers such as Voltaire, combined with her strengthening of serfdom, best illustrates which of the following contradictions of the eighteenth century?",
+        choices: [
+          "A", "Enlightenment ideas about liberty and equality were sometimes embraced rhetorically by rulers who depended on systems of coerced labor",
+          "B", "The Enlightenment had no influence whatsoever on political thought outside of Western Europe",
+          "C", "All European monarchs fully implemented Enlightenment principles of individual freedom during the eighteenth century",
+          "D", "Voltaire and other Enlightenment thinkers actively supported the institution of serfdom"
+        ],
+        answer: "A"
+      },
+      {
+        num: 16,
+        set: 2,
+        stem: "The construction of St. Petersburg as Russia's 'window to Europe' is best understood as an example of which of the following?",
+        choices: [
+          "A", "A state-directed effort to reorient a society's political and cultural connections toward a new region",
+          "B", "A grassroots democratic movement demanding closer ties with Western Europe",
+          "C", "An attempt to establish Russia as a major maritime power in the Indian Ocean",
+          "D", "A retreat from international engagement into cultural isolation"
+        ],
+        answer: "C"
+      },
+      {
+        num: 17,
+        set: 2,
+        stem: "Russian expansion into Siberia under Ivan IV most closely parallels which of the following processes in other parts of the world during the same period?",
+        choices: [
+          "A", "Spanish conquest and colonization of the Americas, driven by a combination of economic motives, military force, and settler expansion",
+          "B", "The peaceful cultural exchange between China and Japan during the Ming Dynasty",
+          "C", "The voluntary migration of African peoples to the Caribbean islands",
+          "D", "The unification of the Italian peninsula under a single government"
+        ],
+        answer: "A"
+      },
+      {
+        num: 18,
+        set: 2,
+        stem: "The Pugachev Rebellion of 1773-1775 most directly reflected which of the following social tensions in the Russian Empire?",
+        choices: [
+          "A", "Widespread resentment among enserfed peasants and Cossacks against the oppressive conditions imposed by the nobility and the state",
+          "B", "Demands by the Russian nobility for greater power relative to the monarchy",
+          "C", "A religious conflict between the Russian Orthodox Church and Islamic communities in Siberia",
+          "D", "A movement by urban factory workers demanding industrialization and modernization"
+        ],
+        answer: "D"
+      },
+      {
+        num: 19,
+        set: 2,
+        stem: "Peter the Great's subordination of the Russian Orthodox Church to state authority most closely resembles which of the following policies in other early modern states?",
+        choices: [
+          "A", "The Ottoman millet system, which granted religious autonomy to non-Muslim communities",
+          "B", "Henry VIII's establishment of the Church of England under royal supremacy",
+          "C", "The Mughal Emperor Akbar's promotion of Din-i-Ilahi as an eclectic interfaith movement",
+          "D", "The Japanese policy of sakoku, which closed the country to foreign religious influence"
+        ],
+        answer: "B"
+      },
+      {
+        num: 20,
+        set: 2,
+        stem: "The passage's characterization of Moscow as the 'Third Rome' after Constantinople's fall in 1453 most directly reflects which of the following historical claims?",
+        choices: [
+          "A", "Russia's ambition to revive the Roman Republic's system of democratic governance",
+          "B", "A belief that Russia was destined to conquer and rule the Italian peninsula",
+          "C", "Russia's claim to be the legitimate successor to Roman and Byzantine imperial and Orthodox Christian traditions",
+          "D", "The rejection of all Byzantine cultural and religious influence by the Muscovite state"
+        ],
+        answer: "C"
+      },
+      {
+        num: 21,
+        set: 2,
+        stem: "Which of the following best explains why Peter the Great compelled Russian nobles to shave their beards and wear Western clothing?",
+        choices: [
+          "A", "He believed cultural transformation of the elite was necessary to modernize Russia and align it with European powers",
+          "B", "He was attempting to promote religious conversion from Orthodoxy to Protestantism",
+          "C", "He sought to reduce government spending by standardizing a simpler style of dress",
+          "D", "He was responding to demands from the Russian peasantry for social equality with the nobility"
+        ],
+        answer: "D"
+      },
+      {
+        num: 22,
+        set: 2,
+        stem: "Catherine the Great's annexation of Crimea and partition of Poland are best understood in the context of which of the following broader developments?",
+        choices: [
+          "A", "The decline of European colonialism in Asia and Africa during the eighteenth century",
+          "B", "The collapse of all centralized states in Eastern Europe during the Enlightenment",
+          "C", "A global movement toward national self-determination and democratic governance",
+          "D", "Great power competition among European states for territorial expansion and strategic advantage"
+        ],
+        answer: "D"
+      },
+      // SET 3 — Questions 23-33: Qing Dynasty Decline & Reform (c. 1750-1900)
+      {
+        num: 23,
+        set: 3,
+        stem: "The British use of the opium trade to address their trade deficit with China most directly illustrates which of the following features of nineteenth-century global commerce?",
+        choices: [
+          "A", "European powers used both legal trade and illicit commodities to force open markets that resisted integration into the global economy",
+          "B", "China voluntarily opened its markets to British trade as part of a mutual cultural exchange",
+          "C", "The opium trade benefited both Chinese consumers and the Qing government equally",
+          "D", "European merchants had no interest in Chinese goods and traded only to spread Christianity"
+        ],
+        answer: "A"
+      },
+      {
+        num: 24,
+        set: 3,
+        stem: "The Treaty of Nanjing's provision of extraterritoriality — exempting British subjects from Chinese law — most directly represented which of the following?",
+        choices: [
+          "A", "A voluntary Qing gesture of diplomatic goodwill toward a valued trading partner",
+          "B", "An infringement on Chinese sovereignty imposed by a militarily superior foreign power",
+          "C", "A common feature of all international treaties between sovereign states in the nineteenth century",
+          "D", "A mutual agreement that equally benefited both British and Chinese legal systems"
+        ],
+        answer: "B"
+      },
+      {
+        num: 25,
+        set: 3,
+        stem: "The Taiping Rebellion's combination of Christian-influenced theology and social revolution is most significant because it illustrates which of the following historical patterns?",
+        choices: [
+          "A", "Foreign religious ideas could be adapted and combined with local grievances to fuel massive internal uprisings against existing governments",
+          "B", "Christianity was uniformly adopted throughout China during the nineteenth century",
+          "C", "The Qing Dynasty actively promoted Christian missionary activity to modernize Chinese society",
+          "D", "All nineteenth-century rebellions were motivated exclusively by economic grievances"
+        ],
+        answer: "C"
+      },
+      {
+        num: 26,
+        set: 3,
+        stem: "The Self-Strengthening Movement's slogan 'Chinese learning for the essence, Western learning for practical application' most directly reflects which of the following approaches to modernization?",
+        choices: [
+          "A", "Complete rejection of all foreign technologies and cultural practices",
+          "B", "Total abandonment of Chinese cultural traditions in favor of Western models",
+          "C", "Selective adoption of Western technology while attempting to preserve traditional cultural values and institutions",
+          "D", "A democratic revolution aimed at establishing a Western-style parliamentary government"
+        ],
+        answer: "C"
+      },
+      {
+        num: 27,
+        set: 3,
+        stem: "The Self-Strengthening Movement's approach to modernization is most directly comparable to which of the following in another society?",
+        choices: [
+          "A", "The Meiji Restoration in Japan, which also adopted Western technology and institutions while debating the preservation of traditional culture",
+          "B", "The French Revolution's complete rejection of the ancien régime in favor of Enlightenment principles",
+          "C", "The Industrial Revolution in Britain, which was driven entirely by private enterprise without state involvement",
+          "D", "The American Revolution's establishment of a constitutional republic"
+        ],
+        answer: "A"
+      },
+      {
+        num: 28,
+        set: 3,
+        stem: "China's defeat in the Sino-Japanese War of 1894-1895 was historically significant primarily because it demonstrated which of the following?",
+        choices: [
+          "A", "European military technology was irrelevant to power dynamics in East Asia",
+          "B", "Japan's more thorough modernization program had produced a military capable of defeating a much larger but incompletely reformed China",
+          "C", "China's Self-Strengthening Movement had been entirely successful in modernizing the Chinese military",
+          "D", "Japan and China had been allies throughout the nineteenth century"
+        ],
+        answer: "B"
+      },
+      {
+        num: 29,
+        set: 3,
+        stem: "The Boxer Rebellion's attacks on foreign legations and Chinese Christians most directly expressed which of the following sentiments?",
+        choices: [
+          "A", "Popular support for the Qing Dynasty's program of rapid Westernization",
+          "B", "A desire to establish a democratic republic modeled on the United States",
+          "C", "Xenophobic resistance to foreign imperialism and the cultural changes it was imposing on Chinese society",
+          "D", "Elite scholarly opposition to the traditional Confucian examination system"
+        ],
+        answer: "C"
+      },
+      {
+        num: 30,
+        set: 3,
+        stem: "The 'unequal treaties' imposed on China after the Opium Wars had which of the following long-term effects on Chinese politics and society?",
+        choices: [
+          "A", "They strengthened the Qing Dynasty by providing access to Western markets",
+          "B", "They fueled Chinese nationalism and contributed to revolutionary movements that sought to end both foreign imperialism and the Qing Dynasty",
+          "C", "They had no significant impact on Chinese political development",
+          "D", "They led to the immediate establishment of a Chinese democracy"
+        ],
+        answer: "B"
+      },
+      {
+        num: 31,
+        set: 3,
+        stem: "The passage's description of multiple crises — opium addiction, military defeats, massive rebellions, and foreign intervention — facing the Qing Dynasty best illustrates which of the following concepts?",
+        choices: [
+          "A", "The cyclical dynastic pattern in Chinese history in which internal decay and external pressure combine to undermine ruling authority",
+          "B", "The complete absence of any reform efforts by the Qing government during the nineteenth century",
+          "C", "The success of the Qing Dynasty in maintaining territorial integrity throughout the nineteenth century",
+          "D", "The irrelevance of Western imperialism to political change within China"
+        ],
+        answer: "A"
+      },
+      {
+        num: 32,
+        set: 3,
+        stem: "The Empress Dowager Cixi's tacit support for the Boxers, followed by the movement's crushing defeat by a multinational force, most directly resulted in which of the following?",
+        choices: [
+          "A", "The immediate overthrow of the Qing Dynasty and establishment of a republic",
+          "B", "Further erosion of Qing authority and credibility, accelerating the dynasty's eventual collapse",
+          "C", "A strengthening of the Qing Dynasty's international prestige and diplomatic standing",
+          "D", "China's admission as an equal partner in the European alliance system"
+        ],
+        answer: "D"
+      },
+      {
+        num: 33,
+        set: 3,
+        stem: "Which of the following best explains why the Qing Dynasty's Self-Strengthening Movement ultimately failed to prevent China's continued decline?",
+        choices: [
+          "A", "The movement attempted technological modernization without addressing the deeper structural, political, and institutional reforms needed to compete with fully industrialized states",
+          "B", "The movement rejected all Western technology and relied exclusively on traditional Chinese methods",
+          "C", "Foreign powers actively supported the Self-Strengthening Movement and ensured its success",
+          "D", "The Qing Dynasty had no access to information about Western military or industrial technology"
+        ],
+        answer: "D"
+      },
+      // SET 4 — Questions 34-44: Interwar Period & Rise of Totalitarianism (c. 1918-1939)
+      {
+        num: 34,
+        set: 4,
+        stem: "According to the passage, the Treaty of Versailles contributed to political instability in Germany primarily by doing which of the following?",
+        choices: [
+          "A", "Imposing punishing terms that fostered widespread resentment and a sense of national humiliation",
+          "B", "Granting Germany generous reconstruction aid that strengthened the Weimar Republic",
+          "C", "Establishing a democratic government in Germany that enjoyed universal popular support",
+          "D", "Creating an alliance between Germany and the Soviet Union against Western Europe"
+        ],
+        answer: "A"
+      },
+      {
+        num: 35,
+        set: 4,
+        stem: "The hyperinflation crisis in Weimar Germany in 1923 most directly illustrates which of the following broader historical patterns?",
+        choices: [
+          "A", "Economic instability can erode public confidence in democratic institutions and create openings for extremist movements",
+          "B", "Inflation is always beneficial to economic growth in the long term",
+          "C", "Democratic governments are immune to economic crises",
+          "D", "The Weimar Republic's economic policies were universally praised by German citizens"
+        ],
+        answer: "A"
+      },
+      {
+        num: 36,
+        set: 4,
+        stem: "Stalin's forced collectivization of agriculture and the resulting Holodomor famine in Ukraine most directly demonstrate which of the following characteristics of totalitarian regimes?",
+        choices: [
+          "A", "The willingness of totalitarian states to sacrifice millions of lives to achieve ideological and economic objectives",
+          "B", "The effectiveness of collectivized agriculture in increasing food production",
+          "C", "The Soviet Union's commitment to protecting the welfare of minority nationalities",
+          "D", "Stalin's reliance on democratic consensus to implement agricultural reforms"
+        ],
+        answer: "C"
+      },
+      {
+        num: 37,
+        set: 4,
+        stem: "Mussolini's pioneering role in establishing fascism in Italy in 1922 is historically significant primarily because it demonstrated which of the following?",
+        choices: [
+          "A", "The compatibility of fascism with liberal democratic principles",
+          "B", "That ultra-nationalist, authoritarian movements could seize power by exploiting social unrest and fears of communist revolution",
+          "C", "The inevitability of fascist rule in all European states after World War I",
+          "D", "That Italy had no democratic traditions before Mussolini's rise to power"
+        ],
+        answer: "B"
+      },
+      {
+        num: 38,
+        set: 4,
+        stem: "Japan's invasion of Manchuria in 1931 and full-scale war against China in 1937 most closely parallel which of the following developments in Europe during the same period?",
+        choices: [
+          "A", "The establishment of democratic governments in response to popular demand for self-determination",
+          "B", "Nazi Germany's territorial expansion and rearmament in violation of the Versailles treaty",
+          "C", "The formation of international organizations designed to prevent future wars",
+          "D", "The peaceful dissolution of colonial empires in Asia and Africa"
+        ],
+        answer: "B"
+      },
+      {
+        num: 39,
+        set: 4,
+        stem: "The Great Depression's role in Hitler's rise to power best illustrates which of the following connections between economics and politics?",
+        choices: [
+          "A", "Economic prosperity tends to strengthen extremist political movements",
+          "B", "Global economic interconnectedness meant that a financial crisis originating in one country could destabilize political systems worldwide",
+          "C", "The Great Depression had no impact on European politics because European economies were self-sufficient",
+          "D", "Democratic governments always become stronger during periods of economic hardship"
+        ],
+        answer: "B"
+      },
+      {
+        num: 40,
+        set: 4,
+        stem: "The Nuremberg Laws of 1935, which stripped Jews of German citizenship and prohibited intermarriage, are best understood as an example of which of the following?",
+        choices: [
+          "A", "State-directed racial classification and persecution as a tool of totalitarian ideology",
+          "B", "A continuation of Weimar-era policies of religious tolerance",
+          "C", "An international legal framework supported by the League of Nations",
+          "D", "A temporary wartime measure that was reversed after World War II"
+        ],
+        answer: "A"
+      },
+      {
+        num: 41,
+        set: 4,
+        stem: "Stalin's Great Purge of 1936-1938 most directly served which of the following political purposes?",
+        choices: [
+          "A", "Promoting free and open political debate within the Communist Party",
+          "B", "Encouraging artistic and intellectual creativity during the Soviet cultural renaissance",
+          "C", "Eliminating real and perceived political rivals to consolidate Stalin's absolute personal power",
+          "D", "Preparing the Soviet Union for a defensive alliance with Nazi Germany"
+        ],
+        answer: "C"
+      },
+      {
+        num: 42,
+        set: 4,
+        stem: "Which of the following most accurately describes a similarity among the totalitarian regimes discussed in the passage?",
+        choices: [
+          "A", "All three regimes — Nazi Germany, Stalinist USSR, and Fascist Italy — used state propaganda, political repression, and mass mobilization to maintain control",
+          "B", "All three regimes promoted individual liberty and free-market capitalism as their core ideological principles",
+          "C", "All three regimes were established through free and fair democratic elections",
+          "D", "All three regimes pursued identical economic policies based on agricultural collectivization"
+        ],
+        answer: "D"
+      },
+      {
+        num: 43,
+        set: 4,
+        stem: "John Maynard Keynes's warning that the Versailles reparations would destabilize Europe best reflects which of the following perspectives?",
+        choices: [
+          "A", "Keynes supported the complete destruction of the German state as a precondition for European peace",
+          "B", "Keynes believed that economically punishing a defeated enemy would create conditions for future conflict rather than lasting peace",
+          "C", "Keynes argued that Germany bore no responsibility for the outbreak of World War I",
+          "D", "Keynes advocated for an immediate military alliance between Britain and Germany"
+        ],
+        answer: "B"
+      },
+      {
+        num: 44,
+        set: 4,
+        stem: "The passage suggests that Article 231 of the Treaty of Versailles — the 'war guilt clause' — had which of the following effects on German public opinion?",
+        choices: [
+          "A", "It was widely accepted by the German population as a fair assessment of responsibility",
+          "B", "It had no effect on German politics because ordinary citizens were unaware of its existence",
+          "C", "It deepened feelings of humiliation and resentment that extremist movements later exploited",
+          "D", "It inspired immediate reconciliation between Germany, France, and Britain"
+        ],
+        answer: "C"
+      },
+      // SET 5 — Questions 45-55: Middle East Since 1945 (c. 1945-present)
+      {
+        num: 45,
+        set: 5,
+        stem: "The creation of the State of Israel in 1948 and the resulting displacement of Palestinian Arabs most directly reflected which of the following broader developments of the twentieth century?",
+        choices: [
+          "A", "The tension between competing nationalist movements claiming the same territory in the context of decolonization",
+          "B", "The universal acceptance of Zionism by all Arab states in the Middle East",
+          "C", "The desire of the British Empire to maintain colonial control over Palestine indefinitely",
+          "D", "A peaceful resolution to competing claims that was accepted by all parties"
+        ],
+        answer: "A"
+      },
+      {
+        num: 46,
+        set: 5,
+        stem: "The OPEC oil embargo of 1973 is historically significant primarily because it demonstrated which of the following?",
+        choices: [
+          "A", "Oil-producing nations could use energy resources as a geopolitical weapon to influence the policies of industrialized nations",
+          "B", "Western nations had developed alternative energy sources that made them independent of Middle Eastern oil",
+          "C", "The oil embargo had no impact on global economic conditions",
+          "D", "OPEC was a humanitarian organization dedicated to reducing global poverty"
+        ],
+        answer: "A"
+      },
+      {
+        num: 47,
+        set: 5,
+        stem: "The Iranian Revolution of 1979 represented a significant departure from other twentieth-century revolutions primarily because it resulted in which of the following?",
+        choices: [
+          "A", "A communist government allied with the Soviet Union",
+          "B", "A theocratic Islamic republic that explicitly rejected both Western capitalism and Soviet communism",
+          "C", "A liberal democratic government modeled on Western European constitutions",
+          "D", "A military dictatorship that continued the Shah's policies of modernization"
+        ],
+        answer: "B"
+      },
+      {
+        num: 48,
+        set: 5,
+        stem: "The passage indicates that the Arab Spring protests of 2010-2012 'in most cases resulted in authoritarian retrenchment, civil war, or state collapse.' This outcome most directly challenges which of the following assumptions?",
+        choices: [
+          "A", "Popular pro-democracy movements inevitably lead to successful transitions to democratic governance",
+          "B", "Authoritarian regimes are always stable and never face internal challenges",
+          "C", "The Cold War was the only source of political instability in the Middle East",
+          "D", "Social media and technology play no role in modern political movements"
+        ],
+        answer: "D"
+      },
+      {
+        num: 49,
+        set: 5,
+        stem: "The Iran-Iraq War (1980-1988) is best understood in the context of which of the following regional dynamics?",
+        choices: [
+          "A", "Sectarian rivalry between Sunni-led Iraq and Shia-governed Iran, combined with territorial disputes and Cold War proxy competition",
+          "B", "A coordinated effort by Iran and Iraq to resist Western imperialism through military alliance",
+          "C", "A dispute over control of Mediterranean Sea trade routes",
+          "D", "A war provoked exclusively by European colonial powers seeking to divide the Middle East"
+        ],
+        answer: "D"
+      },
+      {
+        num: 50,
+        set: 5,
+        stem: "The Syrian Civil War's involvement of multiple regional and global powers most closely parallels which of the following historical situations?",
+        choices: [
+          "A", "The Spanish Civil War (1936-1939), in which foreign powers intervened on opposing sides of an internal conflict",
+          "B", "The American Revolution, in which colonists fought for independence without any foreign assistance",
+          "C", "The unification of Italy, which was achieved entirely through peaceful diplomatic negotiation",
+          "D", "The Glorious Revolution in England, which was accomplished without violence"
+        ],
+        answer: "A"
+      },
+      {
+        num: 51,
+        set: 5,
+        stem: "The passage describes the Nakba as the displacement of approximately 700,000 Palestinian Arabs in 1948. This event is most directly comparable to which of the following?",
+        choices: [
+          "A", "The forced relocation of Native Americans along the Trail of Tears in the 1830s",
+          "B", "The voluntary migration of Europeans to the Americas during the nineteenth century",
+          "C", "The expansion of the Ottoman Empire into the Balkans",
+          "D", "The partition of British India in 1947, which also produced mass displacement and communal violence"
+        ],
+        answer: "D"
+      },
+      {
+        num: 52,
+        set: 5,
+        stem: "Ayatollah Khomeini's characterization of the United States as the 'Great Satan' and his rejection of Western-style modernization most directly reflected which of the following intellectual and political currents?",
+        choices: [
+          "A", "A growing movement in parts of the Global South to reject Western cultural hegemony and articulate alternative models of governance rooted in local traditions",
+          "B", "Universal agreement in the Muslim world that Western culture was entirely incompatible with Islam",
+          "C", "The Iranian people's desire to maintain the Shah's program of rapid modernization",
+          "D", "A military alliance between Iran and the Soviet Union against Western imperialism"
+        ],
+        answer: "B"
+      },
+      {
+        num: 53,
+        set: 5,
+        stem: "Which of the following best explains why oil has been such a significant factor in the geopolitics of the Middle East since 1945?",
+        choices: [
+          "A", "The global economy's dependence on petroleum gave oil-producing states leverage over industrialized nations, while competition for access to oil resources drew foreign powers into regional conflicts",
+          "B", "Oil is found exclusively in the Middle East and nowhere else in the world",
+          "C", "Middle Eastern oil reserves were discovered only after 2000, making them a recent factor in geopolitics",
+          "D", "Oil has had no significant impact on the foreign policies of Western nations toward the Middle East"
+        ],
+        answer: "B"
+      },
+      {
+        num: 54,
+        set: 5,
+        stem: "The multiple wars between Israel and its Arab neighbors (1948, 1967, 1973) and the continuing Israeli-Palestinian conflict most directly illustrate which of the following themes in modern world history?",
+        choices: [
+          "A", "The difficulty of resolving competing nationalist claims to the same territory, especially when complicated by religious significance, refugee populations, and great power involvement",
+          "B", "The irrelevance of religion to modern political conflicts in the Middle East",
+          "C", "The success of the United Nations in resolving all territorial disputes through peaceful negotiation",
+          "D", "The complete isolation of the Middle East from global political developments"
+        ],
+        answer: "D"
+      },
+      {
+        num: 55,
+        set: 5,
+        stem: "Which of the following best describes the overall trajectory of political development in the Middle East since 1945, as presented in the passage?",
+        choices: [
+          "A", "A steady and uninterrupted transition from colonial rule to stable democratic governance",
+          "B", "Continued instability driven by the intersection of decolonization, Cold War competition, resource politics, religious movements, and unresolved territorial disputes",
+          "C", "Complete political isolation from global affairs, with the region developing entirely according to internal dynamics",
+          "D", "Universal prosperity and peace following the end of European colonialism"
+        ],
+        answer: "B"
+      }
+    ],
+    questions: [
+      // SAQ 1 — Primary source, al-Umari's account of Mansa Musa's pilgrimage
+      {
+        num: 1,
+        type: "saq",
+        title: "SAQ 1 — Mansa Musa's Pilgrimage to Mecca (c. 1337)",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "primary",
+        sources: [
+          {
+            label: "Source",
+            title: "Shihab al-Din al-Umari, Pathways of Vision in the Realms of the Metropolises, c. 1337",
+            description: "Shihab al-Din al-Umari was an Arab historian based in Cairo who gathered accounts from those who witnessed Mansa Musa's passage through Egypt during his pilgrimage to Mecca in 1324-1325. This excerpt describes the visit's economic and cultural impact.",
+            text: "This man Mansa Musa spread upon Cairo the flood of his generosity: there was no person, officer of the court, or holder of any office of the sultanate who did not receive a sum of gold from him. The people of Cairo earned incalculable sums from him, whether by buying and selling or by gifts. So much gold was current in Cairo that it ruined the value of money. The gold price in Egypt fell and remained cheap for twelve years. The merchants and traders of the city profited enormously from the presence of this great king and his entourage. He was accompanied by a vast caravan including thousands of his subjects, soldiers, and servants, and he carried an immense quantity of gold. His piety was evident, for he distributed alms lavishly and built mosques along his route. The scholars of Cairo were impressed by his devotion and by his desire to learn more about the practices of Islam."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way that al-Umari's account illustrates the wealth of the Mali Empire under Mansa Musa." },
+          { letter: "B", prompt: "Explain ONE way that Mansa Musa's pilgrimage affected the political, economic, or cultural connections between West Africa and the broader Islamic world." },
+          { letter: "C", prompt: "Explain ONE way in which the context in which al-Umari composed this account — based on secondhand reports gathered in Cairo — might affect the reliability or perspective of the source." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes an example of wealth such as the vast quantities of gold distributed in Cairo, the size of the caravan with thousands of followers, the depression of gold prices in Egypt for twelve years, or the lavish gifts to Egyptian officials." },
+          { row: "B", category: "Part B", points: 1, description: "Explains an effect such as the strengthening of commercial ties between West Africa and Egypt, the raising of Mali's international prestige across the Islamic world, the stimulation of scholarly and religious exchange between West African and North African intellectuals, or the encouragement of further trans-Saharan trade." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a limitation such as the reliance on secondhand accounts potentially leading to exaggeration of the quantities of gold or the size of the entourage, the perspective of Egyptian observers who may have emphasized economic impact over other dimensions, or possible cultural biases in how an Arab historian interpreted a sub-Saharan African ruler." }
+        ]
+      },
+      // SAQ 2 — Secondary source, Rwandan genocide and international response
+      {
+        num: 2,
+        type: "saq",
+        title: "SAQ 2 — The Rwandan Genocide and International Response (1994)",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "secondary",
+        sources: [
+          {
+            label: "Source",
+            title: "Samantha Power, 'A Problem from Hell': America and the Age of Genocide (2002)",
+            description: "Samantha Power is an American journalist and diplomat who later served as U.S. Ambassador to the United Nations. This excerpt analyzes the international community's failure to intervene during the 1994 Rwandan genocide.",
+            text: "In the spring of 1994, approximately 800,000 Rwandan Tutsi and moderate Hutu were slaughtered in the span of one hundred days — a rate of killing that exceeded even the mechanized genocide of the Holocaust. The killings were not spontaneous acts of tribal violence but a carefully planned campaign organized by elements of the Hutu-dominated government and carried out by militias armed with machetes and firearms. Despite clear warnings from the United Nations peacekeeping force commander on the ground, General Roméo Dallaire, that a genocide was being planned, the international community chose not to intervene. The United States, scarred by the disastrous intervention in Somalia in 1993, refused to use the word 'genocide' — which would have triggered a legal obligation to act under the 1948 Genocide Convention. France, which had trained and armed the Hutu-dominated Rwandan military, was reluctant to acknowledge the crimes of its allies. The UN Security Council actually reduced its peacekeeping force in Rwanda as the killing intensified. The failure to act in Rwanda stands as one of the most consequential moral failures of the late twentieth century and prompted intense debate about the international community's responsibility to protect civilian populations from mass atrocities."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE cause of the Rwandan genocide identified or implied in the source." },
+          { letter: "B", prompt: "Explain ONE reason the international community failed to intervene to stop the genocide, according to the source." },
+          { letter: "C", prompt: "Explain ONE way that the legacy of European colonialism contributed to ethnic or political conflict in Rwanda OR in another region of the world during the twentieth century." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a cause such as the deliberate planning and organization of the genocide by elements of the Hutu-dominated government, the mobilization of militias, or the exploitation of ethnic divisions between Hutu and Tutsi — divisions that were hardened under Belgian colonial rule." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a reason such as the United States' reluctance to intervene after the Somalia debacle, the deliberate avoidance of the term 'genocide' to circumvent legal obligations, France's complicity through its support of the Hutu-dominated military, or the UN Security Council's decision to reduce rather than reinforce peacekeepers." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a colonial legacy such as Belgian colonial policies that formalized and rigidified Hutu-Tutsi ethnic categories through identity cards and preferential treatment, or parallels in other regions such as the partition of India along religious lines drawn by British colonial administration, or the Israeli-Palestinian conflict rooted in British Mandate policies." }
+        ]
+      },
+      // SAQ 3 — No stimulus, effects of the Crusades on cross-cultural exchange (c. 1200-1450)
+      {
+        num: 3,
+        type: "saq",
+        title: "SAQ 3 — Effects of the Crusades on Cross-Cultural Exchange (c. 1200-1450)",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way that the Crusades facilitated cross-cultural exchange between European and Islamic societies in the period c. 1200-1450." },
+          { letter: "B", prompt: "Explain ONE way that the knowledge or technologies transferred through Crusade-era contact affected the development of European society." },
+          { letter: "C", prompt: "Explain ONE way that the Crusades also led to increased hostility or negative consequences for cross-cultural relations between Christians and Muslims." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes an example such as the introduction of new agricultural products (sugar, citrus) to Europe, the transfer of medical and scientific knowledge from Islamic scholars, European exposure to new textiles and luxury goods, or the establishment of Italian merchant colonies in the Levant that facilitated ongoing trade." },
+          { row: "B", category: "Part B", points: 1, description: "Explains an effect such as the stimulation of demand for Asian luxury goods that encouraged the growth of Mediterranean trade networks, the transmission of Arabic translations of Greek philosophical texts that contributed to European scholasticism, the adoption of Islamic architectural techniques in European building, or advances in European navigation and cartography informed by Islamic knowledge." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a negative consequence such as the deepening of religious animosity between Christians and Muslims that persisted for centuries, the massacre of Muslim and Jewish populations during the Crusades, the reinforcement of stereotypes and prejudice in both civilizations, or the disruption of previously tolerant coexistence in regions like Iberia and Sicily." }
+        ]
+      },
+      // SAQ 4 — No stimulus, causes and effects of the Mexican Revolution (c. 1910-1920)
+      {
+        num: 4,
+        type: "saq",
+        title: "SAQ 4 — Causes and Effects of the Mexican Revolution (c. 1910-1920)",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE cause of the Mexican Revolution of 1910." },
+          { letter: "B", prompt: "Explain ONE way that the Mexican Revolution changed the political or social structure of Mexico." },
+          { letter: "C", prompt: "Explain ONE way that the Mexican Revolution was similar to OR different from another revolution in the twentieth century." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a cause such as the long dictatorship of Porfirio Díaz and his suppression of political opposition, the concentration of land ownership among a small elite (hacendados) while peasants were landless, foreign (especially American and British) domination of the Mexican economy, or the exploitation of industrial workers and indigenous peoples." },
+          { row: "B", category: "Part B", points: 1, description: "Explains an effect such as the establishment of land reform provisions in the 1917 Constitution, the nationalization of oil resources, the empowerment of peasant and labor movements under leaders like Emiliano Zapata and Pancho Villa, or the creation of a one-party state dominated by the Institutional Revolutionary Party (PRI) for much of the twentieth century." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a comparison such as the similarity to the Russian Revolution in that both were driven by peasant and worker grievances against entrenched elites, or the difference from the Chinese Revolution in that the Mexican Revolution did not result in a communist government, or the similarity to the Cuban Revolution in addressing foreign economic domination and land inequality." }
+        ]
+      },
+      // DBQ — Religious reform movements challenging social and political orders (c. 1450-1750)
+      {
+        num: 5,
+        type: "dbq",
+        title: "Document-Based Question",
+        points: 7,
+        suggestedTime: 60,
+        prompt: "Evaluate the extent to which religious reform movements challenged existing social and political orders in the period circa 1450-1750.",
+        documents: [
+          {
+            num: 1,
+            source: "Martin Luther, Ninety-Five Theses, 1517",
+            figureId: "sim6-dbq-doc1-luther-95-theses",
+            text: "Out of love for the truth and from desire to elucidate it, the following propositions will be discussed at Wittenberg, under the presidency of the Reverend Father Martin Luther. He requests that those who are unable to be present and debate orally with us will do so in their absence by letter. When our Lord and Master Jesus Christ said 'Repent,' He willed the entire life of believers to be one of repentance. The pope cannot remit any guilt except by declaring and showing that it has been remitted by God. Those who believe that they can be certain of their salvation because they have purchased indulgence letters will be eternally damned together with their teachers. Christians are to be taught that the pope's pardons are useful if they do not put their trust in them, but altogether harmful if they lose their fear of God through them."
+          },
+          {
+            num: 2,
+            source: "Decrees of the Council of Trent, Session XXV, 1563",
+            text: "The holy council commands all bishops and others who hold the office of teaching to instruct the faithful diligently concerning the intercession of saints, the veneration of relics, and the legitimate use of images, teaching them that the saints who reign together with Christ offer their prayers to God for men, and that it is good and useful to invoke them. Moreover, the images of Christ, of the Virgin Mother of God, and of the other saints are to be placed and retained in churches. But if any abuses shall have crept into these holy and salutary observances, the holy council earnestly desires that they be completely removed. Let all superstition be removed, all filthy quest for gain be eliminated, and all lasciviousness avoided, so that images shall not be painted or adorned with a seductive charm."
+          },
+          {
+            num: 3,
+            source: "Muhammad ibn Abd al-Wahhab, Book of Monotheism (Kitab al-Tawhid), c. 1744",
+            text: "Know that the worship of God alone, without associating any partner with Him, is the most important obligation upon mankind. Its opposite — polytheism — is the greatest sin. Whoever directs any act of worship to other than God has committed the gravest of sins, even if it be visiting the graves of holy men to seek their intercession, for this is nothing but the worship of the dead. The people have fallen into grave errors by venerating saints and building shrines over their tombs, seeking blessings from trees and stones, and wearing amulets and charms. All of these practices are forms of polytheism that must be eradicated. We must return to the pure monotheism of the Prophet and his Companions, stripping away the innovations and corruptions that centuries of ignorance have introduced."
+          },
+          {
+            num: 4,
+            source: "Guru Nanak, Japji Sahib (foundational prayer of Sikhism), c. 1500",
+            text: "There is one God, whose name is True, the Creator, without fear, without hatred, immortal, unborn, self-existent. By the grace of the Guru, He is known. The Lord created the night and day, the days of the week and the months, and He created the four seasons. Wonderful are the sounds, wonderful the knowledge, wonderful are the forms of all creation. By God's order, all are born; by God's order, all things are done. He who made the world watches over it. The caste distinctions that men draw among themselves are false, for in the eyes of the True Lord all are equal. No one is born high or low, and the worship of God requires no priest to intercede."
+          },
+          {
+            num: 5,
+            source: "Edict of Nantes, issued by King Henry IV of France, 1598",
+            text: "We have by this perpetual and irrevocable edict established and proclaimed: First, that the recollection of everything done by one party or the other between March 1585 and our accession to the crown shall remain obliterated and forgotten, as if no such things had ever happened. We prohibit all our subjects, of whatever estate and condition, from renewing the memory thereof. We permit those of the so-called Reformed Religion to live and abide in all the cities and places of this our kingdom, free from all inquisition, molestation, or compulsion to do anything in the matter of religion contrary to their conscience. We also permit those of the said religion to carry on the exercise of the same in all villages and places of our dominion where it was established and publicly enjoyed in the year 1597."
+          },
+          {
+            num: 6,
+            source: "Act of Supremacy, Parliament of England, 1534",
+            text: "Albeit the King's Majesty justly and rightfully is and ought to be the supreme head of the Church of England, and so is recognized by the clergy of this realm in their Convocations; yet nevertheless for corroboration and confirmation thereof, and for increase of virtue in Christ's religion within this realm of England, and to repress and extirp all errors, heresies, and other enormities and abuses heretofore used in the same, be it enacted by authority of this present Parliament that the King our Sovereign Lord, his heirs and successors kings of this realm, shall be taken, accepted, and reputed the only supreme head in earth of the Church of England, and shall have and enjoy annexed and united to the imperial crown of this realm all honors, dignities, and jurisdictions to the said dignity belonging."
+          },
+          {
+            num: 7,
+            source: "Adapted from a modern historian's analysis of the German Peasants' War, 2005",
+            text: "The German Peasants' War of 1524-1525 represents one of the most dramatic examples of religious reform ideas being applied to social and political grievances. Inspired by Luther's emphasis on the priesthood of all believers and his challenge to established Church authority, peasant communities in southwestern Germany formulated the Twelve Articles — a list of demands including the abolition of serfdom, the right of communities to choose their own pastors, reduction of excessive tithes, and the restoration of common lands and forests that had been seized by the nobility. The peasants argued that their demands were consistent with Scripture and the principles of Christian liberty that the reformers preached. Luther himself, however, was horrified by the rebellion and published a violent tract urging the princes to suppress the peasants without mercy. The uprising was crushed with enormous bloodshed — an estimated 100,000 peasants were killed — demonstrating that the political and social implications of religious reform could far exceed what the reformers themselves intended or were willing to endorse."
+          }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 3, description: "Uses at least 3 documents to address the topic (1pt), uses at least 4 documents and explains how they support the argument (2pts), uses at least 1 piece of evidence beyond the documents (1pt)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Sources at least 2 documents by explaining point of view, purpose, historical situation, or audience (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      },
+      // LEQ — Responses to foreign influence
+      {
+        num: 6,
+        type: "leq",
+        title: "Long Essay Question",
+        points: 6,
+        suggestedTime: 40,
+        options: [
+          { id: 2, prompt: "In the period 1200-1450, evaluate the extent to which societies adapted to or resisted Mongol influence in Afro-Eurasia." },
+          { id: 3, prompt: "In the period 1450-1750, evaluate the extent to which non-European societies developed strategies to respond to European expansion." },
+          { id: 4, prompt: "In the period 1750-1900, evaluate the extent to which reform movements in non-Western societies were responses to the challenges posed by Western imperialism." }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 2, description: "Provides specific examples of evidence relevant to the topic (1pt). Uses specific and relevant examples of evidence to support an argument (2pts)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Uses historical reasoning to frame or structure an argument (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      }
+    ]
   },  // ========================================================================
   // EXAM 1: Official 2025 Set 1
   // ========================================================================
