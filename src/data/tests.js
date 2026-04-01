@@ -2670,6 +2670,897 @@ const ALL_TESTS = [
       }
     ]
   },
+
+  // ========================================================================
+  // SIMULATION 4: Practice Simulation 4
+  // ========================================================================
+  {
+    id: "sim4",
+    label: "Practice Simulation 4",
+    description: "Full-length AP World History: Modern exam — 55 MC + SAQ + DBQ + LEQ",
+    badge: "Practice",
+    year: 2025,
+    totalMCTime: 3300,
+    mcSets: [
+      {
+        id: "set1",
+        setNum: 1,
+        figureId: "sim4-set1-mongol-empire-map",
+        title: "Set 1 — The Mongol Empire & Pax Mongolica (c. 1200-1450)",
+        passage: "The Mongol Empire, founded by Genghis Khan in 1206, grew to become the largest contiguous land empire in history, stretching from Korea to Eastern Europe. Mongol conquests were devastating — cities that resisted faced wholesale destruction — but the empire that emerged facilitated unprecedented levels of exchange across Eurasia. The Mongols established the yam system, a network of relay stations spaced roughly every 25 miles along major routes, providing fresh horses, food, and shelter for official messengers and merchants. A paiza, or passport tablet issued by the khan, guaranteed safe passage throughout the empire. Mongol rulers generally practiced religious tolerance, patronizing Buddhist temples, Christian churches, Islamic mosques, and Daoist shrines within their domains. The Franciscan friar William of Rubruck, visiting the Mongol capital of Karakorum in 1254, reported seeing houses of worship for multiple faiths standing side by side. This period of relative stability and connectivity, often called the Pax Mongolica, enabled the transfer of technologies such as gunpowder, printing, and the magnetic compass from East Asia to the Middle East and Europe. However, the same trade routes that carried silk and spices also carried the bacterium Yersinia pestis, which spread along Mongol caravan routes and contributed to the catastrophic Black Death pandemic that reached Europe in 1347."
+      },
+      {
+        id: "set2",
+        setNum: 2,
+        title: "Set 2 — Ming Dynasty China & Maritime Expeditions (c. 1368-1644)",
+        passage: "The Ming Dynasty, established in 1368 after the overthrow of the Mongol-led Yuan Dynasty, sought to restore Chinese cultural traditions and reassert imperial authority. The Hongwu Emperor reinstated the Confucian civil service examination system as the primary mechanism for selecting government officials, creating a meritocratic bureaucracy that would endure for centuries. Between 1405 and 1433, the Ming court sponsored seven massive maritime expeditions led by the Muslim eunuch admiral Zheng He. His treasure fleet — comprising hundreds of ships, some reportedly over 400 feet in length — sailed to Southeast Asia, India, the Persian Gulf, and the East African coast, projecting Chinese power and establishing tributary relationships. After Zheng He's final voyage, however, the Ming court abruptly curtailed maritime expeditions, citing their enormous expense and the persistent threat of Mongol incursions along the northern frontier, which demanded resources for the reconstruction and extension of the Great Wall. The Ming economy became increasingly dependent on silver, particularly after the Single Whip Reform of 1581 consolidated multiple tax obligations into a single payment in silver. This demand drew vast quantities of silver from Spanish colonial mines in the Americas via the Manila galleon trade, integrating China into an emerging global economy even as its government pursued policies of relative maritime withdrawal."
+      },
+      {
+        id: "set3",
+        setNum: 3,
+        title: "Set 3 — Latin American Colonial Societies (c. 1450-1750)",
+        passage: "The colonial societies that emerged in Latin America after the Spanish and Portuguese conquests were among the most complex and stratified in the early modern world. The encomienda system, which granted colonists authority over indigenous communities in exchange for their supposed Christianization, gave way in many regions to the hacienda, a large landed estate that bound indigenous and mixed-race workers through debt peonage. The casta system classified inhabitants according to an elaborate hierarchy of racial ancestry — peninsulares (Iberian-born Spaniards) occupied the highest social tier, followed by criollos (American-born Europeans), mestizos (mixed European-indigenous), mulatos (mixed European-African), and indigenous and African-descended peoples at the bottom. In the highlands of Upper Peru, the silver mines of Potosí became the engine of the colonial economy; at its peak in the early seventeenth century, Potosí was one of the largest cities in the world, its population swollen by indigenous mita laborers drafted from communities hundreds of miles away. Jesuit missions, known as reducciones, gathered indigenous populations into organized settlements where they received religious instruction and were partially shielded from the worst abuses of the encomienda and mita systems, though the missions also served as instruments of cultural transformation that disrupted indigenous ways of life."
+      },
+      {
+        id: "set4",
+        setNum: 4,
+        title: "Set 4 — Nationalist Movements & Independence in Asia and Africa (c. 1900-present)",
+        passage: "The twentieth century witnessed the dismantling of European colonial empires in Asia and Africa, driven by nationalist movements that drew on diverse ideological traditions. In India, the Indian National Congress, founded in 1885, evolved from a moderate reform organization into a mass movement demanding complete independence under the leadership of Mohandas Gandhi, whose strategy of nonviolent civil disobedience mobilized millions of ordinary Indians against British rule. In francophone Africa and the Caribbean, the Negritude movement, articulated by intellectuals such as Aimé Césaire and Léopold Sédar Senghor, celebrated African cultural identity and challenged the racist assumptions underlying colonial rule. Pan-Africanism, championed by figures including W.E.B. Du Bois and Kwame Nkrumah, envisioned a unified continent free from foreign domination. The Bandung Conference of 1955, attended by representatives of 29 Asian and African nations, declared solidarity among newly independent and colonized peoples and rejected alignment with either Cold War superpower bloc. Despite these shared aspirations, the paths to independence varied enormously: some transitions were negotiated peacefully, while others — such as Algeria's war against France (1954-1962) and Kenya's Mau Mau uprising — involved prolonged and violent struggle."
+      },
+      {
+        id: "set5",
+        setNum: 5,
+        title: "Set 5 — The Post-Cold War World & Global Challenges (c. 1990-present)",
+        passage: "The collapse of the Soviet Union in 1991 ended the bipolar Cold War order and ushered in an era of rapid transformation. The European Union expanded from 12 members in 1992 to 28 by 2013, absorbing many former communist states and creating the world's largest single market. China's economic reforms, initiated under Deng Xiaoping in 1978 and accelerating after 1990, transformed the country into the world's second-largest economy and largest manufacturing hub, lifting hundreds of millions of people out of poverty while maintaining single-party Communist rule. The September 11, 2001, terrorist attacks on the United States by al-Qaeda inaugurated a global 'War on Terror' that reshaped international security, led to military interventions in Afghanistan and Iraq, and prompted debates about civil liberties, surveillance, and the relationship between Islam and the West. Climate change emerged as perhaps the defining challenge of the era, with rising global temperatures linked to extreme weather events, rising sea levels, and threats to food security — the 2015 Paris Agreement represented an effort by nearly 200 nations to coordinate action, though implementation remained uneven. The digital revolution, driven by the internet, smartphones, and social media, transformed economies, political movements, and daily life worldwide, enabling everything from the Arab Spring protests to the expansion of e-commerce, while also generating concerns about misinformation, privacy, and digital inequality."
+      }
+    ],
+    mcQuestions: [
+      // SET 1 — Questions 1-11: Mongol Empire & Pax Mongolica (c. 1200-1450)
+      {
+        num: 1,
+        set: 1,
+        stem: "The Mongol yam system of relay stations most directly contributed to which of the following developments during the period of Mongol rule?",
+        choices: [
+          "A", "The spread of democratic governance across Central Asia",
+          "B", "The decline of overland trade in favor of maritime routes",
+          "C", "The complete replacement of local languages with Mongolian throughout the empire",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 2,
+        set: 1,
+        stem: "The passage's description of Mongol religious tolerance is best understood in the context of which of the following Mongol imperial strategies?",
+        choices: [
+          "A", "Promoting a single state religion to unify diverse populations",
+          "B", "Preventing subject peoples from practicing any form of organized religion",
+          "C", "Accommodating diverse populations to reduce resistance and facilitate governance of a vast empire",
+          "D", "Adopting Christianity as the official religion to build alliances with European kingdoms"
+        ],
+        answer: "C"
+      },
+      {
+        num: 3,
+        set: 1,
+        stem: "The spread of the Black Death along Mongol trade routes most directly illustrates which of the following consequences of increased Eurasian connectivity?",
+        choices: [
+          "A", "The deliberate use of biological warfare by Mongol armies against European populations",
+          "B", "The development of effective quarantine systems that prevented further disease transmission",
+          "C", "The complete collapse of all trade between Europe and Asia after the pandemic",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 4,
+        set: 1,
+        stem: "Which of the following best explains a significant difference between the Mongol Empire and the earlier Roman Empire in their approaches to governing conquered peoples?",
+        choices: [
+          "A", "The Roman Empire practiced religious tolerance while the Mongols imposed a single religion on all subjects",
+          "B", "The Mongols developed a sophisticated written legal code while Rome relied on oral traditions",
+          "C", "The Roman Empire was entirely land-based while the Mongol Empire was a maritime power",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 5,
+        set: 1,
+        stem: "The paiza passport system described in the passage served a function most similar to which of the following in other historical contexts?",
+        choices: [
+          "A", "Letters of marque issued by European governments to authorize privateering",
+          "B", "The tribute payment systems of the Aztec Empire",
+          "C", "Safe-conduct passes and merchant privileges granted by the Ottoman Empire to foreign traders",
+          "D", "The indulgences sold by the Catholic Church during the late medieval period"
+        ],
+        answer: "C"
+      },
+      {
+        num: 6,
+        set: 1,
+        stem: "The transfer of technologies such as gunpowder and printing from East Asia westward during the Pax Mongolica most directly challenged which of the following assumptions?",
+        choices: [
+          "A", "That technological innovation originated exclusively in Western Europe",
+          "B", "That the Mongols were incapable of appreciating or transmitting cultural achievements",
+          "C", "That maritime trade was the only effective means of transferring technology between civilizations",
+          "D", "That the Song Dynasty had suppressed all forms of technological development in China"
+        ],
+        answer: "A"
+      },
+      {
+        num: 7,
+        set: 1,
+        stem: "Genghis Khan's practice of destroying cities that resisted Mongol conquest most directly served which of the following purposes?",
+        choices: [
+          "A", "Demonstrating Mongol religious devotion through ritual destruction",
+          "B", "Creating uninhabited buffer zones to protect against future invasions",
+          "C", "Deterring further resistance by making a devastating example of those who opposed Mongol authority",
+          "D", "Eliminating potential trade competitors to benefit Mongol merchants"
+        ],
+        answer: "C"
+      },
+      {
+        num: 8,
+        set: 1,
+        stem: "A historian would most likely use William of Rubruck's account of Karakorum to support which of the following arguments?",
+        choices: [
+          "A", "European Christian missionaries successfully converted the Mongol ruling elite",
+          "B", "Karakorum was a cosmopolitan center that reflected the Mongol Empire's diverse religious and cultural composition",
+          "C", "The Mongol capital was technologically more advanced than any contemporary European city",
+          "D", "Mongol rulers actively suppressed all religions except Buddhism"
+        ],
+        answer: "B"
+      },
+      {
+        num: 9,
+        set: 1,
+        stem: "The eventual fragmentation of the Mongol Empire into separate khanates by the late thirteenth century was most directly caused by which of the following?",
+        choices: [
+          "A", "The complete adoption of Islam by all Mongol rulers, which eliminated political diversity",
+          "B", "An empire-wide peasant revolution inspired by Confucian ideology",
+          "C", "The military defeat of the Mongols by a unified European crusading army",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 10,
+        set: 1,
+        stem: "The Pax Mongolica's facilitation of cross-cultural exchange most directly contributed to which of the following long-term developments?",
+        choices: [
+          "A", "The permanent political unification of Eurasia under a single government",
+          "B", "The complete disappearance of distinct regional cultures in favor of a homogeneous Mongol culture",
+          "C", "The diffusion of ideas and technologies that would later contribute to transformative developments in Europe and the Islamic world",
+          "D", "The immediate industrialization of Central Asian economies"
+        ],
+        answer: "C"
+      },
+      {
+        num: 11,
+        set: 1,
+        stem: "Which of the following developments in the period after the decline of the Mongol Empire most directly resulted from the disruption of overland Eurasian trade routes?",
+        choices: [
+          "A", "European interest in finding alternative maritime routes to Asia, contributing to the Age of Exploration",
+          "B", "The complete cessation of all trade between Europe and Asia for several centuries",
+          "C", "The establishment of the Ottoman Empire as a Mongol successor state",
+          "D", "The rejection of gunpowder weapons by European armies"
+        ],
+        answer: "A"
+      },
+      // SET 2 — Questions 12-22: Ming Dynasty China (c. 1368-1644)
+      {
+        num: 12,
+        set: 2,
+        stem: "The Ming restoration of the Confucian civil service examination system most directly served which of the following purposes?",
+        choices: [
+          "A", "Encouraging foreign merchants to settle permanently in Chinese port cities",
+          "B", "Replacing Buddhism as the dominant religion in Chinese society",
+          "C", "Preparing Chinese scholars for careers in maritime exploration and naval command",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 13,
+        set: 2,
+        stem: "The Ming court's decision to sponsor Zheng He's maritime expeditions is best understood as an attempt to accomplish which of the following?",
+        choices: [
+          "A", "Establish permanent Chinese colonies throughout Southeast Asia and East Africa",
+          "B", "Convert foreign populations to Confucianism through cultural missions",
+          "C", "Project imperial prestige and establish tributary relationships with foreign states",
+          "D", "Discover a sea route to Europe to compete with Ottoman overland trade"
+        ],
+        answer: "C"
+      },
+      {
+        num: 14,
+        set: 2,
+        stem: "The scale of Zheng He's treasure fleet compared to later European exploratory voyages most directly demonstrates which of the following?",
+        choices: [
+          "A", "China's technological and organizational superiority in maritime capabilities during the early fifteenth century",
+          "B", "The inability of European nations to construct seaworthy vessels before the sixteenth century",
+          "C", "Zheng He's intention to conquer and colonize the lands he visited",
+          "D", "The Ming court's primary interest in converting foreign peoples to Buddhism"
+        ],
+        answer: "A"
+      },
+      {
+        num: 15,
+        set: 2,
+        stem: "The Ming decision to curtail maritime expeditions after 1433 was most directly influenced by which of the following factors?",
+        choices: [
+          "A", "The complete destruction of the Chinese navy in a war with Japan",
+          "B", "A popular revolution demanding that the government focus on overseas expansion",
+          "C", "The discovery that no valuable trade goods existed outside of China",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 16,
+        set: 2,
+        stem: "The Single Whip Reform's requirement that taxes be paid in silver most directly resulted in which of the following?",
+        choices: [
+          "A", "The decline of China's domestic agricultural production",
+          "B", "The replacement of Confucianism with mercantilism as the dominant economic philosophy",
+          "C", "The immediate collapse of the Ming Dynasty due to inability to collect taxes",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 17,
+        set: 2,
+        stem: "The flow of silver from Spanish colonial mines to China via the Manila galleon trade most directly illustrates which of the following historical developments?",
+        choices: [
+          "A", "The complete domination of global trade by European colonial powers",
+          "B", "The decline of silver as a valuable commodity in the early modern period",
+          "C", "China's military conquest of the Philippine Islands",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 18,
+        set: 2,
+        stem: "Which of the following best explains a significant difference between Ming China's approach to maritime activity and that of contemporary Portugal?",
+        choices: [
+          "A", "Portugal sought to establish trade monopolies and permanent overseas bases, while Ming China projected power through tributary diplomacy without seeking territorial control",
+          "B", "Ming China sent larger fleets but was technologically inferior to Portuguese shipbuilders",
+          "C", "Portugal focused exclusively on the Atlantic while China dominated the Mediterranean",
+          "D", "Ming expeditions were motivated by religious conversion while Portuguese voyages were purely scientific"
+        ],
+        answer: "A"
+      },
+      {
+        num: 19,
+        set: 2,
+        stem: "The Ming reconstruction of the Great Wall most directly reflected which of the following imperial priorities?",
+        choices: [
+          "A", "Promoting tourism as a source of government revenue",
+          "B", "Isolating China entirely from all forms of foreign contact and trade",
+          "C", "Defending the northern frontier against the persistent threat of nomadic incursions",
+          "D", "Symbolizing the emperor's rejection of Confucian values in favor of Legalism"
+        ],
+        answer: "C"
+      },
+      {
+        num: 20,
+        set: 2,
+        stem: "A historian studying Ming China's role in the early modern global economy would most likely emphasize which of the following?",
+        choices: [
+          "A", "China was entirely isolated from global trade throughout the Ming period",
+          "B", "China's economy was too small to have any significant impact on global commerce",
+          "C", "The Ming Dynasty actively promoted free trade and welcomed unlimited foreign access to Chinese markets",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 21,
+        set: 2,
+        stem: "The passage's description of Zheng He as a 'Muslim eunuch admiral' best illustrates which of the following aspects of Ming court culture?",
+        choices: [
+          "A", "The Ming court's exclusive reliance on Muslim officials for all government positions",
+          "B", "The dominance of Islam as the state religion of Ming China",
+          "C", "$PLACEHOLDER$",
+          "D", "The inability of non-Chinese individuals to hold positions of authority in the Ming government"
+        ],
+        answer: "C"
+      },
+      {
+        num: 22,
+        set: 2,
+        stem: "Which of the following was a long-term consequence of the Ming Dynasty's relative maritime withdrawal after 1433?",
+        choices: [
+          "A", "China permanently lost the technological capability to build oceangoing ships",
+          "B", "European maritime powers gradually came to dominate Indian Ocean and Pacific trade routes that China had once explored",
+          "C", "Japan immediately filled the vacuum by launching its own overseas colonial empire",
+          "D", "The Indian Ocean trade network ceased to function entirely"
+        ],
+        answer: "B"
+      },
+      // SET 3 — Questions 23-33: Latin American Colonial Societies (c. 1450-1750)
+      {
+        num: 23,
+        set: 3,
+        stem: "The transition from the encomienda system to the hacienda system in colonial Latin America most directly reflected which of the following developments?",
+        choices: [
+          "A", "The Spanish Crown's complete abandonment of all colonial economic activities",
+          "B", "The replacement of agriculture with manufacturing as the primary colonial economic activity",
+          "C", "The voluntary decision of indigenous peoples to work on large estates rather than in their own communities",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 24,
+        set: 3,
+        stem: "The casta system in Spanish colonial societies most directly served which of the following functions?",
+        choices: [
+          "A", "Promoting social mobility by allowing individuals to change their racial classification through education",
+          "B", "Eliminating all racial distinctions in favor of a unified colonial identity",
+          "C", "$PLACEHOLDER$",
+          "D", "Encouraging intermarriage between all racial groups to create a homogeneous population"
+        ],
+        answer: "C"
+      },
+      {
+        num: 25,
+        set: 3,
+        stem: "The silver mines of Potosí most directly contributed to which of the following global economic developments?",
+        choices: [
+          "A", "The decline of European trade with Asia due to a surplus of precious metals",
+          "B", "The immediate industrialization of the Spanish colonial economy",
+          "C", "$PLACEHOLDER$",
+          "D", "The replacement of silver with paper currency in all major economies"
+        ],
+        answer: "C"
+      },
+      {
+        num: 26,
+        set: 3,
+        stem: "The Spanish colonial adaptation of the Inca mita system to supply labor for silver mines best illustrates which of the following patterns of colonialism?",
+        choices: [
+          "A", "The complete rejection of all pre-existing indigenous institutions by European colonizers",
+          "B", "The replacement of indigenous labor with exclusively enslaved African workers in all mining operations",
+          "C", "The voluntary participation of indigenous workers in colonial mining operations",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 27,
+        set: 3,
+        stem: "Jesuit missions (reducciones) in colonial Latin America are best characterized as institutions that served which of the following dual purposes?",
+        choices: [
+          "A", "Training indigenous peoples for positions in the Spanish colonial government and military",
+          "B", "Preserving indigenous religions and preventing any form of European cultural influence",
+          "C", "$PLACEHOLDER$",
+          "D", "Operating as independent political states outside the control of both the Spanish Crown and the Catholic Church"
+        ],
+        answer: "C"
+      },
+      {
+        num: 28,
+        set: 3,
+        stem: "The description of Potosí as 'one of the largest cities in the world' at its peak most directly supports which of the following historical arguments?",
+        choices: [
+          "A", "Colonial resource extraction created enormous concentrations of population and economic activity in the Americas",
+          "B", "Spanish colonial cities were larger than all contemporary European capitals",
+          "C", "Indigenous peoples voluntarily migrated to Potosí for economic opportunities",
+          "D", "Silver mining had minimal demographic or environmental impacts on colonial society"
+        ],
+        answer: "A"
+      },
+      {
+        num: 29,
+        set: 3,
+        stem: "Which of the following best explains why peninsulares occupied a higher social position than criollos in the casta system, despite both groups being of European descent?",
+        choices: [
+          "A", "Peninsulares had larger landholdings than criollos in every region of the colonial empire",
+          "B", "The Spanish Crown favored Iberian-born subjects for positions of political authority to maintain imperial control over the colonies",
+          "C", "Criollos had voluntarily renounced their European identity by choosing to live in the Americas",
+          "D", "Peninsulares were considered racially superior to criollos due to their mixed-race ancestry"
+        ],
+        answer: "B"
+      },
+      {
+        num: 30,
+        set: 3,
+        stem: "The flow of Potosí silver through the Manila galleon trade to China most directly resulted from which of the following?",
+        choices: [
+          "A", "Chinese military threats forcing Spain to pay tribute in silver",
+          "B", "Spain's desire to convert Chinese populations to Christianity",
+          "C", "Chinese demand for silver as currency, combined with European demand for Chinese luxury goods",
+          "D", "A formal trade agreement negotiated between the Ming Emperor and the Spanish Crown"
+        ],
+        answer: "C"
+      },
+      {
+        num: 31,
+        set: 3,
+        stem: "Which of the following groups in colonial Latin American society would have been most likely to challenge the casta system by the eighteenth century?",
+        choices: [
+          "A", "Peninsulares who benefited from their privileged position at the top of the social hierarchy",
+          "B", "Criollos who possessed wealth and education but were excluded from the highest positions of political power",
+          "C", "Indigenous peoples who had been fully assimilated into Spanish colonial culture",
+          "D", "Spanish colonial officials who sought to eliminate all racial distinctions"
+        ],
+        answer: "B"
+      },
+      {
+        num: 32,
+        set: 3,
+        stem: "The labor conditions described at Potosí most closely paralleled labor practices in which of the following contemporary contexts?",
+        choices: [
+          "A", "The guild system of artisan production in medieval European cities",
+          "B", "The free wage labor system of early English factories",
+          "C", "The plantation slavery system in the Caribbean and Brazil",
+          "D", "The nomadic herding economies of the Central Asian steppe"
+        ],
+        answer: "C"
+      },
+      {
+        num: 33,
+        set: 3,
+        stem: "A historian would most likely use the passage's description of colonial Latin American society to support which of the following arguments?",
+        choices: [
+          "A", "Spanish colonialism created entirely egalitarian societies in the Americas",
+          "B", "The Catholic Church played no significant role in shaping colonial Latin American society",
+          "C", "Indigenous peoples successfully resisted all forms of Spanish cultural and economic domination",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      // SET 4 — Questions 34-44: Nationalist Movements in Asia & Africa (c. 1900-present)
+      {
+        num: 34,
+        set: 4,
+        stem: "Gandhi's strategy of nonviolent civil disobedience was most directly influenced by which of the following intellectual traditions?",
+        choices: [
+          "A", "$PLACEHOLDER$",
+          "B", "Marxist theories of class struggle and proletarian revolution",
+          "C", "The military strategies of European colonial powers adapted for anticolonial purposes",
+          "D", "Social Darwinist arguments about racial competition and survival of the fittest"
+        ],
+        answer: "A"
+      },
+      {
+        num: 35,
+        set: 4,
+        stem: "The Negritude movement's celebration of African cultural identity most directly challenged which of the following aspects of European colonialism?",
+        choices: [
+          "A", "The economic exploitation of African natural resources by European corporations",
+          "B", "The racist ideology that portrayed African cultures as inherently inferior to European civilization",
+          "C", "The military occupation of African territories by European armies",
+          "D", "The Christian missionary movement's efforts to convert African populations"
+        ],
+        answer: "B"
+      },
+      {
+        num: 36,
+        set: 4,
+        stem: "The Bandung Conference of 1955 was most significant because it represented which of the following developments in international relations?",
+        choices: [
+          "A", "The formation of a new military alliance to challenge NATO and the Warsaw Pact",
+          "B", "The emergence of a collective voice among formerly colonized nations asserting independence from Cold War power blocs",
+          "C", "The agreement of Asian and African nations to align exclusively with the Soviet Union",
+          "D", "The establishment of a permanent international organization to replace the United Nations"
+        ],
+        answer: "B"
+      },
+      {
+        num: 37,
+        set: 4,
+        stem: "The evolution of the Indian National Congress from a 'moderate reform organization' to a 'mass movement' was most directly facilitated by which of the following?",
+        choices: [
+          "A", "The British decision to grant India full independence in 1919",
+          "B", "The unification of Hindu and Muslim communities into a single political party",
+          "C", "The complete abandonment of nonviolent methods in favor of armed revolution",
+          "D", "$PLACEHOLDER$"
+        ],
+        answer: "D"
+      },
+      {
+        num: 38,
+        set: 4,
+        stem: "The passage's observation that 'some transitions were negotiated peacefully, while others involved prolonged and violent struggle' most directly reflects which of the following?",
+        choices: [
+          "A", "The willingness of all European colonial powers to grant independence voluntarily",
+          "B", "The uniform application of nonviolent resistance strategies across all independence movements",
+          "C", "The varied responses of colonial powers to independence demands, shaped by local conditions and the strategic interests of the metropole",
+          "D", "The absence of any common factors linking different independence movements"
+        ],
+        answer: "C"
+      },
+      {
+        num: 39,
+        set: 4,
+        stem: "Pan-Africanism as an ideology most directly drew upon which of the following historical experiences?",
+        choices: [
+          "A", "The shared experience of European colonialism and the African diaspora created by the Atlantic slave trade",
+          "B", "The success of European nationalist movements in creating ethnically homogeneous nation-states",
+          "C", "The religious unity of all African peoples under a single faith tradition",
+          "D", "The economic prosperity of African nations during the colonial period"
+        ],
+        answer: "A"
+      },
+      {
+        num: 40,
+        set: 4,
+        stem: "Algeria's war of independence against France (1954-1962) differed from India's independence movement most significantly in which of the following ways?",
+        choices: [
+          "A", "Algeria had no history of organized resistance to colonial rule before 1954",
+          "B", "India achieved independence through primarily nonviolent means, while Algeria's independence required sustained armed conflict",
+          "C", "France was more willing to negotiate with Algerian nationalists than Britain was with Indian nationalists",
+          "D", "The Algerian independence movement lacked any ideological foundation"
+        ],
+        answer: "B"
+      },
+      {
+        num: 41,
+        set: 4,
+        stem: "The concept of nonalignment articulated at the Bandung Conference was most directly a response to which of the following Cold War dynamics?",
+        choices: [
+          "A", "$PLACEHOLDER$",
+          "B", "The threat of nuclear annihilation from conflicts between the United States and Soviet Union",
+          "C", "The desire of newly independent nations to form their own nuclear weapons programs",
+          "D", "The complete absence of foreign aid from either Cold War superpower"
+        ],
+        answer: "A"
+      },
+      {
+        num: 42,
+        set: 4,
+        stem: "Which of the following best explains a major challenge faced by newly independent Asian and African nations in the post-colonial period?",
+        choices: [
+          "A", "$PLACEHOLDER$",
+          "B", "The immediate achievement of economic prosperity and political stability upon gaining independence",
+          "C", "The rapid and total elimination of all European cultural and economic influences",
+          "D", "The absence of any educated leadership capable of governing new nation-states"
+        ],
+        answer: "A"
+      },
+      {
+        num: 43,
+        set: 4,
+        stem: "Léopold Sédar Senghor's contributions to both the Negritude movement and Senegalese politics best illustrate which of the following patterns in twentieth-century decolonization?",
+        choices: [
+          "A", "The complete separation of cultural movements from political action in the colonial world",
+          "B", "The connection between intellectual and cultural movements asserting colonial subjects' dignity and the political struggle for national independence",
+          "C", "The dominance of European-educated elites who rejected all aspects of African cultural heritage",
+          "D", "The irrelevance of cultural identity to the process of decolonization"
+        ],
+        answer: "B"
+      },
+      {
+        num: 44,
+        set: 4,
+        stem: "The passage's reference to colonial soldiers returning home 'with heightened expectations of political rights' most directly connects to which of the following broader historical patterns?",
+        choices: [
+          "A", "Military service in imperial conflicts often raised colonized peoples' awareness of inequality and strengthened demands for self-determination",
+          "B", "Colonial soldiers universally rejected the nationalist movements in their home countries",
+          "C", "European powers immediately granted full citizenship rights to all colonial veterans after World War I",
+          "D", "Military service convinced colonial subjects that European civilization was superior to their own"
+        ],
+        answer: "A"
+      },
+      // SET 5 — Questions 45-55: Post-Cold War World (c. 1990-present)
+      {
+        num: 45,
+        set: 5,
+        stem: "The expansion of the European Union after 1992 most directly represented which of the following post-Cold War developments?",
+        choices: [
+          "A", "The reimposition of colonial control over former Soviet territories by Western European powers",
+          "B", "The political and economic integration of formerly divided European nations into a supranational organization",
+          "C", "The military unification of Europe under a single defense force to oppose the United States",
+          "D", "The rejection of democratic governance by Eastern European nations in favor of authoritarian rule"
+        ],
+        answer: "B"
+      },
+      {
+        num: 46,
+        set: 5,
+        stem: "China's economic transformation under Deng Xiaoping's reforms is best characterized as which of the following?",
+        choices: [
+          "A", "A complete transition to Western-style liberal democracy and free-market capitalism",
+          "B", "A return to Maoist economic policies emphasizing collective agriculture and heavy industry",
+          "C", "The integration of market-oriented economic reforms within a single-party communist political system",
+          "D", "The total rejection of globalization and international trade in favor of economic self-sufficiency"
+        ],
+        answer: "C"
+      },
+      {
+        num: 47,
+        set: 5,
+        stem: "The September 11, 2001, attacks and the subsequent 'War on Terror' most directly led to which of the following developments?",
+        choices: [
+          "A", "The permanent resolution of all conflicts in the Middle East",
+          "B", "Increased international cooperation on counterterrorism but also debates about civil liberties, surveillance, and military intervention",
+          "C", "The immediate withdrawal of all Western military forces from the Middle East and Central Asia",
+          "D", "The universal acceptance of American leadership in global affairs by all nations"
+        ],
+        answer: "B"
+      },
+      {
+        num: 48,
+        set: 5,
+        stem: "The 2015 Paris Agreement on climate change most directly reflected which of the following realities of the post-Cold War era?",
+        choices: [
+          "A", "Environmental challenges transcend national borders and require coordinated international responses",
+          "B", "Individual nations can effectively address climate change without international cooperation",
+          "C", "Developing nations bear no responsibility for greenhouse gas emissions",
+          "D", "The problem of climate change had been fully resolved by 2015"
+        ],
+        answer: "A"
+      },
+      {
+        num: 49,
+        set: 5,
+        stem: "The digital revolution's impact on political movements such as the Arab Spring most directly demonstrates which of the following?",
+        choices: [
+          "A", "Social media always leads to the establishment of stable democratic governments",
+          "B", "Digital technologies can serve as tools for political mobilization and the rapid dissemination of information",
+          "C", "Traditional forms of political organization became entirely irrelevant after the invention of the internet",
+          "D", "Authoritarian governments are incapable of using digital technologies for their own purposes"
+        ],
+        answer: "B"
+      },
+      {
+        num: 50,
+        set: 5,
+        stem: "The passage's reference to 'digital inequality' most directly parallels which of the following historical phenomena?",
+        choices: [
+          "A", "The unequal distribution of the benefits of industrialization between wealthy and poor nations in the nineteenth century",
+          "B", "The complete elimination of economic inequality through technological progress",
+          "C", "The uniform distribution of internet access to all populations worldwide",
+          "D", "The replacement of all traditional economies with digital platforms"
+        ],
+        answer: "A"
+      },
+      {
+        num: 51,
+        set: 5,
+        stem: "Critics of globalization described in the passage would most likely agree with which of the following statements?",
+        choices: [
+          "A", "Free trade agreements benefit all nations equally and should be expanded without restriction",
+          "B", "Globalization has disproportionately benefited wealthy nations and corporations while exploiting workers in developing countries",
+          "C", "Cultural homogenization is a positive development that promotes global unity",
+          "D", "National governments should have no role in regulating international trade"
+        ],
+        answer: "B"
+      },
+      {
+        num: 52,
+        set: 5,
+        stem: "The establishment of the World Trade Organization in 1995 most directly built upon which of the following earlier developments?",
+        choices: [
+          "A", "The protectionist tariff policies of the 1930s that deepened the Great Depression",
+          "B", "The Bretton Woods system and the General Agreement on Tariffs and Trade (GATT), which promoted international economic cooperation after World War II",
+          "C", "The Soviet Union's system of centralized economic planning and state-controlled trade",
+          "D", "The mercantilist policies of European colonial empires in the seventeenth and eighteenth centuries"
+        ],
+        answer: "B"
+      },
+      {
+        num: 53,
+        set: 5,
+        stem: "Which of the following best explains why China's economic rise after 1990 was viewed with both admiration and concern by other nations?",
+        choices: [
+          "A", "China's growth demonstrated the viability of combining market reforms with authoritarian governance, challenging the assumption that economic development requires liberal democracy",
+          "B", "China's economy remained too small to affect global trade patterns",
+          "C", "China's growth was entirely dependent on foreign aid from Western nations",
+          "D", "China immediately adopted all Western political institutions alongside its economic reforms"
+        ],
+        answer: "A"
+      },
+      {
+        num: 54,
+        set: 5,
+        stem: "The backlash against 'cultural homogenization' described in the passage is most directly comparable to which of the following historical reactions?",
+        choices: [
+          "A", "The Luddite movement's destruction of industrial machinery in nineteenth-century England",
+          "B", "Nineteenth-century nationalist movements that emphasized unique cultural identities in opposition to imperial homogenization",
+          "C", "The Reformation's challenge to Catholic religious authority",
+          "D", "The Scientific Revolution's rejection of classical Greek philosophy"
+        ],
+        answer: "B"
+      },
+      {
+        num: 55,
+        set: 5,
+        stem: "A historian studying the period since 1990 would most likely characterize it as one in which which of the following tensions has been most prominent?",
+        choices: [
+          "A", "The conflict between expanding global interconnection and persistent national, cultural, and economic divisions",
+          "B", "The complete triumph of a single political and economic model accepted by all nations",
+          "C", "The total reversal of globalization and a return to isolated national economies",
+          "D", "The elimination of all forms of armed conflict through international diplomacy"
+        ],
+        answer: "A"
+      }
+    ],
+    questions: [
+      // SAQ 1 — Primary source, Timur/Tamerlane's conquests
+      {
+        num: 1,
+        type: "saq",
+        title: "SAQ 1 — Timur's Conquests & Their Impact",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "primary",
+        sources: [
+          {
+            label: "Source 1",
+            title: "Persian miniature painting depicting a battle from Timur's campaigns, c. 1400",
+            description: "A Persian miniature painting showing Timur (Tamerlane) leading a cavalry charge during his military conquests across Central and South Asia.",
+            figureId: "sim4-saq1-timur-battle",
+            text: ""
+          },
+          {
+            label: "Source 2",
+            title: "Sharaf al-Din Ali Yazdi, Zafarnama (Book of Victory), c. 1425",
+            description: "Sharaf al-Din Ali Yazdi was a Persian court historian who composed this chronicle celebrating the military campaigns of Timur (Tamerlane), the Central Asian conqueror who established a vast empire from Anatolia to India in the late fourteenth century.",
+            text: "The victorious lord, the conqueror of the world, Amir Timur, having subdued the lands of Persia and Mesopotamia, turned his gaze upon the sultanate of Delhi. His army crossed the Indus in the year 1398 and advanced upon the great city. The sultan's forces, though numerous, could not withstand the fury of the Timurid cavalry. The city was taken, and for three days the soldiers were permitted to collect the wealth that had accumulated over centuries. The artisans and craftsmen of Delhi — weavers, metalworkers, masons, and architects — were gathered and transported to Samarkand, where they would embellish the capital with mosques, madrasas, and palaces of surpassing beauty. Thus did the lord Timur transform Samarkand into the jewel of the world, adorned with the skills and treasures of the conquered lands."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way the source illustrates the methods Timur used to build and maintain his empire." },
+          { letter: "B", prompt: "Explain ONE way Timur's conquests affected the political or economic development of a specific region in the period c. 1200-1450." },
+          { letter: "C", prompt: "Explain ONE way in which the author's perspective as a court historian might affect the reliability of this account." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a method such as devastating military conquest to eliminate opposition, the forced relocation of skilled artisans to enrich the imperial capital, or the seizure of wealth from conquered cities to finance further campaigns." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a political or economic effect such as the destruction of the Delhi Sultanate's power, the disruption of trade routes across Central and South Asia, the enrichment of Samarkand as a cultural and commercial center, or the destabilization of existing political structures in Persia and Mesopotamia." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a limitation such as the author's role as a court historian motivated to glorify Timur's achievements, the likely minimization or omission of atrocities and civilian suffering, or the presentation of conquest as divinely ordained rather than as violent imperialism." }
+        ]
+      },
+      // SAQ 2 — Secondary source, impact of printing press on Reformation
+      {
+        num: 2,
+        type: "saq",
+        title: "SAQ 2 — The Printing Press & the Reformation",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "secondary",
+        sources: [
+          {
+            label: "Source",
+            title: "Elizabeth Eisenstein, The Printing Revolution in Early Modern Europe (1983)",
+            description: "Elizabeth Eisenstein was an American historian whose work examined the impact of the printing press on European culture, religion, and politics. This excerpt is from her influential study of the Gutenberg revolution.",
+            text: "The printing press transformed the dynamics of religious dissent in sixteenth-century Europe. Before Gutenberg, heretical ideas could be suppressed relatively easily — manuscripts were few, expensive to copy, and controlled by monastic scriptoria loyal to the Church. After the introduction of movable type, however, the situation changed dramatically. Martin Luther's Ninety-Five Theses, posted in 1517, were translated from Latin into German, printed in pamphlet form, and distributed across the Holy Roman Empire within weeks. By 1520, Luther had become the first best-selling author in the history of print. The sheer volume and speed of production overwhelmed the Church's traditional mechanisms of censorship. Printed Bibles in vernacular languages enabled literate laypeople to read and interpret scripture for themselves, undermining the clergy's monopoly on religious knowledge. The press did not cause the Reformation — deep grievances about corruption and theological disputes already existed — but it amplified and accelerated the spread of reformist ideas in ways that would have been inconceivable in a manuscript culture."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE specific way the printing press changed the dissemination of ideas in early modern Europe, according to the source." },
+          { letter: "B", prompt: "Explain ONE way in which the spread of printed vernacular Bibles affected the social or political order in sixteenth-century Europe." },
+          { letter: "C", prompt: "Explain ONE way in which technological innovations OTHER than the printing press similarly transformed the spread of ideas in a different historical period." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a specific change such as the rapid reproduction and distribution of Luther's writings, the shift from expensive manuscripts to affordable printed pamphlets, or the undermining of Church censorship through the sheer volume of printed material." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a social or political effect such as the empowerment of literate laypeople to challenge clerical authority, the fragmentation of Western Christianity into competing denominations, the Wars of Religion, or the strengthening of vernacular national identities." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a parallel such as the telegraph and newspapers accelerating political movements in the nineteenth century, radio and film enabling mass propaganda in the twentieth century, or the internet and social media transforming political mobilization in the twenty-first century." }
+        ]
+      },
+      // SAQ 3 — No stimulus, Silk Roads exchange (c. 1200-1450)
+      {
+        num: 3,
+        type: "saq",
+        title: "SAQ 3 — Cross-Cultural Exchange Along the Silk Roads (c. 1200-1450)",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE example of how goods or technologies were exchanged along the Silk Roads in the period c. 1200-1450." },
+          { letter: "B", prompt: "Explain ONE way that the exchange of ideas or religions along the Silk Roads affected the cultural development of a specific society in the period c. 1200-1450." },
+          { letter: "C", prompt: "Explain ONE way that political developments in the period c. 1200-1450 either facilitated or disrupted exchange along the Silk Roads." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a specific example such as the exchange of Chinese silk, porcelain, or gunpowder technology westward; the movement of Central Asian horses and glassware eastward; or the transmission of papermaking and compass technology." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a cultural effect such as the spread of Islam into Central and Southeast Asia through Sufi merchants and missionaries, the influence of Buddhist art across Central Asia, or the transmission of scientific and mathematical knowledge from the Islamic world to Europe." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a political development such as the Pax Mongolica facilitating safe passage for merchants, the fragmentation of the Mongol Empire disrupting trade, the Black Death reducing trade volume, or the rise of the Ottoman Empire controlling key Silk Road termini." }
+        ]
+      },
+      // SAQ 4 — No stimulus, genocide in the 20th century
+      {
+        num: 4,
+        type: "saq",
+        title: "SAQ 4 — Causes and Consequences of Genocide in the 20th Century",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE cause of a specific genocide that occurred during the twentieth century." },
+          { letter: "B", prompt: "Explain ONE way that genocide affected the political or social development of a specific state or region during or after the twentieth century." },
+          { letter: "C", prompt: "Explain ONE way that the international community responded to genocide during the twentieth century and evaluate the effectiveness of that response." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a specific cause such as the Armenian Genocide driven by Ottoman wartime nationalism and suspicion of Armenian disloyalty, the Holocaust driven by Nazi racial ideology and antisemitism, the Rwandan genocide fueled by Hutu extremism and colonial-era ethnic divisions, or the Cambodian genocide driven by Khmer Rouge ideology." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a political or social effect such as the decimation and diaspora of the Armenian population, the establishment of Israel and international human rights frameworks after the Holocaust, the post-genocide reconciliation process in Rwanda, or the lasting trauma and political instability in Cambodia." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a response such as the Nuremberg Trials establishing the principle of individual criminal responsibility, the UN Convention on Genocide (1948), the failure of the international community to intervene effectively in Rwanda, or the creation of the International Criminal Court, with an evaluation of its effectiveness or limitations." }
+        ]
+      },
+      // DBQ — Reform movements in Ottoman, Chinese, and/or Japanese societies (c. 1839-1912)
+      {
+        num: 5,
+        type: "dbq",
+        title: "Document-Based Question",
+        points: 7,
+        suggestedTime: 60,
+        prompt: "Evaluate the extent to which reform movements transformed Ottoman, Chinese, and/or Japanese societies in the period circa 1839-1912.",
+        documents: [
+          {
+            num: 1,
+            source: "Sultan Abdülmecid I, Imperial Edict of Gülhane (Tanzimat Decree), 1839",
+            text: "It is evident that countries not governed by the principles of justice are not durable. From henceforth, every accused person shall be tried publicly according to law, and no one shall be secretly put to death. All subjects of our empire shall enjoy security in their life, honor, and property. Taxes shall be levied and distributed in a regular and equitable manner. The Muslim and non-Muslim subjects of our empire shall, without exception, enjoy our imperial concessions."
+          },
+          {
+            num: 2,
+            source: "Feng Guifen, Chinese scholar-official, Personal Protests from the Study of Jiaobin, 1861",
+            text: "What we need to learn from the barbarians is only one thing — solid ships and effective guns. Our Confucian moral teachings and the established political institutions are vastly superior to those of the West. We should use Chinese learning as the foundation and Western learning for practical application. If we can manufacture our own weapons and train our own soldiers, we shall be able to resist foreign aggression and restore our national strength without abandoning the principles of our sages."
+          },
+          {
+            num: 3,
+            source: "Charter Oath of the Meiji Emperor, April 1868",
+            figureId: "sim4-dbq-doc3-meiji-emperor",
+            text: "1. Deliberative assemblies shall be widely established and all matters decided by public discussion. 2. All classes, high and low, shall unite in vigorously carrying out the administration of affairs of state. 3. The common people, no less than the civil and military officials, shall each be allowed to pursue his own calling so that there may be no discontent. 4. Evil customs of the past shall be broken off and everything based upon the just laws of Nature. 5. Knowledge shall be sought throughout the world so as to strengthen the foundations of imperial rule."
+          },
+          {
+            num: 4,
+            source: "Midhat Pasha, Ottoman Grand Vizier, memorandum to Sultan Abdülhamid II, 1876",
+            text: "The adoption of a written constitution is the only means of ensuring the survival of the Ottoman state. The European powers use our lack of constitutional governance as a pretext for intervention in our affairs. A parliament representing all the peoples of the empire — Turks, Arabs, Greeks, Armenians — would demonstrate that our empire is a civilized state governed by law, not by despotism. Without such reform, the empire will continue to lose territory to nationalist separatist movements and European encroachment."
+          },
+          {
+            num: 5,
+            source: "Itō Hirobumi, architect of the Meiji Constitution, commentary on constitutional government, 1889",
+            text: "In Europe, constitutional government has grown over a period of more than a thousand years. In Japan, we must accomplish in decades what took centuries elsewhere. We have carefully studied the constitutional systems of various European nations and have determined that the Prussian model is best suited to our conditions, as it preserves the sovereign authority of the emperor while establishing a legislature to represent the people. The constitution is not granted by the people to the emperor; it is bestowed by the emperor upon his subjects as an act of benevolence."
+          },
+          {
+            num: 6,
+            source: "Kang Youwei, Memorial to the Guangxu Emperor proposing the Hundred Days' Reform, 1898",
+            text: "The nations of Europe and Japan have become wealthy and powerful by adopting new methods of governance, education, and economic organization. China, by clinging to outdated institutions and refusing to reform, has fallen behind and suffered humiliating defeats. I respectfully urge Your Majesty to establish modern schools, reform the examination system, create a national army modeled on Western methods, encourage commerce and industry, and grant the people a measure of self-governance through deliberative assemblies. If we do not act now, China will be carved up among the foreign powers like a melon."
+          },
+          {
+            num: 7,
+            source: "Young Turk proclamation following the constitutional revolution, 1908",
+            text: "The tyranny and despotism of Sultan Abdülhamid have brought the empire to the brink of ruin. The constitution that was granted in 1876 and then suspended must be restored. All Ottoman subjects, regardless of religion or nationality, must enjoy equal rights and freedoms under the law. The parliament must be reconvened and the government conducted according to constitutional principles. Only through liberty, equality, and justice can the Ottoman Empire be saved from dismemberment."
+          }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 3, description: "Uses at least 3 documents to address the topic (1pt), uses at least 4 documents and explains how they support the argument (2pts), uses at least 1 piece of evidence beyond the documents (1pt)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Sources at least 2 documents by explaining point of view, purpose, historical situation, or audience (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      },
+      // LEQ — Economic systems and change
+      {
+        num: 6,
+        type: "leq",
+        title: "Long Essay Question",
+        points: 6,
+        suggestedTime: 40,
+        options: [
+          { id: 2, prompt: "In the period 1200-1450, evaluate the extent to which long-distance trade networks transformed the economies of societies in Afro-Eurasia." },
+          { id: 3, prompt: "In the period 1450-1750, evaluate the extent to which mercantilist policies shaped the development of colonial economies in the Americas." },
+          { id: 4, prompt: "In the period 1750-1900, evaluate the extent to which debates over free trade versus protectionism shaped the development of the global economy." }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 2, description: "Provides specific examples of evidence relevant to the topic (1pt). Uses specific and relevant examples of evidence to support an argument (2pts)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Uses historical reasoning to frame or structure an argument (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      }
+    ]
+  },
   // ========================================================================
   // EXAM 1: Official 2025 Set 1
   // ========================================================================

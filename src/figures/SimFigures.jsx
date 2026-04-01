@@ -113,6 +113,21 @@ const FIGURES = {
     src: "/images/sim3-dbq-doc3-indian-textile-workers.png",
     alt: "Victorian-era engraving of Indian cotton textile workers operating looms under British colonial oversight, c. 1860.",
   },
+
+  // ── Simulation 4 Visuals ───────────────────────────────────────────────
+
+  "sim4-set1-mongol-empire-map": {
+    src: "/images/sim4-set1-mongol-empire-map.png",
+    alt: "Map of the Mongol Empire at its greatest extent circa 1279, showing the four khanates: Golden Horde, Chagatai, Ilkhanate, and Yuan Dynasty.",
+  },
+  "sim4-saq1-timur-battle": {
+    src: "/images/sim4-saq1-timur-battle.png",
+    alt: "Persian miniature painting depicting a battle scene from Timur (Tamerlane)'s military campaigns, c. 1400.",
+  },
+  "sim4-dbq-doc3-meiji-emperor": {
+    src: "/images/sim4-dbq-doc3-meiji-emperor.png",
+    alt: "Meiji-era woodblock print depicting Emperor Meiji promulgating the Charter Oath of 1868, with Japanese officials in traditional and Western dress.",
+  },
 };
 
 export function renderVisual(figureId) {
