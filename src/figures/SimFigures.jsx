@@ -128,6 +128,21 @@ const FIGURES = {
     src: "/images/sim4-dbq-doc3-meiji-emperor.png",
     alt: "Meiji-era woodblock print depicting Emperor Meiji promulgating the Charter Oath of 1868, with Japanese officials in traditional and Western dress.",
   },
+
+  // ── Simulation 5 Visuals ───────────────────────────────────────────────
+
+  "sim5-set2-mughal-taj-mahal": {
+    src: "/images/sim5-set2-mughal-taj-mahal.png",
+    alt: "Mughal miniature painting depicting the Taj Mahal at its completion circa 1653, with charbagh gardens and courtiers.",
+  },
+  "sim5-set3-haitian-revolution": {
+    src: "/images/sim5-set3-haitian-revolution.png",
+    alt: "Painting depicting the Haitian Revolution circa 1804, with a Black military leader on horseback leading fighters, burning plantation in background.",
+  },
+  "sim5-dbq-doc1-black-death-flagellants": {
+    src: "/images/sim5-dbq-doc1-black-death-flagellants.png",
+    alt: "Medieval manuscript illumination depicting flagellants during the Black Death in Europe, circa 1349, with plague victims on the streets.",
+  },
 };
 
 export function renderVisual(figureId) {

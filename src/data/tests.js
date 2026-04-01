@@ -3561,7 +3561,887 @@ const ALL_TESTS = [
       }
     ]
   },
-  // ========================================================================
+  {
+    id: "sim5",
+    label: "Practice Simulation 5",
+    description: "Full-length AP World History: Modern exam — 55 MC + SAQ + DBQ + LEQ",
+    badge: "Practice",
+    year: 2025,
+    totalMCTime: 3300,
+    mcSets: [
+      {
+        id: "set1",
+        setNum: 1,
+        title: "Set 1 — Byzantine Empire & Eastern Christianity (c. 1200-1450)",
+        passage: "The Byzantine Empire, the eastern continuation of the Roman Empire, preserved and transmitted Greco-Roman legal, artistic, and intellectual traditions for over a millennium. Emperor Justinian I (r. 527-565) codified Roman law into the Corpus Juris Civilis, a comprehensive legal compilation that would later influence the development of Western European legal systems. The Byzantines also pioneered the use of Greek fire, an incendiary weapon that helped defend Constantinople against repeated sieges. The Iconoclast Controversy of the eighth and ninth centuries, in which Byzantine emperors attempted to ban the veneration of religious images (icons), created a bitter theological rift within Eastern Christianity and deepened tensions with the papacy in Rome. The Great Schism of 1054 formally divided Christianity into the Roman Catholic Church in the West and the Eastern Orthodox Church centered in Constantinople. Orthodox missionaries, most notably Saints Cyril and Methodius, spread Christianity and the Cyrillic alphabet to Slavic peoples in Eastern Europe. By the thirteenth century, however, the empire was in decline: the Fourth Crusade of 1204 saw Western crusaders sack Constantinople itself, devastating the city and fatally weakening Byzantine power. The empire limped on for another two and a half centuries until Sultan Mehmed II of the Ottoman Empire captured Constantinople on May 29, 1453, ending the Byzantine state and transforming the great cathedral of Hagia Sophia into a mosque."
+      },
+      {
+        id: "set2",
+        setNum: 2,
+        figureId: "sim5-set2-mughal-taj-mahal",
+        title: "Set 2 — Mughal Empire & Religious Syncretism (c. 1450-1750)",
+        passage: "The Mughal Empire, founded by Babur in 1526, became one of the largest and wealthiest polities of the early modern world, governing much of the Indian subcontinent. Under Emperor Akbar (r. 1556-1605), the empire pursued a deliberate policy of religious tolerance and cultural synthesis. Akbar abolished the jizya (a tax on non-Muslims), appointed Hindu Rajput warriors to senior military and administrative positions, and convened interfaith debates at his court involving Muslim, Hindu, Christian, Jain, and Zoroastrian scholars. He eventually promulgated Din-i-Ilahi (Divine Faith), an eclectic spiritual doctrine that drew elements from multiple religious traditions. Mughal architecture blended Persian, Central Asian, and Indian styles, producing masterpieces such as the Taj Mahal, built by Shah Jahan as a mausoleum for his wife Mumtaz Mahal. However, Akbar's great-grandson Aurangzeb (r. 1658-1707) reversed many of these inclusive policies, reimposing the jizya, destroying Hindu temples, and pursuing a more orthodox Sunni Islamic agenda. Aurangzeb's intolerance alienated Hindu subjects and contributed to the rise of the Maratha Confederacy and the Sikh military tradition under Guru Gobind Singh. The Sikh religion, founded by Guru Nanak in the late fifteenth century, had emerged as a distinct faith emphasizing monotheism, social equality, and the rejection of caste distinctions, and Mughal persecution transformed the Sikh community into a formidable military force. By the early eighteenth century, the Mughal Empire was fragmenting, weakened by internal rebellions, regional power struggles, and the growing influence of European trading companies."
+      },
+      {
+        id: "set3",
+        setNum: 3,
+        figureId: "sim5-set3-haitian-revolution",
+        title: "Set 3 — Haitian Revolution & Atlantic Abolition Movements (c. 1750-1900)",
+        passage: "The Haitian Revolution (1791-1804) was the only successful large-scale slave revolt in the Atlantic world, resulting in the establishment of Haiti as the first independent Black republic and the second independent nation in the Western Hemisphere. The revolution was rooted in the brutal conditions of the French colony of Saint-Domingue, where the Code Noir — a royal decree governing the treatment of enslaved people — theoretically regulated slavery but in practice did little to prevent extreme violence and exploitation on sugar plantations. Inspired by the ideals of the French Revolution and led by figures such as Toussaint Louverture, a formerly enslaved man who proved to be a brilliant military strategist, the enslaved population rose against their masters. Toussaint's forces defeated French, Spanish, and British armies before Napoleon Bonaparte sent an expedition to restore slavery; Toussaint was captured through treachery and died in a French prison, but his lieutenant Jean-Jacques Dessalines declared Haitian independence in January 1804. The Haitian Revolution sent shockwaves through the Atlantic world. Slaveholding societies in the United States, Cuba, and Brazil tightened restrictions on enslaved populations, fearing similar uprisings. Meanwhile, the revolution energized abolition movements: Britain abolished the slave trade in 1807 and emancipated enslaved people in its colonies in 1833, driven by a combination of humanitarian campaigning by figures such as William Wilberforce, economic arguments that free labor was more productive, and the undeniable demonstration in Haiti that enslaved people would fight for their freedom. The revolution also inspired independence movements across Latin America, as leaders like Simón Bolívar received material support from Haiti in exchange for promising to abolish slavery."
+      },
+      {
+        id: "set4",
+        setNum: 4,
+        title: "Set 4 — Chinese Revolution & Mao's China (c. 1900-present)",
+        passage: "The collapse of the Qing Dynasty in 1912 inaugurated decades of political turmoil in China. The May Fourth Movement of 1919, triggered by China's humiliation at the Treaty of Versailles — which transferred German concessions in Shandong Province to Japan rather than returning them to China — galvanized a generation of intellectuals who demanded modernization, democracy, and an end to foreign imperialism. From this ferment emerged the Chinese Communist Party (CCP), founded in 1921. Under Mao Zedong's leadership, the CCP survived Chiang Kai-shek's Nationalist campaigns, including the legendary Long March of 1934-1935, during which the Red Army retreated nearly 6,000 miles through some of China's most punishing terrain, forging the revolutionary cadre that would eventually triumph. After Japan's defeat in 1945 and a renewed civil war, the CCP proclaimed the People's Republic of China on October 1, 1949. Mao launched the Great Leap Forward (1958-1962), an ambitious campaign to rapidly industrialize China through collectivized agriculture and backyard steel production; the policy resulted in catastrophic famine that killed an estimated 15 to 45 million people, one of the deadliest human-caused disasters in history. In 1966, Mao initiated the Cultural Revolution, mobilizing young Red Guards to attack perceived enemies of the revolution — intellectuals, party officials, and anyone associated with traditional Chinese or Western culture were publicly humiliated, imprisoned, or killed. Schools and universities were closed for years, and China's cultural heritage suffered immense destruction. Mao's death in 1976 opened the way for Deng Xiaoping's market-oriented reforms, which would transform China into a global economic power."
+      },
+      {
+        id: "set5",
+        setNum: 5,
+        title: "Set 5 — Environmental History & Human Impact (c. 1200-present)",
+        passage: "Human societies have profoundly altered the natural environment throughout history, and the pace and scale of these changes have accelerated dramatically in the modern era. Medieval deforestation in Europe, driven by agricultural expansion and demand for timber, transformed vast woodlands into farmland and contributed to soil erosion and flooding. The Little Ice Age (c. 1300-1850), a period of cooling temperatures in the Northern Hemisphere, caused crop failures, famines, and social upheaval across Europe and may have been partly intensified by the reforestation of abandoned farmland in the Americas following the catastrophic population decline of indigenous peoples after 1492. The Industrial Revolution, beginning in the late eighteenth century, inaugurated the era of fossil fuel dependence. Coal-powered factories and railways in Britain, followed by petroleum-fueled economies in the twentieth century, released unprecedented quantities of carbon dioxide into the atmosphere. The Green Revolution of the mid-twentieth century, spearheaded by agronomist Norman Borlaug, introduced high-yield crop varieties, chemical fertilizers, and modern irrigation techniques that dramatically increased food production in developing countries such as India and Mexico, averting predicted famines but also causing environmental damage through groundwater depletion, soil degradation, and chemical runoff. By the late twentieth century, scientific consensus had established that anthropogenic greenhouse gas emissions were driving global climate change, with consequences including rising sea levels, more frequent extreme weather events, biodiversity loss, and threats to food and water security. International responses, from the Kyoto Protocol (1997) to the Paris Agreement (2015), have sought to coordinate reductions in emissions, though implementation has been uneven and contested."
+      }
+    ],
+    mcQuestions: [
+      // SET 1 — Questions 1-11: Byzantine Empire & Eastern Christianity (c. 1200-1450)
+      {
+        num: 1,
+        set: 1,
+        stem: "Justinian's Corpus Juris Civilis is most significant in world history because it accomplished which of the following?",
+        choices: [
+          "A", "Established the first democratic constitution in European history",
+          "B", "Created a unified criminal code adopted by all medieval Islamic states",
+          "C", "Abolished slavery throughout the Byzantine Empire",
+          "D", "Codified Roman legal traditions that later influenced the development of Western European legal systems"
+        ],
+        answer: "D"
+      },
+      {
+        num: 2,
+        set: 1,
+        stem: "The Iconoclast Controversy in the Byzantine Empire most directly reflected which of the following broader tensions?",
+        choices: [
+          "A", "Disputes over the proper relationship between religious imagery, theology, and imperial authority",
+          "B", "Conflicts between the Byzantine Empire and the Abbasid Caliphate over territorial borders",
+          "C", "Economic competition between Constantinople and Venice for control of Mediterranean trade",
+          "D", "Disagreements about whether to adopt Latin or Greek as the official language of the empire"
+        ],
+        answer: "A"
+      },
+      {
+        num: 3,
+        set: 1,
+        stem: "The Great Schism of 1054 between the Roman Catholic and Eastern Orthodox churches was most directly caused by which of the following?",
+        choices: [
+          "A", "The Ottoman conquest of Constantinople and forced conversion of Christians to Islam",
+          "B", "The Protestant Reformation's challenge to papal authority",
+          "C", "The spread of Buddhism into the Byzantine Empire from Central Asian trade routes",
+          "D", "Accumulated theological, liturgical, and political disagreements between the papacy in Rome and the patriarchate in Constantinople"
+        ],
+        answer: "D"
+      },
+      {
+        num: 4,
+        set: 1,
+        stem: "The work of Saints Cyril and Methodius among Slavic peoples best illustrates which of the following patterns in the spread of Christianity?",
+        choices: [
+          "A", "The use of military conquest as the primary means of religious conversion",
+          "B", "The translation of religious texts and creation of writing systems to facilitate conversion among non-Greek-speaking peoples",
+          "C", "The rejection of local languages in favor of imposing Greek as the sole language of worship",
+          "D", "The complete elimination of all pre-Christian cultural practices among converted populations"
+        ],
+        answer: "B"
+      },
+      {
+        num: 5,
+        set: 1,
+        stem: "The Fourth Crusade's sack of Constantinople in 1204 is historically significant primarily because it accomplished which of the following?",
+        choices: [
+          "A", "Permanently united the Roman Catholic and Eastern Orthodox churches",
+          "B", "Established lasting Western European control over the entire Middle East",
+          "C", "Fatally weakened the Byzantine Empire and deepened the divide between Eastern and Western Christianity",
+          "D", "Demonstrated the superiority of Byzantine military technology over Western European forces"
+        ],
+        answer: "C"
+      },
+      {
+        num: 6,
+        set: 1,
+        stem: "A historian arguing that the Byzantine Empire served as a crucial bridge between the ancient and modern worlds would most likely emphasize which of the following?",
+        choices: [
+          "A", "The Byzantine role in preserving and transmitting Greco-Roman knowledge that later influenced the Renaissance and European legal traditions",
+          "B", "The Byzantine invention of gunpowder and the printing press",
+          "C", "The Byzantine Empire's conquest of all of Western Europe during the medieval period",
+          "D", "The complete rejection of classical learning by Byzantine scholars in favor of original research"
+        ],
+        answer: "A"
+      },
+      {
+        num: 7,
+        set: 1,
+        stem: "The Ottoman capture of Constantinople in 1453 most directly resulted in which of the following developments?",
+        choices: [
+          "A", "The immediate collapse of Islam as a political force in the eastern Mediterranean",
+          "B", "The migration of Greek scholars to Western Europe, contributing to the intellectual ferment of the Renaissance",
+          "C", "The conversion of all Orthodox Christians in the former Byzantine territories to Islam",
+          "D", "The restoration of the Western Roman Empire under Ottoman patronage"
+        ],
+        answer: "B"
+      },
+      {
+        num: 8,
+        set: 1,
+        stem: "Greek fire, the incendiary weapon used by the Byzantines, most directly served which of the following strategic purposes?",
+        choices: [
+          "A", "Enabling Byzantine conquest of the entire Arabian Peninsula",
+          "B", "Replacing cavalry as the primary offensive military force in Byzantine armies",
+          "C", "Defending Constantinople against naval sieges by Arab and other attacking forces",
+          "D", "Facilitating long-distance trade by clearing pirate ships from Mediterranean sea lanes"
+        ],
+        answer: "C"
+      },
+      {
+        num: 9,
+        set: 1,
+        stem: "The transformation of Hagia Sophia from a cathedral into a mosque after 1453 best symbolizes which of the following historical processes?",
+        choices: [
+          "A", "The peaceful coexistence of Christianity and Islam throughout the medieval period",
+          "B", "The Ottoman practice of destroying all conquered cultural monuments",
+          "C", "The decline of Islamic architectural traditions in favor of European styles",
+          "D", "The transfer of political and religious authority from a Christian to an Islamic empire in the eastern Mediterranean"
+        ],
+        answer: "D"
+      },
+      {
+        num: 10,
+        set: 1,
+        stem: "Which of the following best explains a key difference between the spread of Eastern Orthodox Christianity and the spread of Roman Catholicism during the medieval period?",
+        choices: [
+          "A", "Orthodox missionaries adapted texts into local vernacular languages, while Catholicism generally required the use of Latin in liturgy",
+          "B", "Roman Catholicism rejected all forms of monasticism, while Orthodox Christianity was spread exclusively by monks",
+          "C", "Orthodox Christianity was imposed by military force, while Catholicism spread solely through peaceful persuasion",
+          "D", "Catholicism was confined to the Italian peninsula while Orthodoxy dominated all of Europe"
+        ],
+        answer: "A"
+      },
+      {
+        num: 11,
+        set: 1,
+        stem: "The decline and fall of the Byzantine Empire between 1200 and 1453 was most directly caused by which combination of factors?",
+        choices: [
+          "A", "Volcanic eruptions and tsunamis that destroyed Constantinople's harbor",
+          "B", "The adoption of Islam by the Byzantine ruling elite and subsequent civil war",
+          "C", "Internal political instability, the devastation of the Fourth Crusade, and sustained Ottoman military pressure",
+          "D", "A complete economic collapse caused by the discovery of the Americas"
+        ],
+        answer: "C"
+      },
+      // SET 2 — Questions 12-22: Mughal Empire & Religious Syncretism (c. 1450-1750)
+      {
+        num: 12,
+        set: 2,
+        stem: "Akbar's abolition of the jizya and appointment of Hindu Rajput warriors to senior positions most directly served which of the following purposes?",
+        choices: [
+          "A", "Converting the Hindu population to Islam through incentives rather than coercion",
+          "B", "Building a broad base of political support by incorporating non-Muslim elites into the imperial administration",
+          "C", "Weakening the power of the Muslim ulama by replacing them with Hindu advisors",
+          "D", "Preparing the Mughal Empire for a military alliance with the Portuguese"
+        ],
+        answer: "B"
+      },
+      {
+        num: 13,
+        set: 2,
+        stem: "Akbar's Din-i-Ilahi is best understood as an attempt to accomplish which of the following?",
+        choices: [
+          "A", "Impose a single monotheistic religion on all subjects of the Mughal Empire by force",
+          "B", "Restore orthodox Sunni Islam as the sole faith of the Mughal court",
+          "C", "Adopt Christianity as the official religion of the Mughal Empire following contact with Jesuit missionaries",
+          "D", "Synthesize elements of multiple religious traditions into an eclectic spiritual philosophy centered on the emperor"
+        ],
+        answer: "D"
+      },
+      {
+        num: 14,
+        set: 2,
+        stem: "The Taj Mahal is most significant as a historical artifact because it demonstrates which of the following?",
+        choices: [
+          "A", "The Mughal Empire's rejection of all non-Islamic artistic influences",
+          "B", "The synthesis of Persian, Central Asian, and Indian architectural traditions under Mughal patronage",
+          "C", "The dominance of European architectural styles in South Asian construction",
+          "D", "The decline of artistic production during the Mughal period"
+        ],
+        answer: "B"
+      },
+      {
+        num: 15,
+        set: 2,
+        stem: "Aurangzeb's reimposition of the jizya and destruction of Hindu temples represented a significant departure from Akbar's policies primarily because it accomplished which of the following?",
+        choices: [
+          "A", "Strengthened the loyalty of Hindu subjects to the Mughal throne",
+          "B", "Encouraged the rapid conversion of the entire Hindu population to Islam",
+          "C", "Alienated non-Muslim communities and fueled resistance movements such as the Marathas and Sikhs",
+          "D", "Unified all religious groups in the empire under a shared sense of Mughal identity"
+        ],
+        answer: "C"
+      },
+      {
+        num: 16,
+        set: 2,
+        stem: "The emergence of Sikhism as a distinct religion in South Asia was most directly influenced by which of the following historical contexts?",
+        choices: [
+          "A", "European colonial missionaries introducing Protestant Christianity to the Punjab region",
+          "B", "The complete isolation of the Punjab region from broader South Asian cultural developments",
+          "C", "The revival of ancient Buddhist teachings by Mughal court scholars",
+          "D", "The interaction between Hindu devotional (bhakti) traditions and Islamic Sufi mysticism in northern India"
+        ],
+        answer: "D"
+      },
+      {
+        num: 17,
+        set: 2,
+        stem: "The transformation of the Sikh community from a pacifist religious movement into a military force under Guru Gobind Singh was most directly a response to which of the following?",
+        choices: [
+          "A", "Mughal persecution under Aurangzeb, including the execution of Guru Tegh Bahadur",
+          "B", "A theological revelation requiring all Sikhs to pursue military careers",
+          "C", "British colonial policies that conscripted Sikhs into the Indian Army",
+          "D", "An alliance with the Maratha Confederacy that required military participation"
+        ],
+        answer: "A"
+      },
+      {
+        num: 18,
+        set: 2,
+        stem: "A historian comparing the religious policies of Akbar and Aurangzeb would most likely conclude which of the following?",
+        choices: [
+          "A", "Both emperors pursued identical policies of religious tolerance throughout their reigns",
+          "B", "The shift from Akbar's inclusivism to Aurangzeb's orthodoxy illustrates how different rulers within the same dynasty could pursue fundamentally different approaches to governing a religiously diverse empire",
+          "C", "Aurangzeb's policies were more successful than Akbar's in maintaining imperial unity",
+          "D", "Religious policy had no significant impact on the political stability of the Mughal Empire"
+        ],
+        answer: "B"
+      },
+      {
+        num: 19,
+        set: 2,
+        stem: "The fragmentation of the Mughal Empire in the early eighteenth century most closely parallels which of the following developments in another region?",
+        choices: [
+          "A", "The unification of Japan under the Tokugawa shogunate",
+          "B", "The expansion of the Qing Dynasty into Central Asia",
+          "C", "The decline of the Ottoman Empire as provincial governors and regional powers asserted increasing autonomy",
+          "D", "The consolidation of power by Louis XIV of France"
+        ],
+        answer: "C"
+      },
+      {
+        num: 20,
+        set: 2,
+        stem: "The growing influence of European trading companies in India during the Mughal Empire's decline most directly foreshadowed which of the following developments?",
+        choices: [
+          "A", "The establishment of British colonial rule over the Indian subcontinent",
+          "B", "The complete withdrawal of European merchants from Asian trade networks",
+          "C", "The reunification of India under a restored Mughal dynasty",
+          "D", "The adoption of Mughal administrative practices by European colonial governments in the Americas"
+        ],
+        answer: "A"
+      },
+      {
+        num: 21,
+        set: 2,
+        stem: "Akbar's interfaith debates at his court are most directly comparable to which of the following practices in other early modern empires?",
+        choices: [
+          "A", "The Spanish Inquisition's prosecution of religious dissenters",
+          "B", "The Tokugawa shogunate's persecution of Japanese Christians",
+          "C", "The Ottoman millet system, which granted religious communities a degree of self-governance",
+          "D", "The Qing Dynasty's complete suppression of all non-Confucian religions"
+        ],
+        answer: "C"
+      },
+      {
+        num: 22,
+        set: 2,
+        stem: "Which of the following best explains why Mughal India attracted extensive European commercial interest during the sixteenth and seventeenth centuries?",
+        choices: [
+          "A", "India's textile, spice, and luxury goods production made it a key source of high-value commodities desired in European markets",
+          "B", "European merchants sought to convert India's population to Christianity through trade contacts",
+          "C", "India lacked any domestic manufacturing capacity and depended entirely on European imports",
+          "D", "The Mughal emperors actively recruited European settlers to populate underdeveloped regions"
+        ],
+        answer: "A"
+      },
+      // SET 3 — Questions 23-33: Haitian Revolution & Atlantic Abolition (c. 1750-1900)
+      {
+        num: 23,
+        set: 3,
+        stem: "The Haitian Revolution is most historically significant because it demonstrated which of the following?",
+        choices: [
+          "A", "The impossibility of enslaved people organizing effective military resistance",
+          "B", "That Enlightenment ideals of liberty and equality could be claimed and realized by enslaved people of African descent",
+          "C", "The willingness of European colonial powers to voluntarily abolish slavery",
+          "D", "The superiority of plantation agriculture over free labor systems"
+        ],
+        answer: "B"
+      },
+      {
+        num: 24,
+        set: 3,
+        stem: "The Code Noir's regulation of slavery in French colonies most directly reveals which of the following about the nature of Atlantic slavery?",
+        choices: [
+          "A", "Enslaved people enjoyed extensive legal protections that prevented abuse",
+          "B", "The French government was unaware of conditions on Caribbean plantations",
+          "C", "Slavery in French colonies was significantly more humane than in British or Spanish colonies",
+          "D", "Even legal frameworks ostensibly governing slavery failed to prevent widespread violence and exploitation"
+        ],
+        answer: "D"
+      },
+      {
+        num: 25,
+        set: 3,
+        stem: "Toussaint Louverture's military victories against French, Spanish, and British forces are best explained by which of the following factors?",
+        choices: [
+          "A", "Toussaint's strategic brilliance, the determination of formerly enslaved fighters, and the devastating impact of tropical diseases on European armies",
+          "B", "Massive military aid from the United States government",
+          "C", "Superior European-manufactured weapons supplied by anti-slavery organizations",
+          "D", "A formal alliance between Haiti and the Qing Dynasty of China"
+        ],
+        answer: "A"
+      },
+      {
+        num: 26,
+        set: 3,
+        stem: "Napoleon's decision to send an expedition to Saint-Domingue to restore slavery most directly reflected which of the following?",
+        choices: [
+          "A", "Napoleon's commitment to Enlightenment ideals of universal human rights",
+          "B", "The economic importance of Caribbean sugar colonies to the French economy and Napoleon's desire to reassert imperial control",
+          "C", "France's intention to establish a permanent military alliance with Haiti",
+          "D", "Napoleon's personal admiration for Toussaint Louverture's leadership"
+        ],
+        answer: "B"
+      },
+      {
+        num: 27,
+        set: 3,
+        stem: "The reaction of slaveholding societies in the United States, Cuba, and Brazil to the Haitian Revolution most directly demonstrated which of the following?",
+        choices: [
+          "A", "Widespread support among slaveholders for the immediate abolition of slavery",
+          "B", "The belief that the Haitian Revolution was irrelevant to other slave societies",
+          "C", "Fear that the example of a successful slave revolt could inspire similar uprisings elsewhere",
+          "D", "Slaveholders' confidence that their own enslaved populations were entirely content"
+        ],
+        answer: "C"
+      },
+      {
+        num: 28,
+        set: 3,
+        stem: "Britain's abolition of the slave trade in 1807 was most directly driven by which combination of factors?",
+        choices: [
+          "A", "Pressure from enslaved people who petitioned Parliament directly for abolition",
+          "B", "A sudden collapse in the global demand for sugar and cotton",
+          "C", "Military threats from the Haitian government against British shipping",
+          "D", "Humanitarian campaigning, economic arguments favoring free labor, and the example of the Haitian Revolution demonstrating the unsustainability of slavery"
+        ],
+        answer: "D"
+      },
+      {
+        num: 29,
+        set: 3,
+        stem: "Simón Bolívar's acceptance of Haitian material support in exchange for promising to abolish slavery most directly illustrates which of the following connections?",
+        choices: [
+          "A", "The linkage between anti-colonial nationalism and the broader Atlantic struggle against slavery",
+          "B", "The complete separation of abolition movements from Latin American independence struggles",
+          "C", "Bolívar's desire to establish a monarchy modeled on the Haitian government",
+          "D", "Haiti's intention to colonize South America"
+        ],
+        answer: "A"
+      },
+      {
+        num: 30,
+        set: 3,
+        stem: "Which of the following best explains why the Haitian Revolution did NOT immediately lead to the abolition of slavery throughout the Americas?",
+        choices: [
+          "A", "The Haitian Revolution was unknown outside of the Caribbean region",
+          "B", "Slaveholding elites in other nations strengthened legal and military mechanisms to preserve slavery, and the economic profitability of slave-produced commodities remained high",
+          "C", "Enslaved people in other regions had no knowledge of or interest in emancipation",
+          "D", "The Haitian Revolution restored slavery after a brief period of emancipation"
+        ],
+        answer: "B"
+      },
+      {
+        num: 31,
+        set: 3,
+        stem: "The role of William Wilberforce in the British abolition movement best illustrates which of the following aspects of reform in the period 1750-1900?",
+        choices: [
+          "A", "The complete irrelevance of religious motivations to social and political reform movements",
+          "B", "The inability of individual activists to influence government policy on major social issues",
+          "C", "The capacity of sustained parliamentary advocacy, rooted in evangelical Christian beliefs, to achieve significant legislative change",
+          "D", "The dominance of economic interests over all moral considerations in British political life"
+        ],
+        answer: "C"
+      },
+      {
+        num: 32,
+        set: 3,
+        stem: "The French Revolution's Declaration of the Rights of Man and Citizen (1789) created a contradiction with the institution of slavery primarily because it stated which of the following?",
+        choices: [
+          "A", "All men are born and remain free and equal in rights",
+          "B", "Only French citizens living in metropolitan France are entitled to legal protections",
+          "C", "Slavery is a natural and permanent institution that cannot be abolished",
+          "D", "Colonial territories are not subject to French law"
+        ],
+        answer: "A"
+      },
+      {
+        num: 33,
+        set: 3,
+        stem: "The long-term economic consequences of the Haitian Revolution for the newly independent nation included which of the following?",
+        choices: [
+          "A", "Rapid industrialization that made Haiti one of the wealthiest nations in the Caribbean",
+          "B", "Immediate international recognition and favorable trade agreements with European powers",
+          "C", "The establishment of a diversified economy based on manufacturing and technology",
+          "D", "Diplomatic isolation, crippling indemnity payments to France, and persistent economic underdevelopment"
+        ],
+        answer: "D"
+      },
+      // SET 4 — Questions 34-44: Chinese Revolution & Mao's China (c. 1900-present)
+      {
+        num: 34,
+        set: 4,
+        stem: "The May Fourth Movement of 1919 was most directly triggered by which of the following events?",
+        choices: [
+          "A", "The outbreak of the Chinese Civil War between Nationalists and Communists",
+          "B", "China's humiliation at the Treaty of Versailles, which transferred German concessions in Shandong to Japan",
+          "C", "The Japanese invasion of Manchuria and establishment of the puppet state of Manchukuo",
+          "D", "The success of the Bolshevik Revolution in Russia, which inspired Chinese workers to seize factories"
+        ],
+        answer: "B"
+      },
+      {
+        num: 35,
+        set: 4,
+        stem: "The May Fourth Movement's calls for modernization and democracy most closely paralleled which of the following movements in other regions?",
+        choices: [
+          "A", "The Young Turk movement's demand for constitutional reform in the Ottoman Empire",
+          "B", "The Luddite movement's destruction of industrial machinery in England",
+          "C", "The Counter-Reformation's reassertion of Catholic doctrinal authority",
+          "D", "The Romantic movement's rejection of Enlightenment rationalism in Western Europe"
+        ],
+        answer: "A"
+      },
+      {
+        num: 36,
+        set: 4,
+        stem: "The Long March of 1934-1935 is most significant in the history of the Chinese Communist revolution because it accomplished which of the following?",
+        choices: [
+          "A", "Resulted in the immediate defeat of Chiang Kai-shek's Nationalist forces",
+          "B", "Led to a formal alliance between the CCP and the United States against Japan",
+          "C", "Demonstrated the complete failure of Communist ideology to attract popular support in China",
+          "D", "Established Mao Zedong's leadership within the CCP and forged a hardened revolutionary movement"
+        ],
+        answer: "D"
+      },
+      {
+        num: 37,
+        set: 4,
+        stem: "The catastrophic famine resulting from the Great Leap Forward most directly illustrates which of the following dangers of centralized economic planning?",
+        choices: [
+          "A", "The inability of communist governments to organize any form of agricultural production",
+          "B", "The tendency of ideologically driven policies to override practical economic realities, with devastating human consequences",
+          "C", "The success of collectivized agriculture in meeting the nutritional needs of the Chinese population",
+          "D", "The complete absence of industrial growth during the period of the Great Leap Forward"
+        ],
+        answer: "B"
+      },
+      {
+        num: 38,
+        set: 4,
+        stem: "Mao's Cultural Revolution is best understood as an attempt to accomplish which of the following?",
+        choices: [
+          "A", "Promote Western liberal democratic values among Chinese youth",
+          "B", "Restore traditional Confucian social hierarchies and respect for elders",
+          "C", "Eliminate perceived ideological enemies and reassert Mao's authority by mobilizing the masses against the party establishment and traditional culture",
+          "D", "Open China to foreign investment and international trade"
+        ],
+        answer: "C"
+      },
+      {
+        num: 39,
+        set: 4,
+        stem: "The Red Guards' targeting of intellectuals, artists, and party officials during the Cultural Revolution most closely parallels which of the following historical events?",
+        choices: [
+          "A", "The Reign of Terror during the French Revolution, in which perceived enemies of the revolution were persecuted",
+          "B", "The Meiji Restoration's modernization of Japanese education and industry",
+          "C", "The Marshall Plan's reconstruction of Western Europe after World War II",
+          "D", "The Green Revolution's introduction of modern agricultural techniques in developing nations"
+        ],
+        answer: "A"
+      },
+      {
+        num: 40,
+        set: 4,
+        stem: "Deng Xiaoping's market-oriented economic reforms after Mao's death represented which of the following shifts in Chinese governance?",
+        choices: [
+          "A", "A complete transition to Western-style liberal democracy with multiparty elections",
+          "B", "A return to the policies of the Great Leap Forward and collectivized agriculture",
+          "C", "The introduction of market mechanisms and private enterprise while maintaining the political monopoly of the Chinese Communist Party",
+          "D", "The reunification of mainland China with Taiwan under a single government"
+        ],
+        answer: "C"
+      },
+      {
+        num: 41,
+        set: 4,
+        stem: "Mao Zedong's strategy of basing the Chinese Communist revolution on the peasantry rather than the urban proletariat represented a significant departure from which of the following?",
+        choices: [
+          "A", "Classical Marxist theory, which identified the industrial working class as the revolutionary vanguard",
+          "B", "Sun Yat-sen's Three Principles of the People",
+          "C", "The Confucian emphasis on social harmony and filial piety",
+          "D", "Japanese models of rapid industrialization through state-directed capitalism"
+        ],
+        answer: "A"
+      },
+      {
+        num: 42,
+        set: 4,
+        stem: "The closure of schools and universities during the Cultural Revolution had which of the following long-term consequences for Chinese society?",
+        choices: [
+          "A", "It produced a generation of highly educated revolutionary leaders",
+          "B", "It had no measurable impact on China's economic or intellectual development",
+          "C", "It led to the immediate establishment of a Western-style university system in China",
+          "D", "It created a 'lost generation' of Chinese citizens who were denied formal education during their formative years"
+        ],
+        answer: "D"
+      },
+      {
+        num: 43,
+        set: 4,
+        stem: "Which of the following best explains why the CCP ultimately defeated the Nationalists in the Chinese Civil War by 1949?",
+        choices: [
+          "A", "The CCP received direct military intervention from the Soviet Red Army throughout the civil war",
+          "B", "CCP land reform policies won peasant support, while Nationalist corruption and military failures eroded their legitimacy",
+          "C", "The Nationalists voluntarily surrendered power to avoid further bloodshed",
+          "D", "The United States withdrew all support from the Nationalists and recognized the CCP"
+        ],
+        answer: "B"
+      },
+      {
+        num: 44,
+        set: 4,
+        stem: "The founding of the People's Republic of China in 1949 most directly affected the Cold War by accomplishing which of the following?",
+        choices: [
+          "A", "Ending the Cold War by creating a neutral third power bloc",
+          "B", "Leading to an immediate military alliance between China and the United States against the Soviet Union",
+          "C", "Dramatically expanding the territory under Communist governance and intensifying Western fears of Communist expansion in Asia",
+          "D", "Causing the Soviet Union to abandon communism in favor of capitalist economic policies"
+        ],
+        answer: "C"
+      },
+      // SET 5 — Questions 45-55: Environmental History & Human Impact (c. 1200-present)
+      {
+        num: 45,
+        set: 5,
+        stem: "Medieval European deforestation was most directly driven by which of the following factors?",
+        choices: [
+          "A", "Agricultural expansion to feed growing populations and demand for timber for construction and fuel",
+          "B", "Government-mandated conservation policies that encouraged the clearing of old-growth forests",
+          "C", "The desire to create national parks and protected wilderness areas",
+          "D", "The introduction of invasive plant species from the Americas that replaced native forests"
+        ],
+        answer: "A"
+      },
+      {
+        num: 46,
+        set: 5,
+        stem: "The hypothesis that reforestation of abandoned farmland in the Americas after 1492 contributed to the Little Ice Age most directly connects which of the following historical processes?",
+        choices: [
+          "A", "The Columbian Exchange's demographic catastrophe among indigenous peoples and global climate patterns",
+          "B", "The expansion of the Atlantic slave trade and rising sea levels",
+          "C", "The Scientific Revolution and the development of accurate temperature measurement",
+          "D", "The Protestant Reformation and changes in European agricultural practices"
+        ],
+        answer: "A"
+      },
+      {
+        num: 47,
+        set: 5,
+        stem: "The transition from wood and water power to coal during the Industrial Revolution is most significant in environmental history because it initiated which of the following?",
+        choices: [
+          "A", "The complete elimination of deforestation in industrialized nations",
+          "B", "A fundamental shift to fossil fuel dependence that would drive unprecedented increases in atmospheric carbon dioxide",
+          "C", "A decline in global industrial production due to the limited availability of coal reserves",
+          "D", "The immediate recognition by governments that fossil fuels posed environmental risks"
+        ],
+        answer: "B"
+      },
+      {
+        num: 48,
+        set: 5,
+        stem: "Norman Borlaug's Green Revolution is best characterized as having which of the following dual consequences?",
+        choices: [
+          "A", "It failed to increase food production but successfully reduced environmental damage in developing nations",
+          "B", "It had no measurable impact on either food production or environmental conditions",
+          "C", "It exclusively benefited wealthy industrialized nations while worsening food insecurity in developing countries",
+          "D", "It dramatically increased crop yields and averted predicted famines while causing environmental damage through chemical inputs and resource depletion"
+        ],
+        answer: "D"
+      },
+      {
+        num: 49,
+        set: 5,
+        stem: "The Kyoto Protocol (1997) and the Paris Agreement (2015) most directly reflected which of the following realities of global environmental governance?",
+        choices: [
+          "A", "Individual nations can effectively address climate change without international coordination",
+          "B", "The scientific consensus on climate change remains highly contested among environmental researchers",
+          "C", "International cooperation on emissions reduction is necessary but difficult to implement uniformly across nations with different economic interests",
+          "D", "All nations immediately and fully complied with emissions reduction targets set by these agreements"
+        ],
+        answer: "C"
+      },
+      {
+        num: 50,
+        set: 5,
+        stem: "The Little Ice Age's impact on European societies between 1300 and 1850 most closely parallels which of the following environmental challenges?",
+        choices: [
+          "A", "The impact of desertification on Saharan trade routes in the modern era",
+          "B", "The environmental effects of nuclear testing during the Cold War",
+          "C", "The depletion of the ozone layer by chlorofluorocarbons in the late twentieth century",
+          "D", "The impact of anthropogenic climate change on global agriculture and food security in the twenty-first century"
+        ],
+        answer: "D"
+      },
+      {
+        num: 51,
+        set: 5,
+        stem: "A historian studying environmental change would most likely argue that the period since 1750 is distinct from earlier eras primarily because of which of the following?",
+        choices: [
+          "A", "Humans had no impact on the natural environment before the Industrial Revolution",
+          "B", "The scale, speed, and global reach of human environmental impact increased dramatically with industrialization and fossil fuel use",
+          "C", "Environmental damage was more severe in the medieval period than in the industrial era",
+          "D", "International environmental agreements effectively prevented all environmental degradation after 1750"
+        ],
+        answer: "B"
+      },
+      {
+        num: 52,
+        set: 5,
+        stem: "The relationship between the Columbian Exchange and environmental change in the Americas after 1492 is best described by which of the following?",
+        choices: [
+          "A", "European colonization had no measurable environmental impact on the Americas",
+          "B", "Indigenous American agricultural practices were entirely replaced by superior European farming methods",
+          "C", "The introduction of European livestock, crops, and diseases transformed American ecosystems and landscapes, while the catastrophic decline of indigenous populations allowed forests to regenerate on abandoned farmland",
+          "D", "The Columbian Exchange exclusively involved the transfer of plant species from the Americas to Europe"
+        ],
+        answer: "C"
+      },
+      {
+        num: 53,
+        set: 5,
+        stem: "Critics of the Green Revolution would most likely emphasize which of the following arguments?",
+        choices: [
+          "A", "The Green Revolution successfully solved all problems of global hunger without any negative side effects",
+          "B", "High-yield crop varieties required expensive chemical inputs that many small farmers could not afford, increasing economic inequality",
+          "C", "The Green Revolution had no measurable impact on crop yields in any region",
+          "D", "Traditional farming methods were entirely superior to modern agricultural techniques in every respect"
+        ],
+        answer: "B"
+      },
+      {
+        num: 54,
+        set: 5,
+        stem: "The uneven implementation of the Paris Agreement most directly reflects which of the following tensions in contemporary global politics?",
+        choices: [
+          "A", "The complete absence of scientific evidence linking human activity to climate change",
+          "B", "Universal agreement among all nations that immediate deindustrialization is the only solution to climate change",
+          "C", "The irrelevance of economic considerations to environmental policymaking",
+          "D", "Conflict between developing nations seeking economic growth through industrialization and the global need to reduce greenhouse gas emissions"
+        ],
+        answer: "D"
+      },
+      {
+        num: 55,
+        set: 5,
+        stem: "Which of the following best characterizes the overall trajectory of human-environment interaction as described in the passage?",
+        choices: [
+          "A", "Human impact on the environment has remained constant throughout history, with no significant changes in scale or intensity",
+          "B", "Environmental change has been driven exclusively by natural forces, with no significant human contribution",
+          "C", "Human environmental impact has accelerated over time, from localized deforestation in the medieval period to global-scale climate change in the industrial and post-industrial eras",
+          "D", "Modern technology has completely reversed all forms of environmental damage caused by human activity"
+        ],
+        answer: "C"
+      }
+    ],
+    questions: [
+      // SAQ 1 — Primary source, Al-Idrisi's world map & Islamic geography
+      {
+        num: 1,
+        type: "saq",
+        title: "SAQ 1 — Al-Idrisi's World Map & Islamic Geography",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "primary",
+        sources: [
+          {
+            label: "Source",
+            title: "Al-Idrisi, Tabula Rogeriana (Book of Pleasant Journeys into Faraway Lands), 1154",
+            description: "Muhammad al-Idrisi was an Arab geographer and cartographer who worked at the court of Roger II, the Norman king of Sicily. He compiled geographical knowledge from Greek, Arabic, and contemporary traveler sources to produce one of the most advanced world maps of the medieval period. The following is an adapted excerpt from his accompanying text.",
+            text: "I have gathered in this book descriptions of all the regions of the earth that are known to scholars and travelers, drawing upon the works of Ptolemy and al-Khwarizmi, and upon the reports of merchants, sailors, and pilgrims who have journeyed to distant lands. The inhabited earth extends from the western ocean to the farthest lands of China, and from the equatorial regions of Africa to the frozen lands of the north. The great sea that lies between Africa and the land of the Franks is navigable, and its shores are home to prosperous cities engaged in commerce. The lands of the Sudan produce gold in abundance, which is carried northward across the great desert by caravans. India and China are rich in spices, silk, and porcelain, which reach the markets of Egypt and Syria through the sea routes of the Indian Ocean. I have endeavored to represent these lands and sea routes with the greatest accuracy, correcting the errors of earlier geographers where the reports of reliable travelers have shown them to be mistaken."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way the source illustrates the extent of geographic knowledge in the Islamic world during the twelfth century." },
+          { letter: "B", prompt: "Explain ONE way in which al-Idrisi's work reflects the broader pattern of cross-cultural exchange in the period c. 1200-1450." },
+          { letter: "C", prompt: "Explain ONE way in which the context in which al-Idrisi produced this work — at the court of a Norman Christian king — might affect its content or perspective." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes an example such as the synthesis of knowledge from Greek, Arabic, and contemporary sources spanning from West Africa to China, the depiction of transcontinental trade routes, or the correction of earlier geographic errors through empirical traveler reports." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a pattern such as the role of Islamic scholars in preserving and synthesizing Greek and Roman knowledge, the facilitation of knowledge transfer along trade routes connecting Africa, Europe, and Asia, or the cosmopolitan intellectual culture of courts that drew on diverse cultural traditions." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a contextual factor such as the multicultural nature of Norman Sicily requiring a work that synthesized Christian and Islamic geographic knowledge, potential bias toward emphasizing trade routes relevant to Sicilian commerce, or the patronage relationship potentially influencing the representation of Christian lands." }
+        ]
+      },
+      // SAQ 2 — Secondary source, partition of India
+      {
+        num: 2,
+        type: "saq",
+        title: "SAQ 2 — The Partition of India (1947)",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "secondary",
+        sources: [
+          {
+            label: "Source",
+            title: "Yasmin Khan, The Great Partition: The Making of India and Pakistan (2007)",
+            description: "Yasmin Khan is a British historian of South Asian descent who has written extensively about the end of British colonial rule in India. This excerpt is from her study of the partition of British India into the independent states of India and Pakistan in 1947.",
+            text: "The partition of India in August 1947 was accompanied by one of the largest and most violent mass migrations in human history. An estimated 10 to 20 million people were displaced as Hindus and Sikhs fled from areas that became Pakistan and Muslims fled from areas that became India. Communal violence claimed the lives of between 200,000 and two million people — the exact figures remain disputed. The boundary lines, drawn hastily by British lawyer Cyril Radcliffe, who had never visited India before, divided communities, families, and economic regions that had been integrated for centuries. The tragedy of partition cannot be attributed to a single cause: the legacy of British colonial divide-and-rule policies, the hardening of Hindu and Muslim communal identities in the early twentieth century, the intransigence of political leaders on both sides, and the speed with which the British withdrew all contributed to the catastrophe. The trauma of partition continues to shape the politics and national identities of India and Pakistan to this day."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE cause of the partition of India identified in the source." },
+          { letter: "B", prompt: "Explain ONE way that the partition of India affected the political or social development of South Asia after 1947." },
+          { letter: "C", prompt: "Explain ONE way that the legacy of European colonialism contributed to ethnic or religious conflict in ANOTHER region of the world during the twentieth century." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a cause such as British divide-and-rule policies, the hardening of Hindu-Muslim communal identities, political intransigence by leaders, or the hasty and arbitrary drawing of boundaries by Cyril Radcliffe." },
+          { row: "B", category: "Part B", points: 1, description: "Explains an effect such as the creation of enduring India-Pakistan rivalry and multiple wars, the displacement of millions of refugees, the shaping of national identities around religious difference, or the ongoing conflict over Kashmir." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a parallel such as the Rwandan genocide fueled by colonial-era Belgian classification of Hutu and Tutsi identities, the Israeli-Palestinian conflict rooted in British Mandate policies, or sectarian conflict in Iraq stemming from colonial-era boundaries that grouped diverse communities." }
+        ]
+      },
+      // SAQ 3 — No stimulus, spread of Buddhism across East and Southeast Asia (c. 1200-1450)
+      {
+        num: 3,
+        type: "saq",
+        title: "SAQ 3 — Spread of Buddhism Across East and Southeast Asia (c. 1200-1450)",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way that Buddhism spread to or was practiced in a specific East or Southeast Asian society in the period c. 1200-1450." },
+          { letter: "B", prompt: "Explain ONE way that the adoption of Buddhism affected the political or cultural development of a specific East or Southeast Asian society in the period c. 1200-1450." },
+          { letter: "C", prompt: "Explain ONE way that the spread of Buddhism in East and Southeast Asia during this period was similar to OR different from the spread of another world religion in a different region." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a specific example such as Theravada Buddhism becoming the dominant religion in the Khmer Empire, the influence of Zen Buddhism on Japanese warrior culture, the role of Buddhist monasteries in educating the population of mainland Southeast Asia, or the patronage of Buddhist temples by the Yuan Dynasty." },
+          { row: "B", category: "Part B", points: 1, description: "Explains an effect such as the construction of temple complexes like Angkor Wat (originally Hindu, later Buddhist), the influence of Buddhist concepts on Japanese art and aesthetics, the role of Buddhist monks as advisors to Southeast Asian rulers, or the use of Buddhism to legitimize political authority." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a similarity or difference such as comparing the spread of Buddhism through trade and missionary activity to the spread of Islam along Indian Ocean trade routes, or contrasting the generally peaceful spread of Buddhism with the military conquests associated with the spread of Christianity during the Crusades." }
+        ]
+      },
+      // SAQ 4 — No stimulus, impact of the Cold War on Latin America (c. 1945-1990)
+      {
+        num: 4,
+        type: "saq",
+        title: "SAQ 4 — Impact of the Cold War on Latin America (c. 1945-1990)",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way that Cold War superpower competition directly affected the political development of a specific Latin American country in the period c. 1945-1990." },
+          { letter: "B", prompt: "Explain ONE way that United States foreign policy toward Latin America during the Cold War reflected broader Cold War ideological concerns." },
+          { letter: "C", prompt: "Explain ONE way that Cold War interventions in Latin America had lasting consequences for the region after 1990." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a specific example such as the CIA-backed coup in Guatemala (1954), the Cuban Revolution and Bay of Pigs invasion, US support for the overthrow of Salvador Allende in Chile (1973), or US funding of Contra rebels in Nicaragua during the 1980s." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a connection such as the US policy of containing communism by supporting anti-communist regimes regardless of their human rights records, the use of economic aid and military intervention to prevent the spread of Soviet influence, or the framing of Latin American reform movements as communist threats." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a lasting consequence such as enduring distrust of US foreign policy in the region, the legacy of authoritarian rule and human rights abuses committed by US-backed regimes, ongoing economic inequality linked to Cold War-era development policies, or the persistence of political polarization between left-wing and right-wing movements." }
+        ]
+      },
+      // DBQ — Epidemic diseases and political/economic/social structures in Afro-Eurasia (c. 1200-1500)
+      {
+        num: 5,
+        type: "dbq",
+        title: "Document-Based Question",
+        points: 7,
+        suggestedTime: 60,
+        prompt: "Evaluate the extent to which the spread of epidemic diseases affected political, economic, and/or social structures in Afro-Eurasia in the period circa 1200-1500.",
+        documents: [
+          {
+            num: 1,
+            source: "Giovanni Boccaccio, The Decameron, 1353",
+            figureId: "sim5-dbq-doc1-black-death-flagellants",
+            text: "In the year of our Lord 1348, the deadly pestilence arrived in the magnificent city of Florence. The plague showed no respect for rank or station — it struck down nobles and commoners, rich and poor alike. So many died that the customary funeral rites could not be observed. Corpses were piled in the streets, and gravediggers demanded enormous sums to carry the dead to burial. Servants abandoned their masters, and members of families fled from their own sick relatives. The bonds of human society seemed to dissolve entirely. Many believed the end of the world had arrived and abandoned all restraint, indulging in pleasure while they still could, since tomorrow they might be dead."
+          },
+          {
+            num: 2,
+            source: "Ibn Khaldun, Muqaddimah (Introduction to History), 1377",
+            text: "Civilization in both the East and the West was visited by a destructive plague which devastated nations and caused populations to vanish. It swallowed up many of the good things of civilization and wiped them out. The entire inhabited world changed. The East, in particular, was destroyed. The dynasty of the descendants of the Abbasids in Iraq was decimated. So too were the kingdoms of Persia and the lands of India. Chinese civilization suffered destruction as well. The cities of the Maghreb were depopulated, and their crafts and industries declined. When there is a general change of conditions, it is as if the entire creation had changed and the whole world been altered."
+          },
+          {
+            num: 3,
+            source: "English statute, Ordinance of Labourers, 1349",
+            text: "Because a great part of the people, and especially of workmen and servants, late died of the pestilence, many seeing the necessity of masters, and great scarcity of servants, will not serve unless they may receive excessive wages, and some are rather willing to beg in idleness than by labour to get their living; We, considering the grievous incommodities which of the lack especially of ploughmen and such labourers may hereafter come, do ordain that every man and woman of our realm of England, of whatsoever condition, free or bond, able in body and within the age of sixty years, shall be bound to serve at the wages which were accustomed to be given five or six years before the pestilence."
+          },
+          {
+            num: 4,
+            source: "Al-Maqrizi, Egyptian historian, account of the plague in Egypt, c. 1430",
+            text: "The plague struck Egypt repeatedly throughout the fourteenth and fifteenth centuries. After each outbreak, the price of grain rose sharply because so many agricultural laborers had perished that insufficient crops were harvested. The great irrigation works of the Nile Valley fell into disrepair, as there were too few workers to maintain the canals and dikes upon which Egyptian agriculture depended. Entire villages were abandoned, and the sultan's tax revenues declined drastically. The Mamluk government found itself unable to maintain its army at full strength, as both soldiers and the taxpayers who funded them had been carried off by the pestilence."
+          },
+          {
+            num: 5,
+            source: "Chronicle of Novgorod, Russian monastic chronicle, 1352",
+            text: "In the year 1352, there was a great plague in Pskov and in Novgorod and throughout all the Russian land. The people died in such great numbers that the living could not bury the dead. In Pskov, the priests could not keep up with the burials; they dug great pits and laid the dead in them by the hundreds. The people, being in great fear, turned to the Church and begged the Archbishop for mercy. Many abandoned their homes and fled into the forests, but the plague followed them there as well. Trade ceased, for merchants dared not travel, and the markets stood empty."
+          },
+          {
+            num: 6,
+            source: "Jean de Venette, French Carmelite friar, chronicle, c. 1360",
+            text: "After the pestilence had passed, the surviving laborers would not work for the accustomed wages. A ploughman who had formerly been content with two pence a day now demanded six or eight, and a servant girl who would have worked for a year's room and board now insisted upon twelve shillings. The common people, who before the plague had been humble and obedient, now showed great insolence toward their betters. Many of the lesser nobles found themselves unable to cultivate their estates, for no workers could be found at any price. The world seemed turned upside down."
+          },
+          {
+            num: 7,
+            source: "Modern historian William McNeill, Plagues and Peoples, 1976",
+            text: "The Black Death of the fourteenth century was carried along the Mongol trade routes that connected China, Central Asia, the Middle East, and Europe. The bacterium Yersinia pestis, transmitted by fleas living on rats, spread with devastating efficiency along the very commercial networks that had facilitated the exchange of goods, technologies, and ideas during the Pax Mongolica. The pandemic killed an estimated one-third of Europe's population and caused comparable devastation across the Islamic world and Central Asia. The demographic catastrophe undermined the feudal labor system in Western Europe, contributed to the weakening of the Mongol successor states, and disrupted established patterns of trade and governance across Afro-Eurasia for generations."
+          }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 3, description: "Uses at least 3 documents to address the topic (1pt), uses at least 4 documents and explains how they support the argument (2pts), uses at least 1 piece of evidence beyond the documents (1pt)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Sources at least 2 documents by explaining point of view, purpose, historical situation, or audience (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      },
+      // LEQ — Labor systems across periods
+      {
+        num: 6,
+        type: "leq",
+        title: "Long Essay Question",
+        points: 6,
+        suggestedTime: 40,
+        options: [
+          { id: 2, prompt: "In the period 1200-1450, evaluate the extent to which coerced labor systems shaped the economies of states in Afro-Eurasia." },
+          { id: 3, prompt: "In the period 1450-1750, evaluate the extent to which new labor systems developed in response to the expansion of global trade networks." },
+          { id: 4, prompt: "In the period 1750-1900, evaluate the extent to which industrialization transformed labor practices and the lives of working people." }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 2, description: "Provides specific examples of evidence relevant to the topic (1pt). Uses specific and relevant examples of evidence to support an argument (2pts)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Uses historical reasoning to frame or structure an argument (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      }
+    ]
+  },  // ========================================================================
   // EXAM 1: Official 2025 Set 1
   // ========================================================================
   {
