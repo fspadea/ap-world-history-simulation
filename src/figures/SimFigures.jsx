@@ -98,6 +98,21 @@ const FIGURES = {
     src: "/images/sim2-dbq-doc4-slave-ship-diagram.png",
     alt: "Cross-section diagram of the British slave ship Brookes, showing enslaved Africans packed tightly into the lower deck, 1788.",
   },
+
+  // ── Simulation 3 Visuals ───────────────────────────────────────────────
+
+  "sim3-set1-indian-ocean-trade-map": {
+    src: "/images/sim3-set1-indian-ocean-trade-map.png",
+    alt: "Map of Indian Ocean maritime trade routes circa 1300 CE, showing Swahili Coast ports, Arabian Peninsula, India, Southeast Asia, and China with monsoon wind patterns.",
+  },
+  "sim3-saq1-marco-polo-hangzhou": {
+    src: "/images/sim3-saq1-marco-polo-hangzhou.png",
+    alt: "Medieval manuscript-style illustration of the city of Hangzhou (Kinsai) during the Yuan Dynasty, c. 1290, with canals, bridges, and bustling markets.",
+  },
+  "sim3-dbq-doc3-indian-textile-workers": {
+    src: "/images/sim3-dbq-doc3-indian-textile-workers.png",
+    alt: "Victorian-era engraving of Indian cotton textile workers operating looms under British colonial oversight, c. 1860.",
+  },
 };
 
 export function renderVisual(figureId) {

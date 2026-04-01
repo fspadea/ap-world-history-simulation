@@ -1781,6 +1781,896 @@ const ALL_TESTS = [
   },
 
   // ========================================================================
+  // SIMULATION 3: Practice Simulation 3
+  // ========================================================================
+  {
+    id: "sim3",
+    label: "Practice Simulation 3",
+    description: "Full-length AP World History: Modern exam — 55 MC + SAQ + DBQ + LEQ",
+    badge: "Practice",
+    year: 2025,
+    totalMCTime: 3300,
+    mcSets: [
+      {
+        id: "set1",
+        setNum: 1,
+        figureId: "sim3-set1-indian-ocean-trade-map",
+        title: "Set 1 — Indian Ocean Trade Networks & the Swahili Coast (c. 1200-1450)",
+        passage: "The Indian Ocean served as one of the most dynamic zones of exchange in the premodern world. Seasonal monsoon winds allowed merchants from East Africa, Arabia, Persia, India, Southeast Asia, and China to participate in a vast commercial network. Along the East African coast, a string of city-states — including Kilwa, Mombasa, and Mogadishu — flourished as intermediaries in this trade. The Moroccan traveler Ibn Battuta, visiting Kilwa in 1331, described it as one of the most beautiful cities in the world, noting its stone buildings, mosques, and thriving markets. Archaeological excavations at Kilwa and other Swahili sites have uncovered Chinese porcelain fragments dating from the Song and Yuan dynasties, Indian glass beads, and Persian ceramics, testifying to the breadth of the trade connections. Swahili, a Bantu language enriched with Arabic loanwords, emerged as a lingua franca of commerce along the coast. Local rulers converted to Islam, which facilitated their participation in the broader commercial networks of the Islamic world, while also retaining many indigenous African cultural practices."
+      },
+      {
+        id: "set2",
+        setNum: 2,
+        title: "Set 2 — The Spanish Colonial Empire in the Americas (c. 1450-1750)",
+        passage: "The Spanish Empire in the Americas was built upon the conquest of indigenous civilizations and the exploitation of their labor and resources. The encomienda system granted Spanish colonists the right to demand tribute and labor from indigenous communities in exchange for nominal protection and Christian instruction. In the highlands of Peru, the Spanish adapted the Inca mita system, compelling indigenous workers to labor in the silver mines of Potosí, which by the late sixteenth century had become the largest source of silver in the world. The enormous quantities of silver extracted from Potosí and other mines flowed across the Atlantic to Spain, and much of it continued eastward through the Manila galleon trade to China, where demand for silver was insatiable. Spanish colonial society was organized around an elaborate racial hierarchy known as the casta system, which classified individuals according to their ancestry — peninsulares, criollos, mestizos, mulatos, and indigenous peoples each occupied distinct social positions. This system reinforced Spanish dominance while creating a complex, stratified society unlike anything that had existed before the conquest."
+      },
+      {
+        id: "set3",
+        setNum: 3,
+        title: "Set 3 — The Meiji Restoration & Japanese Modernization (c. 1750-1900)",
+        passage: "In 1853, Commodore Matthew Perry of the United States Navy arrived in Edo Bay with a squadron of warships, demanding that Japan open its ports to American trade. The resulting unequal treaties exposed the weakness of the Tokugawa shogunate and contributed to its overthrow in 1868. The new Meiji government embarked on a sweeping program of modernization, summarized by the slogan 'rich country, strong army.' The Iwakura Mission of 1871-1873 sent senior officials to Europe and the United States to study Western institutions, technology, and military organization. Japan rapidly industrialized, building railroads, telegraph lines, and modern factories — many initially staffed by foreign advisors. A new conscript army replaced the samurai warrior class, and a constitution modeled partly on Prussia's was promulgated in 1889. Japan's victory in the Sino-Japanese War of 1894-1895, which resulted in the acquisition of Taiwan and recognition of Japanese influence in Korea, announced the emergence of a new imperial power in East Asia and challenged the assumption that modernization was an exclusively Western achievement."
+      },
+      {
+        id: "set4",
+        setNum: 4,
+        title: "Set 4 — World War I & Its Global Consequences (c. 1900-present)",
+        passage: "World War I was the first truly global industrialized conflict, mobilizing the resources and populations of empires spanning every continent. The concept of 'total war' blurred the distinction between soldiers and civilians, as governments directed entire economies toward the war effort, rationed food, conscripted labor, and deployed propaganda on an unprecedented scale. The collapse of the Ottoman Empire after the war led to the creation of the League of Nations mandate system, through which Britain and France assumed control of former Ottoman territories in the Middle East — including Iraq, Syria, Lebanon, and Palestine — under the guise of preparing them for eventual self-governance. Colonial soldiers from Africa, South Asia, and the Caribbean served in large numbers on European battlefields; over one million Indian troops fought for the British Empire, and France recruited hundreds of thousands of soldiers from West and North Africa. These soldiers returned home with heightened expectations of political rights and self-determination, expectations that colonial powers were largely unwilling to fulfill, thereby planting seeds for future independence movements."
+      },
+      {
+        id: "set5",
+        setNum: 5,
+        title: "Set 5 — Globalization & Its Discontents (c. 1900-present)",
+        passage: "The late twentieth and early twenty-first centuries witnessed an acceleration of globalization driven by international trade agreements, advances in communication technology, and the integration of markets across national boundaries. The establishment of the World Trade Organization (WTO) in 1995 created a framework for reducing tariffs and resolving trade disputes, promoting the free flow of goods and capital across borders. Critics of globalization, however, argued that it primarily benefited wealthy nations and multinational corporations at the expense of workers and communities in the developing world. Cultural homogenization — the spread of Western consumer brands, entertainment, and English as a global language — provoked backlash from those who feared the erosion of local traditions and identities. Environmental challenges, including climate change, deforestation, and pollution, increasingly transcended national borders, demanding coordinated international responses. The digital revolution, powered by the internet and mobile telecommunications, connected billions of people but also created new forms of inequality between those with access to technology and those without."
+      }
+    ],
+    mcQuestions: [
+      // SET 1 — Questions 1-11: Indian Ocean Trade & Swahili Coast (c. 1200-1450)
+      {
+        num: 1,
+        set: 1,
+        stem: "The discovery of Chinese porcelain fragments at Swahili coastal sites most directly supports which of the following claims about the Indian Ocean trade network?",
+        choices: [
+          "A", "Chinese merchants established permanent colonies along the East African coast",
+          "B", "Long-distance maritime trade connected East Africa to markets in East and Southeast Asia",
+          "C", "China exercised direct political control over the Swahili city-states",
+          "D", "East African merchants traveled regularly to Chinese ports to purchase goods"
+        ],
+        answer: "B"
+      },
+      {
+        num: 2,
+        set: 1,
+        stem: "The development of Swahili as a lingua franca along the East African coast is best understood as an example of which of the following historical processes?",
+        choices: [
+          "A", "The forced imposition of a colonial language on conquered peoples",
+          "B", "Cultural syncretism resulting from sustained cross-cultural contact through trade",
+          "C", "The deliberate creation of an artificial language by merchant guilds",
+          "D", "The replacement of African languages by Arabic following military conquest"
+        ],
+        answer: "B"
+      },
+      {
+        num: 3,
+        set: 1,
+        stem: "The conversion of Swahili rulers to Islam, as described in the passage, most directly served which of the following purposes?",
+        choices: [
+          "A", "It enabled Swahili rulers to participate more fully in the commercial networks of the Islamic world",
+          "B", "It reflected the military conquest of East Africa by Arab armies",
+          "C", "It eliminated all indigenous African cultural practices from the Swahili coast",
+          "D", "It established a unified political authority over all East African city-states"
+        ],
+        answer: "A"
+      },
+      {
+        num: 4,
+        set: 1,
+        stem: "The seasonal monsoon wind patterns of the Indian Ocean most directly influenced which of the following?",
+        choices: [
+          "A", "The political centralization of South Asian empires",
+          "B", "The timing and direction of maritime trade voyages across the ocean",
+          "C", "The development of overland trade routes connecting Africa to China",
+          "D", "The spread of Christianity throughout the Indian Ocean basin"
+        ],
+        answer: "B"
+      },
+      {
+        num: 5,
+        set: 1,
+        stem: "Ibn Battuta's description of Kilwa as 'one of the most beautiful cities in the world' is most useful to historians as evidence of which of the following?",
+        choices: [
+          "A", "The military superiority of East African city-states over their neighbors",
+          "B", "The wealth generated by Indian Ocean trade and its impact on urban development",
+          "C", "The complete absence of poverty in premodern East African societies",
+          "D", "The dominance of European architectural styles in Indian Ocean port cities"
+        ],
+        answer: "B"
+      },
+      {
+        num: 6,
+        set: 1,
+        stem: "The trade connections described in the passage most directly parallel those of which of the following contemporary networks?",
+        choices: [
+          "A", "The trans-Saharan trade linking West Africa to the Mediterranean",
+          "B", "The Atlantic triangular trade connecting Europe, Africa, and the Americas",
+          "C", "The overland Silk Roads connecting China to the Byzantine Empire",
+          "D", "The fur trade between French colonists and Native Americans"
+        ],
+        answer: "C"
+      },
+      {
+        num: 7,
+        set: 1,
+        stem: "A historian studying the Swahili coast would most likely need to consider which of the following limitations when using Ibn Battuta's account as a source?",
+        choices: [
+          "A", "Ibn Battuta wrote from the perspective of a Muslim traveler and may have emphasized Islamic aspects of Swahili culture while downplaying indigenous African traditions",
+          "B", "Ibn Battuta was a European Christian missionary with no understanding of Islamic culture",
+          "C", "Ibn Battuta visited the Swahili coast centuries before the Indian Ocean trade network existed",
+          "D", "Ibn Battuta's account was written in Chinese and has been poorly translated"
+        ],
+        answer: "A"
+      },
+      {
+        num: 8,
+        set: 1,
+        stem: "The coexistence of Islam with indigenous African cultural practices on the Swahili coast is most similar to which of the following developments in other regions?",
+        choices: [
+          "A", "The adoption of Buddhism in Japan alongside existing Shinto traditions",
+          "B", "The forced conversion of indigenous peoples to Christianity in the Spanish Americas",
+          "C", "The complete replacement of Hinduism by Islam in the Delhi Sultanate",
+          "D", "The prohibition of all non-Christian religions in medieval Europe"
+        ],
+        answer: "A"
+      },
+      {
+        num: 9,
+        set: 1,
+        stem: "Which of the following developments most directly contributed to the decline of Swahili city-states' dominance in Indian Ocean trade after the period described in the passage?",
+        choices: [
+          "A", "The arrival of Portuguese naval forces in the Indian Ocean in the late fifteenth and early sixteenth centuries",
+          "B", "The expansion of the Mongol Empire into East Africa",
+          "C", "The collapse of the Chinese Song Dynasty and the end of Chinese maritime trade",
+          "D", "The spread of the Black Death to the East African coast"
+        ],
+        answer: "A"
+      },
+      {
+        num: 10,
+        set: 1,
+        stem: "The political organization of the Swahili coast as a series of independent city-states rather than a unified empire is most comparable to which of the following?",
+        choices: [
+          "A", "The centralized bureaucratic state of Ming Dynasty China",
+          "B", "The independent city-states of Renaissance Italy",
+          "C", "The vast territorial empire of the Mongols under Genghis Khan",
+          "D", "The feudal monarchy of medieval France"
+        ],
+        answer: "B"
+      },
+      {
+        num: 11,
+        set: 1,
+        stem: "The archaeological evidence of Chinese, Indian, and Persian goods found at Swahili sites most directly demonstrates which of the following about the Indian Ocean trade network?",
+        choices: [
+          "A", "Trade was controlled by a single dominant political power that regulated all commerce",
+          "B", "The network facilitated the exchange of goods across vast distances involving multiple cultural regions",
+          "C", "East African city-states manufactured porcelain and glass beads for export to Asia",
+          "D", "Indian Ocean trade was limited to luxury goods and had no impact on ordinary people"
+        ],
+        answer: "B"
+      },
+      // SET 2 — Questions 12-22: Spanish Colonial Empire (c. 1450-1750)
+      {
+        num: 12,
+        set: 2,
+        stem: "The encomienda system described in the passage most directly served which of the following purposes for the Spanish colonial state?",
+        choices: [
+          "A", "Providing indigenous peoples with education and economic opportunity",
+          "B", "Securing a labor force for Spanish colonists while maintaining the fiction of indigenous freedom",
+          "C", "Encouraging voluntary migration of indigenous peoples to Spanish cities",
+          "D", "Establishing diplomatic alliances between Spanish colonists and indigenous leaders"
+        ],
+        answer: "B"
+      },
+      {
+        num: 13,
+        set: 2,
+        stem: "The flow of silver from Potosí through Spain to China via the Manila galleon trade most directly illustrates which of the following developments?",
+        choices: [
+          "A", "The emergence of the first truly global economy connecting the Americas, Europe, and Asia",
+          "B", "China's military dominance over the Spanish Empire in the Pacific region",
+          "C", "The decline of European interest in Asian luxury goods",
+          "D", "The isolation of the Americas from global trade networks"
+        ],
+        answer: "A"
+      },
+      {
+        num: 14,
+        set: 2,
+        stem: "The casta system described in the passage most closely served which of the following functions in Spanish colonial society?",
+        choices: [
+          "A", "Promoting social mobility and equality among all colonial subjects",
+          "B", "Reinforcing a hierarchical social order based on racial and ethnic categories",
+          "C", "Encouraging intermarriage between Spanish colonists and indigenous peoples",
+          "D", "Eliminating all cultural differences within the Spanish colonial population"
+        ],
+        answer: "B"
+      },
+      {
+        num: 15,
+        set: 2,
+        stem: "The Spanish adaptation of the Inca mita system for use in the silver mines of Potosí best illustrates which of the following patterns of colonial governance?",
+        choices: [
+          "A", "European colonizers frequently adapted existing indigenous institutions to serve colonial economic objectives",
+          "B", "Indigenous labor systems were entirely abolished and replaced with European practices",
+          "C", "The Spanish Empire relied exclusively on enslaved African labor in all its colonial enterprises",
+          "D", "Colonial mining operations were conducted voluntarily by indigenous workers seeking wages"
+        ],
+        answer: "A"
+      },
+      {
+        num: 16,
+        set: 2,
+        stem: "The massive quantities of silver extracted from Potosí most directly contributed to which of the following economic developments in Europe?",
+        choices: [
+          "A", "A prolonged period of deflation that reduced the cost of living for ordinary Europeans",
+          "B", "A significant price revolution characterized by inflation across the European economy",
+          "C", "The decline of European trade with Asia due to an oversupply of precious metals",
+          "D", "The complete abandonment of gold as a medium of exchange"
+        ],
+        answer: "B"
+      },
+      {
+        num: 17,
+        set: 2,
+        stem: "The distinction between peninsulares and criollos in the casta system most directly contributed to which of the following later developments?",
+        choices: [
+          "A", "The abolition of slavery throughout the Spanish Americas in the sixteenth century",
+          "B", "Criollo resentment of peninsular privilege, which fueled nineteenth-century independence movements",
+          "C", "The peaceful unification of all Spanish colonial territories into a single nation-state",
+          "D", "The voluntary return of all Spanish colonists to the Iberian Peninsula"
+        ],
+        answer: "B"
+      },
+      {
+        num: 18,
+        set: 2,
+        stem: "The Manila galleon trade described in the passage is most significant because it demonstrates which of the following?",
+        choices: [
+          "A", "Spain's ability to connect its American colonies directly to Asian markets across the Pacific Ocean",
+          "B", "The Philippines' independence from European colonial control during this period",
+          "C", "China's refusal to participate in international trade during the early modern period",
+          "D", "The decline of silver as a valuable commodity in the global economy"
+        ],
+        answer: "A"
+      },
+      {
+        num: 19,
+        set: 2,
+        stem: "The labor conditions in the silver mines of Potosí as described in the passage would most likely be criticized by which of the following contemporaries?",
+        choices: [
+          "A", "Bartolomé de las Casas, who advocated for the rights of indigenous peoples",
+          "B", "Niccolò Machiavelli, who argued that rulers should prioritize state power above moral concerns",
+          "C", "Martin Luther, who focused his reform efforts on Church theology rather than colonial policy",
+          "D", "Zheng He, who commanded Chinese maritime expeditions in the Indian Ocean"
+        ],
+        answer: "A"
+      },
+      {
+        num: 20,
+        set: 2,
+        stem: "The demographic consequences of the Spanish colonial system in the Americas were most directly comparable to which of the following?",
+        choices: [
+          "A", "The population growth experienced in China during the Song Dynasty",
+          "B", "The devastation caused by the Black Death in fourteenth-century Europe",
+          "C", "The expansion of agricultural settlement in medieval Eastern Europe",
+          "D", "The urban growth driven by the Industrial Revolution in nineteenth-century England"
+        ],
+        answer: "B"
+      },
+      {
+        num: 21,
+        set: 2,
+        stem: "Which of the following best describes a key difference between the Spanish encomienda system and the later Atlantic plantation system?",
+        choices: [
+          "A", "The encomienda system compelled indigenous labor through legal obligation, while plantation systems relied primarily on enslaved African labor",
+          "B", "The plantation system was exclusively located in Asia, while the encomienda was limited to Africa",
+          "C", "The encomienda system produced manufactured goods, while plantations focused on mineral extraction",
+          "D", "The plantation system was a voluntary arrangement, while the encomienda was based on military conquest"
+        ],
+        answer: "A"
+      },
+      {
+        num: 22,
+        set: 2,
+        stem: "A historian analyzing the casta system would most likely conclude that it served primarily to accomplish which of the following?",
+        choices: [
+          "A", "Ensure equal representation of all ethnic groups in colonial government",
+          "B", "Maintain Spanish colonial power by institutionalizing racial hierarchies that privileged European ancestry",
+          "C", "Promote scientific understanding of human biological diversity",
+          "D", "Encourage the rapid assimilation of all colonial subjects into Spanish culture"
+        ],
+        answer: "B"
+      },
+      // SET 3 — Questions 23-33: Meiji Restoration (c. 1750-1900)
+      {
+        num: 23,
+        set: 3,
+        stem: "Commodore Perry's arrival in Japan in 1853 most directly led to which of the following?",
+        choices: [
+          "A", "Japan's immediate colonization by the United States",
+          "B", "The signing of unequal treaties that opened Japanese ports to foreign trade",
+          "C", "A period of Japanese isolation even more restrictive than that under the Tokugawa",
+          "D", "The formation of a military alliance between Japan and China against Western powers"
+        ],
+        answer: "B"
+      },
+      {
+        num: 24,
+        set: 3,
+        stem: "The Meiji government's slogan 'rich country, strong army' most directly reflected which of the following goals?",
+        choices: [
+          "A", "Restoring Japan to its pre-Tokugawa feudal political structure",
+          "B", "Building national wealth and military power to resist Western imperialism",
+          "C", "Establishing a communist economic system modeled on Marxist principles",
+          "D", "Abandoning all aspects of Japanese culture in favor of Western civilization"
+        ],
+        answer: "B"
+      },
+      {
+        num: 25,
+        set: 3,
+        stem: "The Iwakura Mission of 1871-1873 is most significant because it demonstrates which of the following aspects of Meiji modernization?",
+        choices: [
+          "A", "Japan's deliberate and systematic study of Western institutions as models for reform",
+          "B", "Japan's attempt to form a military alliance with European colonial powers",
+          "C", "The Meiji government's rejection of all Western influence on Japanese society",
+          "D", "Japan's desire to export its own cultural and political institutions to the West"
+        ],
+        answer: "A"
+      },
+      {
+        num: 26,
+        set: 3,
+        stem: "The replacement of the samurai warrior class with a modern conscript army most directly reflected which of the following broader patterns of nineteenth-century state-building?",
+        choices: [
+          "A", "The trend toward professional, centralized national armies replacing feudal military arrangements",
+          "B", "The global decline of military conflict as nations adopted pacifist foreign policies",
+          "C", "The increasing reliance on mercenary forces by modernizing states",
+          "D", "The restoration of aristocratic military privileges in response to popular demands"
+        ],
+        answer: "A"
+      },
+      {
+        num: 27,
+        set: 3,
+        stem: "Japan's adoption of a constitution modeled partly on Prussia's in 1889 most directly served which of the following purposes?",
+        choices: [
+          "A", "Establishing a fully democratic republic with universal suffrage",
+          "B", "Creating a constitutional framework that modernized governance while preserving imperial authority",
+          "C", "Abolishing the emperor's role and transferring all power to an elected parliament",
+          "D", "Rejecting Western political models in favor of traditional Confucian governance"
+        ],
+        answer: "B"
+      },
+      {
+        num: 28,
+        set: 3,
+        stem: "Japan's victory in the Sino-Japanese War of 1894-1895 was globally significant primarily because it demonstrated which of the following?",
+        choices: [
+          "A", "That non-Western nations could successfully adopt Western-style industrialization and military modernization",
+          "B", "That China had become the dominant military power in East Asia",
+          "C", "That Western nations were willing to support Asian countries against each other",
+          "D", "That traditional military tactics were superior to modern industrial warfare"
+        ],
+        answer: "A"
+      },
+      {
+        num: 29,
+        set: 3,
+        stem: "The Meiji government's use of foreign advisors in building modern factories is most comparable to which of the following developments in other states?",
+        choices: [
+          "A", "Peter the Great's hiring of Western European experts to modernize Russia's military and industry",
+          "B", "The Qing Dynasty's complete rejection of all foreign technology and expertise",
+          "C", "The Ottoman Empire's reliance on the devshirme system to recruit government officials",
+          "D", "The Mughal Empire's use of Hindu administrators in its bureaucratic system"
+        ],
+        answer: "A"
+      },
+      {
+        num: 30,
+        set: 3,
+        stem: "Which of the following best explains why the Tokugawa shogunate was unable to resist Perry's demands in 1853?",
+        choices: [
+          "A", "Japan had been weakened by decades of civil war immediately prior to Perry's arrival",
+          "B", "Japan's military technology had fallen behind that of Western industrialized nations during its period of relative isolation",
+          "C", "The Japanese emperor had already secretly agreed to open the country to American trade",
+          "D", "Perry offered Japan advanced weapons technology in exchange for trade concessions"
+        ],
+        answer: "B"
+      },
+      {
+        num: 31,
+        set: 3,
+        stem: "The Meiji Restoration differed most significantly from China's Self-Strengthening Movement (1861-1895) in which of the following ways?",
+        choices: [
+          "A", "Japan pursued comprehensive institutional reforms while China attempted to adopt Western technology without fundamentally changing its political system",
+          "B", "China modernized more rapidly and successfully than Japan during this period",
+          "C", "Japan rejected all Western influence while China embraced it enthusiastically",
+          "D", "China's reforms were led by a revolutionary new government while Japan's were directed by the existing ruling class"
+        ],
+        answer: "A"
+      },
+      {
+        num: 32,
+        set: 3,
+        stem: "The acquisition of Taiwan following the Sino-Japanese War marked the beginning of which of the following developments in Japanese history?",
+        choices: [
+          "A", "Japan's transformation from a target of imperialism to an imperial power in its own right",
+          "B", "Japan's withdrawal from international affairs and return to isolationism",
+          "C", "The peaceful unification of all East Asian nations under Japanese leadership",
+          "D", "The decline of Japanese military power and industrial capacity"
+        ],
+        answer: "A"
+      },
+      {
+        num: 33,
+        set: 3,
+        stem: "A historian would most likely use the Meiji Restoration as evidence to support which of the following arguments?",
+        choices: [
+          "A", "Industrialization was only possible in societies with a Western cultural heritage",
+          "B", "Centralized state direction and selective borrowing from foreign models could enable rapid modernization",
+          "C", "Democratic governance was a necessary precondition for successful industrialization",
+          "D", "Modernization inevitably led to the complete abandonment of traditional cultural values"
+        ],
+        answer: "B"
+      },
+      // SET 4 — Questions 34-44: World War I & Global Consequences (c. 1900-present)
+      {
+        num: 34,
+        set: 4,
+        stem: "The concept of 'total war' as described in the passage most directly refers to which of the following?",
+        choices: [
+          "A", "Warfare limited exclusively to professional armies fighting on defined battlefields",
+          "B", "The mobilization of entire societies — including civilian populations, economies, and industrial resources — for the war effort",
+          "C", "The use of nuclear weapons to achieve decisive military victory",
+          "D", "Diplomatic negotiations that replaced armed conflict between major powers"
+        ],
+        answer: "B"
+      },
+      {
+        num: 35,
+        set: 4,
+        stem: "The League of Nations mandate system described in the passage most directly reflected which of the following contradictions in the post-World War I settlement?",
+        choices: [
+          "A", "The promise of self-determination was applied selectively, as European powers maintained control over former Ottoman territories",
+          "B", "The League of Nations granted immediate independence to all former colonial territories",
+          "C", "The mandate system was designed to expand the Ottoman Empire rather than dismantle it",
+          "D", "European powers voluntarily withdrew from all Middle Eastern territories after the war"
+        ],
+        answer: "A"
+      },
+      {
+        num: 36,
+        set: 4,
+        stem: "The service of over one million Indian troops in the British armed forces during World War I most directly contributed to which of the following developments?",
+        choices: [
+          "A", "The immediate granting of full independence to India in 1918",
+          "B", "Growing demands for political rights and self-governance among Indian colonial subjects",
+          "C", "The strengthening of British colonial control over India through military gratitude",
+          "D", "The decline of Indian nationalist movements as colonial subjects embraced British identity"
+        ],
+        answer: "B"
+      },
+      {
+        num: 37,
+        set: 4,
+        stem: "The collapse of the Ottoman Empire after World War I most directly led to which of the following geopolitical developments?",
+        choices: [
+          "A", "The unification of all Middle Eastern peoples into a single Arab state",
+          "B", "The creation of new nation-states and European-controlled mandates in the Middle East",
+          "C", "The restoration of Byzantine authority over former Ottoman territories",
+          "D", "The voluntary adoption of European-style democratic governance throughout the region"
+        ],
+        answer: "B"
+      },
+      {
+        num: 38,
+        set: 4,
+        stem: "The use of propaganda on an 'unprecedented scale' during World War I as described in the passage most directly demonstrates which of the following?",
+        choices: [
+          "A", "The declining importance of public opinion in modern warfare",
+          "B", "Governments' recognition that sustaining civilian morale was essential to the total war effort",
+          "C", "The absence of censorship in wartime democracies",
+          "D", "The success of pacifist movements in ending the war quickly"
+        ],
+        answer: "B"
+      },
+      {
+        num: 39,
+        set: 4,
+        stem: "France's recruitment of hundreds of thousands of soldiers from West and North Africa during World War I is most directly comparable to which of the following?",
+        choices: [
+          "A", "The Ottoman devshirme system of recruiting Christian boys for military service",
+          "B", "Britain's use of Indian sepoys in colonial military campaigns during the eighteenth and nineteenth centuries",
+          "C", "The use of mercenary forces by Italian city-states during the Renaissance",
+          "D", "The Mongol practice of incorporating conquered peoples into their armies"
+        ],
+        answer: "B"
+      },
+      {
+        num: 40,
+        set: 4,
+        stem: "The passage states that colonial soldiers 'returned home with heightened expectations of political rights.' This development is best explained by which of the following?",
+        choices: [
+          "A", "Colonial governments had promised full citizenship to all soldiers who served in the war",
+          "B", "Exposure to European ideas of nationalism and self-determination, combined with resentment over unequal treatment, radicalized colonial soldiers",
+          "C", "Colonial soldiers had gained control of advanced military technology that they could use to overthrow colonial rule",
+          "D", "European colonial powers voluntarily agreed to decolonization as a reward for wartime service"
+        ],
+        answer: "B"
+      },
+      {
+        num: 41,
+        set: 4,
+        stem: "The transformation of warfare described in the passage — including the use of industrial technology, conscription, and economic mobilization — most directly resulted from which of the following earlier developments?",
+        choices: [
+          "A", "The Industrial Revolution's creation of new weapons technology and mass production capabilities",
+          "B", "The decline of European monarchies and the rise of pacifist governments",
+          "C", "The spread of Enlightenment ideas about the moral limitations of warfare",
+          "D", "The global decline of military spending in the decades before 1914"
+        ],
+        answer: "A"
+      },
+      {
+        num: 42,
+        set: 4,
+        stem: "The mandate system's stated goal of 'preparing' former Ottoman territories for self-governance is most directly an example of which of the following?",
+        choices: [
+          "A", "Genuine commitment to rapid decolonization by European imperial powers",
+          "B", "The use of civilizing mission rhetoric to justify continued European imperial control",
+          "C", "The successful application of Wilsonian self-determination principles in all cases",
+          "D", "The voluntary request by Middle Eastern peoples for European guidance"
+        ],
+        answer: "B"
+      },
+      {
+        num: 43,
+        set: 4,
+        stem: "Which of the following was a direct long-term consequence of the post-World War I settlement in the Middle East as described in the passage?",
+        choices: [
+          "A", "The establishment of stable, democratic nation-states throughout the region",
+          "B", "Ongoing political instability and conflict rooted in borders drawn without regard for ethnic and religious divisions",
+          "C", "The permanent exclusion of the Middle East from global economic networks",
+          "D", "The peaceful resolution of all territorial disputes through League of Nations arbitration"
+        ],
+        answer: "B"
+      },
+      {
+        num: 44,
+        set: 4,
+        stem: "The experience of World War I most directly challenged which of the following prevailing beliefs of the pre-war era?",
+        choices: [
+          "A", "The belief that technological progress and European civilization would inevitably lead to peace and human advancement",
+          "B", "The belief that colonial empires were economically unprofitable and should be abandoned",
+          "C", "The belief that democratic governments were incapable of waging effective warfare",
+          "D", "The belief that industrial production was irrelevant to military power"
+        ],
+        answer: "A"
+      },
+      // SET 5 — Questions 45-55: Globalization & Its Discontents (c. 1900-present)
+      {
+        num: 45,
+        set: 5,
+        stem: "The establishment of the World Trade Organization in 1995 most directly represented which of the following trends in the late twentieth century?",
+        choices: [
+          "A", "The increasing willingness of nations to reduce trade barriers and integrate into a global economy",
+          "B", "The rejection of free trade in favor of protectionist economic policies",
+          "C", "The decline of international institutions in the post-Cold War world",
+          "D", "The dominance of communist economic models in global trade"
+        ],
+        answer: "A"
+      },
+      {
+        num: 46,
+        set: 5,
+        stem: "Critics of globalization as described in the passage would most likely agree with which of the following statements?",
+        choices: [
+          "A", "Free trade agreements have equally benefited all nations and social classes",
+          "B", "The benefits of globalization have been unevenly distributed, often favoring wealthy nations and corporations over workers in developing countries",
+          "C", "Globalization has had no measurable impact on economic inequality",
+          "D", "International trade should be completely eliminated to protect local economies"
+        ],
+        answer: "B"
+      },
+      {
+        num: 47,
+        set: 5,
+        stem: "The concern over cultural homogenization described in the passage most directly parallels which of the following historical patterns?",
+        choices: [
+          "A", "The spread of Hellenistic culture across the eastern Mediterranean following Alexander's conquests",
+          "B", "The development of completely isolated civilizations with no cross-cultural contact",
+          "C", "The decline of all forms of cultural exchange after 1900",
+          "D", "The triumph of local cultures over all external influences throughout modern history"
+        ],
+        answer: "A"
+      },
+      {
+        num: 48,
+        set: 5,
+        stem: "The environmental challenges described in the passage — including climate change and deforestation — most directly illustrate which of the following characteristics of globalization?",
+        choices: [
+          "A", "Environmental problems are confined to individual nations and require only local solutions",
+          "B", "Global economic integration has created transnational environmental problems that require international cooperation to address",
+          "C", "Industrialization has had no significant impact on the global environment",
+          "D", "Environmental problems have been completely solved through technological innovation"
+        ],
+        answer: "B"
+      },
+      {
+        num: 49,
+        set: 5,
+        stem: "The 'digital divide' referenced in the passage — the inequality between those with and without access to technology — is most directly comparable to which of the following earlier historical phenomena?",
+        choices: [
+          "A", "The gap between industrialized and non-industrialized nations during the nineteenth century",
+          "B", "The religious divisions between Catholics and Protestants during the Reformation",
+          "C", "The political rivalry between Athens and Sparta in ancient Greece",
+          "D", "The linguistic differences between Romance and Germanic languages in medieval Europe"
+        ],
+        answer: "A"
+      },
+      {
+        num: 50,
+        set: 5,
+        stem: "The backlash against the spread of Western consumer culture described in the passage is best understood as an example of which of the following?",
+        choices: [
+          "A", "Resistance movements that seek to preserve local cultural identities against perceived foreign domination",
+          "B", "Universal acceptance of Western cultural values across all societies",
+          "C", "The complete disappearance of non-Western cultural traditions by the twenty-first century",
+          "D", "The deliberate destruction of Western cultural products by national governments"
+        ],
+        answer: "A"
+      },
+      {
+        num: 51,
+        set: 5,
+        stem: "The role of the internet and mobile telecommunications in connecting billions of people, as described in the passage, most directly contributed to which of the following?",
+        choices: [
+          "A", "The elimination of all cultural and linguistic barriers between peoples",
+          "B", "New forms of political activism, social movements, and the rapid dissemination of information across borders",
+          "C", "The decline of all forms of traditional media and communication",
+          "D", "Universal access to technology in every region of the world"
+        ],
+        answer: "B"
+      },
+      {
+        num: 52,
+        set: 5,
+        stem: "A historian would most likely argue that the globalization described in the passage differs from earlier forms of global exchange primarily because of which of the following?",
+        choices: [
+          "A", "The speed and scale of economic integration, enabled by modern transportation and communication technology",
+          "B", "The complete absence of international trade before the twentieth century",
+          "C", "The fact that earlier trade networks had no cultural or environmental consequences",
+          "D", "The dominance of African and Asian economies in the modern global system"
+        ],
+        answer: "A"
+      },
+      {
+        num: 53,
+        set: 5,
+        stem: "The WTO's framework for reducing tariffs and resolving trade disputes most directly reflects the influence of which of the following economic ideologies?",
+        choices: [
+          "A", "Mercantilism, which emphasized the accumulation of gold and trade surpluses",
+          "B", "Marxism, which advocated for state ownership of the means of production",
+          "C", "Free-market liberalism, which argues that reducing trade barriers promotes economic growth",
+          "D", "Autarky, which promotes national self-sufficiency and economic isolation"
+        ],
+        answer: "C"
+      },
+      {
+        num: 54,
+        set: 5,
+        stem: "The environmental consequences of globalization described in the passage are most directly linked to which of the following economic developments?",
+        choices: [
+          "A", "The decline of industrial production worldwide since 1990",
+          "B", "The expansion of industrial manufacturing, resource extraction, and fossil fuel consumption driven by global economic growth",
+          "C", "The complete abandonment of agriculture in favor of service-sector economies",
+          "D", "The universal adoption of sustainable energy sources by all nations"
+        ],
+        answer: "B"
+      },
+      {
+        num: 55,
+        set: 5,
+        stem: "Which of the following best describes the central tension of globalization as presented in the passage?",
+        choices: [
+          "A", "Globalization has produced significant economic growth and connectivity but has also generated inequality, cultural disruption, and environmental challenges",
+          "B", "Globalization has been universally beneficial and faces no meaningful opposition",
+          "C", "Globalization has completely failed to produce any economic or social benefits",
+          "D", "Globalization is a phenomenon limited exclusively to Western Europe and North America"
+        ],
+        answer: "A"
+      }
+    ],
+    questions: [
+      // SAQ 1 — Primary source, Marco Polo on Hangzhou
+      {
+        num: 1,
+        type: "saq",
+        title: "SAQ 1 — Chinese Cities Under Mongol Rule",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "primary",
+        sources: [
+          {
+            label: "Source 1",
+            title: "Medieval illustration of Hangzhou (Kinsai) under the Yuan Dynasty, c. 1290",
+            description: "A European manuscript illustration imagining the great Chinese city of Hangzhou as described by Marco Polo.",
+            figureId: "sim3-saq1-marco-polo-hangzhou",
+            text: ""
+          },
+          {
+            label: "Source 2",
+            title: "Marco Polo, The Travels of Marco Polo (c. 1300)",
+            description: "Marco Polo was a Venetian merchant who traveled to China and served in the court of the Mongol ruler Kublai Khan. His account, dictated after his return to Europe, describes the city of Hangzhou (which he called Kinsai) under Yuan Dynasty rule.",
+            text: "The city of Kinsai is without doubt the finest and most splendid city in the world. It is so great that it has one hundred miles of compass. It has twelve thousand stone bridges, and beneath the greater part of them ships of considerable size can pass. The streets are paved with stone and brick. The inhabitants are peaceful and honest, accustomed to comforts and luxuries. The number of merchants and the amount of goods that pass through this city are so enormous that no one could form a just estimate. The Great Khan derives an immense revenue from the duties levied on trade. There are ten principal markets, held three days a week, and each market is frequented by forty to fifty thousand persons."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way the source illustrates the economic prosperity of Chinese cities during the period of Mongol rule." },
+          { letter: "B", prompt: "Explain ONE way that Mongol rule facilitated long-distance trade across Eurasia in the period c. 1200-1450." },
+          { letter: "C", prompt: "Explain ONE limitation of using Marco Polo's account as a source for understanding Chinese society under the Yuan Dynasty." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes an aspect of economic prosperity such as the large markets with tens of thousands of participants, the enormous volume of trade goods, the extensive infrastructure of stone bridges, or the immense revenue derived from trade duties." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a way Mongol rule facilitated trade such as the Pax Mongolica providing security along Silk Road routes, the yam postal relay system enabling communication, the use of paper money facilitating commerce, or Mongol policies of religious tolerance encouraging merchant travel." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a limitation such as Marco Polo's possible exaggeration of numbers to impress European audiences, his outsider perspective limiting his understanding of Chinese customs, the account being dictated from memory years after his visit, or scholarly debate about whether Polo actually visited all the places he described." }
+        ]
+      },
+      // SAQ 2 — Secondary source, Green Revolution
+      {
+        num: 2,
+        type: "saq",
+        title: "SAQ 2 — Effects of the Green Revolution",
+        required: true,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "secondary",
+        sources: [
+          {
+            label: "Source",
+            title: "Vandana Shiva, The Violence of the Green Revolution (1991)",
+            description: "Vandana Shiva is an Indian scholar and environmental activist. This excerpt is from her study of the Green Revolution's impact on agriculture in the developing world.",
+            text: "The Green Revolution was presented as a technological solution to hunger, introducing high-yield crop varieties, chemical fertilizers, and irrigation systems to developing countries in Asia, Latin America, and Africa. Wheat and rice yields in countries such as India and Mexico increased dramatically during the 1960s and 1970s. However, the new agricultural practices required expensive inputs — seeds, fertilizers, and pesticides — that wealthier farmers could afford but poorer ones could not. The result was a widening gap between large landowners, who prospered, and small farmers, who were often driven into debt and forced to sell their land. Meanwhile, the reliance on monoculture crops and chemical inputs degraded soils and reduced biodiversity, creating new forms of ecological vulnerability."
+          }
+        ],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way the Green Revolution increased agricultural production in developing countries." },
+          { letter: "B", prompt: "Explain ONE way that the Green Revolution contributed to economic inequality in rural communities." },
+          { letter: "C", prompt: "Explain ONE environmental consequence of the agricultural practices introduced by the Green Revolution." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes a way production increased such as the introduction of high-yield crop varieties that dramatically increased wheat and rice output, the use of chemical fertilizers boosting soil productivity, or expanded irrigation systems enabling year-round cultivation." },
+          { row: "B", category: "Part B", points: 1, description: "Explains how inequality increased such as wealthy farmers being able to afford expensive inputs (seeds, fertilizers, pesticides) while poor farmers could not, leading to debt, land loss, and consolidation of agricultural land in fewer hands." },
+          { row: "C", category: "Part C", points: 1, description: "Explains an environmental consequence such as soil degradation from chemical fertilizer overuse, loss of biodiversity from monoculture farming replacing diverse traditional crops, water depletion from intensive irrigation, or chemical runoff polluting waterways." }
+        ]
+      },
+      // SAQ 3 — No stimulus, Religion and political authority (c. 1200-1450)
+      {
+        num: 3,
+        type: "saq",
+        title: "SAQ 3 — Religion and Political Authority (c. 1200-1450)",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way that rulers in the period c. 1200-1450 used religion to legitimize their political authority." },
+          { letter: "B", prompt: "Explain ONE way that religious institutions challenged or limited the authority of political rulers in the period c. 1200-1450." },
+          { letter: "C", prompt: "Explain ONE significant difference in how TWO specific states used religion to support political power in the period c. 1200-1450." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes an example such as the Chinese emperor's claim to the Mandate of Heaven, European monarchs' assertion of divine right supported by the Catholic Church, Islamic rulers claiming the title of caliph or sultan as defenders of the faith, or Aztec rulers performing religious rituals to legitimize their authority." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a challenge such as the Catholic Church's power to excommunicate rulers (as with Emperor Henry IV), the ulama limiting the authority of Islamic rulers through interpretation of sharia law, or Buddhist monasteries accumulating political and economic influence that rivaled secular rulers." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a difference such as European rulers relying on papal endorsement while Chinese emperors claimed the Mandate of Heaven independently of religious institutions, or Islamic rulers integrating religious and political authority while medieval European kings shared power with the Church." }
+        ]
+      },
+      // SAQ 4 — No stimulus, Total war and civilians (c. 1900-present)
+      {
+        num: 4,
+        type: "saq",
+        title: "SAQ 4 — Total War and Civilian Populations (c. 1900-present)",
+        required: false,
+        points: 3,
+        suggestedTime: 13,
+        stimulusType: "none",
+        sources: [],
+        parts: [
+          { letter: "A", prompt: "Describe ONE way that the concept of total war affected civilian populations during the twentieth century." },
+          { letter: "B", prompt: "Explain ONE way that governments mobilized civilian populations for the war effort during either World War I or World War II." },
+          { letter: "C", prompt: "Explain ONE long-term social or political consequence of the impact of total war on civilian populations." }
+        ],
+        rubric: [
+          { row: "A", category: "Part A", points: 1, description: "Describes an impact such as strategic bombing of cities (the Blitz, firebombing of Dresden or Tokyo, atomic bombings of Hiroshima and Nagasaki), forced displacement of populations, genocide and ethnic cleansing, or food rationing and shortages caused by wartime economic disruption." },
+          { row: "B", category: "Part B", points: 1, description: "Explains a form of mobilization such as wartime industrial production by civilian workers (Rosie the Riveter), government propaganda campaigns to sustain morale, rationing systems for food and consumer goods, conscription of civilian labor, or women entering the workforce in unprecedented numbers." },
+          { row: "C", category: "Part C", points: 1, description: "Explains a long-term consequence such as the creation of international humanitarian law (Geneva Conventions), the establishment of the United Nations to prevent future conflicts, expanded women's political rights following their wartime contributions, decolonization movements fueled by the hypocrisy of fighting for freedom abroad while denying it to colonial subjects, or the development of the welfare state in response to wartime social solidarity." }
+        ]
+      },
+      // DBQ — European colonialism & economic transformation in South and Southeast Asia (c. 1750-1900)
+      {
+        num: 5,
+        type: "dbq",
+        title: "Document-Based Question",
+        points: 7,
+        suggestedTime: 60,
+        prompt: "Evaluate the extent to which European colonialism transformed economic systems in South and Southeast Asia in the period c. 1750-1900.",
+        documents: [
+          {
+            num: 1,
+            source: "Lord Cornwallis, Permanent Settlement regulations for Bengal, India (1793)",
+            text: "Whereas the revenues of Bengal have been in a declining state owing to the defective system of collection, it is hereby established that the zamindars shall be recognized as the proprietors of the soil, responsible for the payment of a fixed annual revenue to the East India Company. The amount of revenue assessed upon each estate shall remain permanently fixed and shall not be increased at any future period. The zamindars shall have the right to manage their estates, collect rents from the cultivators, and retain all surplus revenue above the fixed amount."
+          },
+          {
+            num: 2,
+            source: "Romesh Chunder Dutt, The Economic History of India Under Early British Rule (1902)",
+            figureId: "sim3-dbq-doc3-indian-textile-workers",
+            text: "India in the eighteenth century was a great manufacturing as well as a great agricultural country, and the products of the Indian loom supplied the markets of Asia and of Europe. It is a melancholy instance of the wrong done to India by the East India Company that the Manchester manufacturers sought to impose heavy duties on Indian textiles imported into Britain while insisting that British goods enter India duty-free. The result was the ruin of the Indian textile industry, the destruction of once-prosperous cities, and the conversion of India from a manufacturing to an agricultural nation dependent upon the export of raw materials."
+          },
+          {
+            num: 3,
+            source: "Adapted from records of the Dutch Cultivation System in Java, Indonesia (c. 1840)",
+            text: "Under the Cultivation System, Javanese villages are required to set aside one-fifth of their agricultural land for the cultivation of export crops designated by the colonial government — principally coffee, sugar, and indigo. The produce is delivered to government warehouses at prices fixed by the Dutch authorities. In return, the villages are exempted from the land tax. The system has generated enormous profits for the Dutch colonial treasury, with net revenues from Java exceeding 30 million guilders annually, representing approximately one-third of the total revenue of the Kingdom of the Netherlands."
+          },
+          {
+            num: 4,
+            source: "Dadabhai Naoroji, Poverty and Un-British Rule in India (1901)",
+            text: "A continuous flow of wealth — the drain of wealth — is being carried away from India to England without any material return. The value of Indian exports exceeds imports by many millions of pounds annually, but this surplus does not return to India in the form of investment or goods. It flows to England as payment for the salaries of British officials serving in India, interest on debts incurred for railways built primarily to serve British commercial interests, and profits of British-owned enterprises. This drain is the root cause of Indian poverty and famines."
+          },
+          {
+            num: 5,
+            source: "Sir Stamford Raffles, founder of Singapore, letter on the administration of Java (1817)",
+            text: "The island of Java possesses a fertile soil and an industrious population, but under the Dutch system the native cultivator has been reduced to a mere instrument of production for the benefit of the colonial treasury. The compulsory cultivation of coffee and other export crops has diverted labor and land from the production of rice, the staple food of the population. The consequence has been periodic famines in a land of abundance. I am convinced that a system of free trade and private enterprise, with security of property for the native cultivator, would produce greater wealth for all parties than the present system of monopoly and compulsion."
+          },
+          {
+            num: 6,
+            source: "Adapted from a report of the British Indian Railway Commission (1871)",
+            text: "The construction of railways in India has opened up the interior of the country to trade on a scale never before possible. Cotton, wheat, jute, and other raw materials can now be transported cheaply and quickly from inland districts to the port cities of Bombay, Calcutta, and Madras for export to British factories. The total mileage of railway track in India has increased from 838 miles in 1860 to 5,089 miles in 1871. Investment in Indian railways has been guaranteed a minimum return of 5 percent by the Government of India, thereby attracting substantial British capital."
+          },
+          {
+            num: 7,
+            source: "Syed Ahmed Khan, speech on British education in India (1886)",
+            text: "I acknowledge that the British government has introduced improvements in India — roads, railways, canals, and the establishment of law and order. Yet these improvements have been made primarily to serve British commercial and administrative interests rather than for the benefit of the Indian people. The railways carry Indian raw materials to the ports for export but do little to develop Indian manufacturing. The education system produces clerks for the colonial administration but does not train engineers, scientists, or industrialists who might build an independent Indian economy."
+          }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 3, description: "Uses at least 3 documents to address the topic (1pt), uses at least 4 documents and explains how they support the argument (2pts), uses at least 1 piece of evidence beyond the documents (1pt)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Sources at least 2 documents by explaining point of view, purpose, historical situation, or audience (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      },
+      // LEQ — Comparative political systems
+      {
+        num: 6,
+        type: "leq",
+        title: "Long Essay Question",
+        points: 6,
+        suggestedTime: 40,
+        options: [
+          { id: 2, prompt: "In the period 1200-1450, compare the political structures of TWO empires and evaluate the extent to which they used similar methods to maintain authority over diverse populations." },
+          { id: 3, prompt: "In the period 1450-1750, evaluate the extent to which absolute monarchies in TWO different states consolidated political power and limited challenges to their authority." },
+          { id: 4, prompt: "In the period 1750-1900, evaluate the extent to which industrialization changed political structures and the relationship between governments and their citizens in one or more states." }
+        ],
+        rubric: [
+          { row: "A", category: "Thesis/Claim", points: 1, description: "Responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning." },
+          { row: "B", category: "Contextualization", points: 1, description: "Describes a broader historical context relevant to the prompt." },
+          { row: "C", category: "Evidence", points: 2, description: "Provides specific examples of evidence relevant to the topic (1pt). Uses specific and relevant examples of evidence to support an argument (2pts)." },
+          { row: "D", category: "Analysis & Reasoning", points: 2, description: "Uses historical reasoning to frame or structure an argument (1pt). Demonstrates a complex understanding (1pt)." }
+        ]
+      }
+    ]
+  },
+  // ========================================================================
   // EXAM 1: Official 2025 Set 1
   // ========================================================================
   {
