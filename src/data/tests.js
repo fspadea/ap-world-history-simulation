@@ -192,11 +192,11 @@ const ALL_TESTS = [
         stem: "The decree's instruction that governors must not interfere with religious judges most directly reflects which of the following features of Ottoman governance?",
         choices: [
           "A", "The complete separation of religious and political authority in the Ottoman Empire",
-          "B", "The incorporation of Islamic legal traditions into the imperial administrative system",
-          "C", "The Ottoman rejection of Islamic law in favor of secular European legal codes",
+          "B", "The Ottoman rejection of Islamic law in favor of secular European legal codes",
+          "C", "The incorporation of Islamic legal traditions into the imperial administrative system",
           "D", "The subordination of all religious authority to provincial military commanders"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 14,
@@ -204,11 +204,11 @@ const ALL_TESTS = [
         stem: "The decree's reference to the wellbeing of both Muslim and non-Muslim subjects most directly relates to which of the following Ottoman institutions?",
         choices: [
           "A", "The devshirme system, which recruited Christian boys for military and administrative service",
-          "B", "The millet system, which granted religious communities a degree of self-governance",
-          "C", "The janissary corps, which served as the elite infantry of the Ottoman military",
+          "B", "The janissary corps, which served as the elite infantry of the Ottoman military",
+          "C", "The millet system, which granted religious communities a degree of self-governance",
           "D", "The capitulation agreements, which gave European merchants special trading privileges"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 15,
@@ -228,11 +228,11 @@ const ALL_TESTS = [
         stem: "The Ottoman practice of issuing imperial decrees to regulate provincial governance most directly served which of the following purposes?",
         choices: [
           "A", "Eliminating all forms of regional identity within the empire",
-          "B", "Maintaining central control over a vast and ethnically diverse territory",
-          "C", "Preparing for the empire's transition to a constitutional monarchy",
+          "B", "Preparing for the empire's transition to a constitutional monarchy",
+          "C", "Maintaining central control over a vast and ethnically diverse territory",
           "D", "Establishing diplomatic relations with Western European nation-states"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 17,
@@ -252,11 +252,11 @@ const ALL_TESTS = [
         stem: "The reference to the 'Sublime Porte' in the decree is significant because it demonstrates which of the following?",
         choices: [
           "A", "The Ottoman Empire's reliance on European diplomatic conventions",
-          "B", "The existence of a centralized imperial government that served as the ultimate authority",
-          "C", "The Ottoman adoption of Chinese bureaucratic terminology",
+          "B", "The Ottoman adoption of Chinese bureaucratic terminology",
+          "C", "The existence of a centralized imperial government that served as the ultimate authority",
           "D", "The weakness of the Ottoman sultan's authority relative to provincial governors"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 19,
@@ -275,12 +275,12 @@ const ALL_TESTS = [
         set: 2,
         stem: "Which of the following developments in the period 1450-1750 most directly challenged the Ottoman system of provincial administration described in the decree?",
         choices: [
-          "A", "The increasing use of tax farming, which undermined centralized revenue collection",
+          "A", "The establishment of democratic elections for provincial governors",
           "B", "The adoption of Protestantism by Ottoman subject populations",
           "C", "The complete mechanization of Ottoman agriculture",
-          "D", "The establishment of democratic elections for provincial governors"
+          "D", "The increasing use of tax farming, which undermined centralized revenue collection"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 21,
@@ -288,11 +288,11 @@ const ALL_TESTS = [
         stem: "A historian could best use this Ottoman decree as evidence for which of the following claims?",
         choices: [
           "A", "The Ottoman Empire practiced complete religious tolerance with no distinctions between faiths",
-          "B", "Early modern land-based empires developed sophisticated bureaucratic systems to administer diverse territories",
-          "C", "The Ottoman Empire was a decentralized confederation of independent provinces",
+          "B", "The Ottoman Empire was a decentralized confederation of independent provinces",
+          "C", "Early modern land-based empires developed sophisticated bureaucratic systems to administer diverse territories",
           "D", "Islamic empires rejected all forms of secular governance in favor of purely religious law"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 22,
@@ -300,11 +300,11 @@ const ALL_TESTS = [
         stem: "The decree's emphasis on preventing oppression of subject peoples most likely reflects the Ottoman rulers' recognition that which of the following was essential for imperial stability?",
         choices: [
           "A", "Military expansion into new territories to acquire more revenue",
-          "B", "The legitimacy derived from presenting the sultan as a just and protective ruler",
-          "C", "Complete cultural assimilation of all conquered peoples into Turkish identity",
+          "B", "Complete cultural assimilation of all conquered peoples into Turkish identity",
+          "C", "The legitimacy derived from presenting the sultan as a just and protective ruler",
           "D", "The elimination of all forms of local self-governance"
         ],
-        answer: "B"
+        answer: "C"
       },
       // SET 3 — Questions 23-33: Columbian Exchange / Atlantic World (c. 1450-1750)
       {
@@ -313,23 +313,23 @@ const ALL_TESTS = [
         stem: "Las Casas's account of Spanish treatment of indigenous peoples in the Americas was most directly intended to achieve which of the following goals?",
         choices: [
           "A", "Encourage further Spanish colonization by demonstrating the wealth of the Americas",
-          "B", "Persuade the Spanish Crown to reform colonial policies and protect indigenous populations",
-          "C", "Promote the establishment of an independent indigenous state in the Americas",
+          "B", "Promote the establishment of an independent indigenous state in the Americas",
+          "C", "Persuade the Spanish Crown to reform colonial policies and protect indigenous populations",
           "D", "Advocate for the complete withdrawal of all Europeans from the Western Hemisphere"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 24,
         set: 3,
         stem: "The forced labor systems described by Las Casas most directly developed into which of the following colonial institutions?",
         choices: [
-          "A", "The mita system and encomienda, which compelled indigenous labor for Spanish colonizers",
+          "A", "The asiento system, which regulated the importation of enslaved Africans to the Americas",
           "B", "The headright system, which granted land to English settlers who paid for passage to America",
           "C", "The joint-stock company, which organized European commercial ventures in Asia",
-          "D", "The asiento system, which regulated the importation of enslaved Africans to the Americas"
+          "D", "The mita system and encomienda, which compelled indigenous labor for Spanish colonizers"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 25,
@@ -337,11 +337,11 @@ const ALL_TESTS = [
         stem: "The population decline described by Las Casas was most significantly caused by which of the following factors?",
         choices: [
           "A", "Voluntary migration of indigenous peoples to Europe and Africa",
-          "B", "The introduction of Old World epidemic diseases to which indigenous peoples had no immunity",
-          "C", "Widespread indigenous conversion to Christianity, which discouraged large families",
+          "B", "Widespread indigenous conversion to Christianity, which discouraged large families",
+          "C", "The introduction of Old World epidemic diseases to which indigenous peoples had no immunity",
           "D", "The deliberate use of biological weapons by Spanish military forces"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 26,
@@ -349,23 +349,23 @@ const ALL_TESTS = [
         stem: "Las Casas's characterization of indigenous peoples as 'humble, patient, and peaceable' most directly reflects which of the following perspectives?",
         choices: [
           "A", "An accurate anthropological assessment of all indigenous cultures in the Americas",
-          "B", "A strategic rhetorical choice designed to generate sympathy from the Spanish Crown",
-          "C", "The widespread European scientific consensus about indigenous peoples during the sixteenth century",
+          "B", "The widespread European scientific consensus about indigenous peoples during the sixteenth century",
+          "C", "A strategic rhetorical choice designed to generate sympathy from the Spanish Crown",
           "D", "The views of indigenous leaders who had traveled to Spain to advocate for their own people"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 27,
         set: 3,
         stem: "The consequences of Spanish colonization described by Las Casas most directly contributed to which of the following long-term developments?",
         choices: [
-          "A", "The development of a rigid racial caste system in Spanish colonial society",
+          "A", "The expansion of representative democracy throughout the Americas",
           "B", "The immediate independence of Latin American colonies from Spanish rule",
-          "C", "The expansion of representative democracy throughout the Americas",
+          "C", "The development of a rigid racial caste system in Spanish colonial society",
           "D", "The decline of the Atlantic slave trade due to moral objections"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 28,
@@ -373,11 +373,11 @@ const ALL_TESTS = [
         stem: "Which of the following was a direct economic consequence of the extraction of gold and silver from the Americas as described by Las Casas?",
         choices: [
           "A", "A decrease in European trade with Asia due to the abundance of American precious metals",
-          "B", "A period of significant inflation in Europe and the integration of the Americas into the global economy",
-          "C", "The collapse of the Spanish monarchy due to the high cost of transatlantic shipping",
+          "B", "The collapse of the Spanish monarchy due to the high cost of transatlantic shipping",
+          "C", "A period of significant inflation in Europe and the integration of the Americas into the global economy",
           "D", "The development of paper currency systems throughout Western Europe"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 29,
@@ -385,11 +385,11 @@ const ALL_TESTS = [
         stem: "Las Casas's arguments most directly influenced which of the following?",
         choices: [
           "A", "The Protestant Reformation and its critique of Catholic authority",
-          "B", "The debate over the legal and moral status of indigenous peoples, including the Valladolid debate of 1550-1551",
-          "C", "The French Revolution and its emphasis on universal rights",
+          "B", "The French Revolution and its emphasis on universal rights",
+          "C", "The debate over the legal and moral status of indigenous peoples, including the Valladolid debate of 1550-1551",
           "D", "The English Civil War and the development of parliamentary sovereignty"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 30,
@@ -421,11 +421,11 @@ const ALL_TESTS = [
         stem: "The demographic collapse of indigenous populations described by Las Casas most directly led to which of the following developments in the Atlantic world?",
         choices: [
           "A", "The end of European demand for labor in the Americas",
-          "B", "The increased importation of enslaved Africans to replace indigenous laborers",
+          "B", "The development of fully mechanized agricultural production in the Americas",
           "C", "The voluntary return of Spanish colonists to Europe",
-          "D", "The development of fully mechanized agricultural production in the Americas"
+          "D", "The increased importation of enslaved Africans to replace indigenous laborers"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 33,
@@ -433,11 +433,11 @@ const ALL_TESTS = [
         stem: "A historian would most likely characterize Las Casas's account as reflecting which of the following broader intellectual trends of the sixteenth century?",
         choices: [
           "A", "The Scientific Revolution's emphasis on empirical observation and data collection",
-          "B", "The humanist concern with justice and the moral responsibilities of Christian rulers",
+          "B", "The mercantilist argument for maximizing colonial economic output",
           "C", "The Enlightenment's advocacy for democratic governance and individual rights",
-          "D", "The mercantilist argument for maximizing colonial economic output"
+          "D", "The humanist concern with justice and the moral responsibilities of Christian rulers"
         ],
-        answer: "B"
+        answer: "D"
       },
       // SET 4 — Questions 34-44: Industrial Revolution & Imperialism (c. 1750-1900)
       {
@@ -446,11 +446,11 @@ const ALL_TESTS = [
         stem: "Engels's description of working conditions in English factories most directly illustrates which of the following consequences of the Industrial Revolution?",
         choices: [
           "A", "The improvement of public health through advances in medical science",
-          "B", "The concentration of wealth and the exploitation of industrial laborers",
+          "B", "The establishment of government-mandated minimum wages and working conditions",
           "C", "The decline of urbanization as workers returned to agricultural employment",
-          "D", "The establishment of government-mandated minimum wages and working conditions"
+          "D", "The concentration of wealth and the exploitation of industrial laborers"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 35,
@@ -458,11 +458,11 @@ const ALL_TESTS = [
         stem: "The housing conditions described by Engels most directly resulted from which of the following developments?",
         choices: [
           "A", "Deliberate government policies to relocate rural populations to urban slums",
-          "B", "Rapid urbanization driven by the movement of workers from rural areas to factory towns",
+          "B", "The voluntary preference of workers for crowded living conditions near factories",
           "C", "The destruction of urban housing during the Napoleonic Wars",
-          "D", "The voluntary preference of workers for crowded living conditions near factories"
+          "D", "Rapid urbanization driven by the movement of workers from rural areas to factory towns"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 36,
@@ -470,11 +470,11 @@ const ALL_TESTS = [
         stem: "Engels's observations about the use of child labor in factories most directly contributed to which of the following later developments?",
         choices: [
           "A", "The abolition of slavery throughout the British Empire",
-          "B", "The passage of factory reform legislation restricting working hours and child labor",
+          "B", "The complete mechanization of industry, eliminating the need for human labor",
           "C", "The establishment of universal suffrage for all adult citizens in Britain",
-          "D", "The complete mechanization of industry, eliminating the need for human labor"
+          "D", "The passage of factory reform legislation restricting working hours and child labor"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 37,
@@ -494,11 +494,11 @@ const ALL_TESTS = [
         stem: "The spread of epidemic diseases such as cholera in industrial cities, as mentioned by Engels, was most directly caused by which of the following?",
         choices: [
           "A", "The importation of tropical diseases from colonial territories in Africa and Asia",
-          "B", "Inadequate sanitation infrastructure and contaminated water supplies in rapidly growing urban areas",
+          "B", "The decline of traditional herbal medicine in favor of industrial pharmaceuticals",
           "C", "The deliberate introduction of pathogens by rival European powers",
-          "D", "The decline of traditional herbal medicine in favor of industrial pharmaceuticals"
+          "D", "Inadequate sanitation infrastructure and contaminated water supplies in rapidly growing urban areas"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 39,
@@ -518,11 +518,11 @@ const ALL_TESTS = [
         stem: "The conditions described by Engels in England were most closely paralleled in which of the following contemporary developments?",
         choices: [
           "A", "The expansion of the Ottoman Empire into southeastern Europe",
-          "B", "The development of textile manufacturing and industrial labor in Japan during the Meiji era",
+          "B", "The decline of maritime trade in the Indian Ocean region",
           "C", "The spread of subsistence agriculture in sub-Saharan Africa",
-          "D", "The decline of maritime trade in the Indian Ocean region"
+          "D", "The development of textile manufacturing and industrial labor in Japan during the Meiji era"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 41,
@@ -530,11 +530,11 @@ const ALL_TESTS = [
         stem: "The economic system critiqued by Engels most directly depended on which of the following technological developments?",
         choices: [
           "A", "The invention of the printing press and the spread of literacy",
-          "B", "The development of steam power and mechanized textile production",
+          "B", "The adoption of gunpowder weapons by European armies",
           "C", "The construction of transcontinental railroad networks in North America",
-          "D", "The adoption of gunpowder weapons by European armies"
+          "D", "The development of steam power and mechanized textile production"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 42,
@@ -542,11 +542,11 @@ const ALL_TESTS = [
         stem: "The wealth generated by British industrialization, as described by Engels, most directly fueled which of the following global developments?",
         choices: [
           "A", "The decline of British naval power and the rise of Russian maritime dominance",
-          "B", "European imperialist expansion into Africa and Asia during the nineteenth century",
+          "B", "The abolition of all forms of unfree labor throughout the global economy",
           "C", "The peaceful unification of Germany under Prussian diplomatic leadership",
-          "D", "The abolition of all forms of unfree labor throughout the global economy"
+          "D", "European imperialist expansion into Africa and Asia during the nineteenth century"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 43,
@@ -554,11 +554,11 @@ const ALL_TESTS = [
         stem: "A historian analyzing Engels's account should most importantly consider which of the following about the source?",
         choices: [
           "A", "Engels was a wealthy industrialist with no personal experience of working-class life",
-          "B", "Engels wrote with the explicit political purpose of advocating for the overthrow of capitalism",
+          "B", "Engels published his work decades after the conditions he described had been entirely eliminated",
           "C", "Engels's observations were limited to a single factory and cannot be generalized",
-          "D", "Engels published his work decades after the conditions he described had been entirely eliminated"
+          "D", "Engels wrote with the explicit political purpose of advocating for the overthrow of capitalism"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 44,
@@ -579,11 +579,11 @@ const ALL_TESTS = [
         stem: "Nkrumah's speech most directly reflects which of the following historical developments of the mid-twentieth century?",
         choices: [
           "A", "The expansion of European colonial empires into new African territories",
-          "B", "The wave of decolonization that created newly independent nation-states across Africa",
+          "B", "The decline of nationalist movements in favor of global economic integration",
           "C", "The reunification of previously divided European nation-states",
-          "D", "The decline of nationalist movements in favor of global economic integration"
+          "D", "The wave of decolonization that created newly independent nation-states across Africa"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 46,
@@ -1120,12 +1120,12 @@ const ALL_TESTS = [
         set: 2,
         stem: "The Armenian merchants' role in the Safavid silk trade described by Chardin best illustrates which of the following economic practices of early modern empires?",
         choices: [
-          "A", "The use of religious and ethnic minority communities as commercial intermediaries connecting empires to global markets",
+          "A", "The absence of any long-distance trade networks in the early modern Middle East",
           "B", "The Safavid policy of prohibiting all subjects from engaging in international trade",
           "C", "The complete dependence of European economies on Safavid manufactured goods",
-          "D", "The absence of any long-distance trade networks in the early modern Middle East"
+          "D", "The use of religious and ethnic minority communities as commercial intermediaries connecting empires to global markets"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 17,
@@ -1133,11 +1133,11 @@ const ALL_TESTS = [
         stem: "The royal patronage of arts and scholarship described by Chardin most directly reflects which of the following characteristics of early modern Islamic empires?",
         choices: [
           "A", "The rejection of all artistic and literary traditions in favor of purely military pursuits",
-          "B", "The use of cultural production to legitimize royal authority and project imperial prestige",
+          "B", "The exclusive reliance on European artists and scholars at the Safavid court",
           "C", "The decline of all forms of artistic achievement during the Safavid period",
-          "D", "The exclusive reliance on European artists and scholars at the Safavid court"
+          "D", "The use of cultural production to legitimize royal authority and project imperial prestige"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 18,
@@ -1145,11 +1145,11 @@ const ALL_TESTS = [
         stem: "Which of the following best explains why the Safavid Empire's economy was particularly dependent on the silk trade during the period described by Chardin?",
         choices: [
           "A", "Silk was the only commodity produced anywhere in the Safavid Empire",
-          "B", "European demand for Persian silk provided crucial revenue, and Shah Abbas I had established state monopolies over its production and export",
+          "B", "Silk was used exclusively for military uniforms and had no civilian applications",
           "C", "The Safavid Empire had conquered China and controlled all global silk production",
-          "D", "Silk was used exclusively for military uniforms and had no civilian applications"
+          "D", "European demand for Persian silk provided crucial revenue, and Shah Abbas I had established state monopolies over its production and export"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 19,
@@ -1157,11 +1157,11 @@ const ALL_TESTS = [
         stem: "A historian using Chardin's account as a source would most need to consider which of the following limitations?",
         choices: [
           "A", "Chardin never visited Persia and based his account entirely on secondhand reports",
-          "B", "As a European observer, Chardin's perspective was shaped by his own cultural assumptions and may have misunderstood certain Persian institutions",
+          "B", "Chardin was an official of the Safavid government and therefore could not criticize its policies",
           "C", "Chardin's account was written in Persian and has never been accurately translated",
-          "D", "Chardin was an official of the Safavid government and therefore could not criticize its policies"
+          "D", "As a European observer, Chardin's perspective was shaped by his own cultural assumptions and may have misunderstood certain Persian institutions"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 20,
@@ -1180,12 +1180,12 @@ const ALL_TESTS = [
         set: 2,
         stem: "The Safavid Empire's relationships with its neighbors, as implied by Chardin's account, were most significantly shaped by which of the following?",
         choices: [
-          "A", "Persistent military and ideological rivalry with the Sunni Ottoman Empire over religious legitimacy and territorial control",
+          "A", "The Safavid Empire's voluntary subordination to Mughal political authority",
           "B", "A stable alliance with the Ottoman Empire based on shared Shia religious beliefs",
           "C", "Complete diplomatic isolation from all other states in the region",
-          "D", "The Safavid Empire's voluntary subordination to Mughal political authority"
+          "D", "Persistent military and ideological rivalry with the Sunni Ottoman Empire over religious legitimacy and territorial control"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 22,
@@ -1193,11 +1193,11 @@ const ALL_TESTS = [
         stem: "Which of the following developments most directly contributed to the decline of the Safavid Empire in the decades following Chardin's visit?",
         choices: [
           "A", "The discovery of the Americas, which eliminated European demand for Asian goods",
-          "B", "Weak successors to Shah Abbas I, increasing provincial autonomy, and military pressure from Afghan tribal forces",
+          "B", "The Industrial Revolution in Europe, which destroyed the market for all handcrafted Persian goods",
           "C", "The Safavid conversion to Sunni Islam, which alienated the majority of the population",
-          "D", "The Industrial Revolution in Europe, which destroyed the market for all handcrafted Persian goods"
+          "D", "Weak successors to Shah Abbas I, increasing provincial autonomy, and military pressure from Afghan tribal forces"
         ],
-        answer: "B"
+        answer: "D"
       },
       // SET 3 — Questions 23-33: Atlantic Revolutions & Enlightenment (c. 1750-1900)
       {
@@ -1206,11 +1206,11 @@ const ALL_TESTS = [
         stem: "Bolívar's reference to the 'rights of man and of the citizen, proclaimed by the philosophers of France' most directly reflects the influence of which of the following on Latin American independence movements?",
         choices: [
           "A", "The Protestant Reformation and its emphasis on individual interpretation of scripture",
-          "B", "Enlightenment political philosophy, particularly concepts of natural rights and popular sovereignty",
+          "B", "Romantic nationalism and its celebration of ethnic and linguistic identity",
           "C", "The Scientific Revolution and its emphasis on empirical methods of inquiry",
-          "D", "Romantic nationalism and its celebration of ethnic and linguistic identity"
+          "D", "Enlightenment political philosophy, particularly concepts of natural rights and popular sovereignty"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 24,
@@ -1218,35 +1218,35 @@ const ALL_TESTS = [
         stem: "Bolívar's complaint that Americans 'held no position of authority' under Spanish rule most directly addresses which of the following features of the colonial system?",
         choices: [
           "A", "The encomienda system's exploitation of indigenous labor",
-          "B", "The exclusion of creoles (American-born Spaniards) from high-ranking administrative and military positions, which were reserved for peninsulares",
+          "B", "The mercantilist restrictions on colonial manufacturing and trade",
           "C", "The Spanish Inquisition's persecution of religious minorities in the Americas",
-          "D", "The mercantilist restrictions on colonial manufacturing and trade"
+          "D", "The exclusion of creoles (American-born Spaniards) from high-ranking administrative and military positions, which were reserved for peninsulares"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 25,
         set: 3,
         stem: "Bolívar's argument that 'the habit of obedience has robbed us of the experience necessary for self-government' most directly raises concerns about which of the following challenges facing newly independent nations?",
         choices: [
-          "A", "The difficulty of establishing stable democratic institutions in societies with no tradition of self-governance",
+          "A", "The refusal of the Catholic Church to support Latin American independence",
           "B", "The inability of Latin American nations to develop any form of economic activity",
-          "C", "The refusal of the Catholic Church to support Latin American independence",
+          "C", "The difficulty of establishing stable democratic institutions in societies with no tradition of self-governance",
           "D", "The complete absence of any educated elite in the Spanish American colonies"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 26,
         set: 3,
         stem: "Bolívar's comparison of the Spanish American situation to 'peoples who freed themselves from Rome' most directly serves which of the following rhetorical purposes?",
         choices: [
-          "A", "Arguing that Latin American independence was part of a longer historical tradition of peoples resisting imperial domination",
+          "A", "Suggesting that Latin Americans should adopt Roman political institutions after independence",
           "B", "Claiming that the Spanish Empire was militarily weaker than the Roman Empire",
-          "C", "Suggesting that Latin Americans should adopt Roman political institutions after independence",
+          "C", "Arguing that Latin American independence was part of a longer historical tradition of peoples resisting imperial domination",
           "D", "Demonstrating that European civilization was superior to all others"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 27,
@@ -1254,11 +1254,11 @@ const ALL_TESTS = [
         stem: "The 'divisions among our own peoples' mentioned by Bolívar most directly refers to which of the following social realities of colonial Spanish America?",
         choices: [
           "A", "Religious conflicts between Catholics and Protestants in the colonies",
-          "B", "Racial and class divisions within the colonial caste system separating peninsulares, creoles, mestizos, indigenous peoples, and enslaved Africans",
+          "B", "Geographic isolation that prevented communication between different colonial regions",
           "C", "Linguistic barriers between Spanish-speaking and English-speaking colonists",
-          "D", "Geographic isolation that prevented communication between different colonial regions"
+          "D", "Racial and class divisions within the colonial caste system separating peninsulares, creoles, mestizos, indigenous peoples, and enslaved Africans"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 28,
@@ -1266,11 +1266,11 @@ const ALL_TESTS = [
         stem: "Which of the following events most directly precipitated the crisis that enabled the Spanish American independence movements described by Bolívar?",
         choices: [
           "A", "The Seven Years' War and the subsequent imposition of new British taxes on the American colonies",
-          "B", "Napoleon's invasion of Spain in 1808, which undermined the legitimacy of Spanish royal authority in the colonies",
+          "B", "The abolition of slavery by the British Parliament, which destabilized colonial economies",
           "C", "The Congress of Vienna's decision to restore absolute monarchy throughout Europe and the Americas",
-          "D", "The abolition of slavery by the British Parliament, which destabilized colonial economies"
+          "D", "Napoleon's invasion of Spain in 1808, which undermined the legitimacy of Spanish royal authority in the colonies"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 29,
@@ -1278,11 +1278,11 @@ const ALL_TESTS = [
         stem: "The political ideas expressed by Bolívar were most similar to those articulated in which of the following documents?",
         choices: [
           "A", "The Communist Manifesto by Karl Marx and Friedrich Engels",
-          "B", "The United States Declaration of Independence and the French Declaration of the Rights of Man and of the Citizen",
+          "B", "The Treaty of Westphalia ending the Thirty Years' War",
           "C", "The Ninety-Five Theses by Martin Luther",
-          "D", "The Treaty of Westphalia ending the Thirty Years' War"
+          "D", "The United States Declaration of Independence and the French Declaration of the Rights of Man and of the Citizen"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 30,
@@ -1290,11 +1290,11 @@ const ALL_TESTS = [
         stem: "Which of the following best describes a significant outcome of the independence movements led by figures like Bolívar?",
         choices: [
           "A", "The establishment of stable democracies with universal suffrage throughout Latin America",
-          "B", "The creation of independent nation-states that often experienced political instability, caudillo rule, and continued social inequality",
+          "B", "The reunification of all former Spanish colonies into a single federal republic",
           "C", "The immediate abolition of all racial and class distinctions in the new republics",
-          "D", "The reunification of all former Spanish colonies into a single federal republic"
+          "D", "The creation of independent nation-states that often experienced political instability, caudillo rule, and continued social inequality"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 31,
@@ -1302,11 +1302,11 @@ const ALL_TESTS = [
         stem: "Bolívar's letter reflects the broader influence of the Atlantic revolutions on global political change. Which of the following revolutions was most directly influenced by the same Enlightenment ideas Bolívar references?",
         choices: [
           "A", "The Glorious Revolution of 1688 in England",
-          "B", "The Haitian Revolution of 1791-1804",
+          "B", "The Meiji Restoration of 1868 in Japan",
           "C", "The Taiping Rebellion of 1850-1864 in China",
-          "D", "The Meiji Restoration of 1868 in Japan"
+          "D", "The Haitian Revolution of 1791-1804"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 32,
@@ -1314,11 +1314,11 @@ const ALL_TESTS = [
         stem: "A historian studying Bolívar's Letter from Jamaica would most likely use it as evidence for which of the following claims?",
         choices: [
           "A", "Latin American independence leaders were primarily motivated by economic concerns rather than political ideals",
-          "B", "Enlightenment ideas were adapted and applied to colonial contexts by creole elites seeking to justify self-governance",
-          "C", "The Spanish American independence movements were led exclusively by indigenous peoples",
+          "B", "The Spanish American independence movements were led exclusively by indigenous peoples",
+          "C", "Enlightenment ideas were adapted and applied to colonial contexts by creole elites seeking to justify self-governance",
           "D", "Bolívar rejected all European intellectual traditions in favor of purely American ideas"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 33,
@@ -1326,11 +1326,11 @@ const ALL_TESTS = [
         stem: "Which of the following best describes a significant difference between the American Revolution and the Latin American independence movements described by Bolívar?",
         choices: [
           "A", "The American Revolution was influenced by Enlightenment ideas while Latin American movements were not",
-          "B", "Latin American societies were more racially and socially stratified, creating deeper internal divisions that complicated the independence process",
-          "C", "The American Revolution resulted in political instability while Latin American independence produced stable democracies",
+          "B", "The American Revolution resulted in political instability while Latin American independence produced stable democracies",
+          "C", "Latin American societies were more racially and socially stratified, creating deeper internal divisions that complicated the independence process",
           "D", "Latin American independence movements occurred before the American Revolution and served as its inspiration"
         ],
-        answer: "B"
+        answer: "C"
       },
       // SET 4 — Questions 34-44: New Imperialism in Africa & Asia (c. 1750-1900)
       {
@@ -1351,11 +1351,11 @@ const ALL_TESTS = [
         stem: "Naoroji's description of the destruction of Indian textile industries most directly resulted from which of the following developments?",
         choices: [
           "A", "Indian artisans' voluntary abandonment of textile production in favor of agriculture",
-          "B", "The flooding of Indian markets with cheaper, machine-produced British textiles following the Industrial Revolution",
-          "C", "The Indian Mutiny of 1857, which destroyed most textile manufacturing centers",
+          "B", "The Indian Mutiny of 1857, which destroyed most textile manufacturing centers",
+          "C", "The flooding of Indian markets with cheaper, machine-produced British textiles following the Industrial Revolution",
           "D", "The British government's policy of investing heavily in Indian industrial development"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 36,
@@ -1375,11 +1375,11 @@ const ALL_TESTS = [
         stem: "Naoroji's arguments are best understood within the context of which of the following broader intellectual and political movements?",
         choices: [
           "A", "The Social Darwinist movement, which justified European racial superiority",
-          "B", "The early Indian nationalist movement, which used economic analysis to critique British colonial policies",
-          "C", "The Pan-Islamic movement, which sought to unite all Muslim peoples against European domination",
+          "B", "The Pan-Islamic movement, which sought to unite all Muslim peoples against European domination",
+          "C", "The early Indian nationalist movement, which used economic analysis to critique British colonial policies",
           "D", "The Marxist revolutionary movement, which called for the immediate violent overthrow of all governments"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 38,
@@ -1387,11 +1387,11 @@ const ALL_TESTS = [
         stem: "The economic relationship between Britain and India described by Naoroji is most comparable to which of the following?",
         choices: [
           "A", "The relationship between the United States and the Soviet Union during the Cold War",
-          "B", "The relationship between European colonial powers and African colonies during the Scramble for Africa",
-          "C", "The relationship between China and its Central Asian trading partners along the Silk Road",
+          "B", "The relationship between China and its Central Asian trading partners along the Silk Road",
+          "C", "The relationship between European colonial powers and African colonies during the Scramble for Africa",
           "D", "The relationship between the Roman Empire and its federated Germanic allies"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 39,
@@ -1411,11 +1411,11 @@ const ALL_TESTS = [
         stem: "Naoroji's critique of British rule in India most directly influenced which of the following later developments?",
         choices: [
           "A", "The British decision to immediately grant India full independence in 1901",
-          "B", "The growth of the Indian independence movement, including the strategies of leaders like Gandhi and Nehru",
-          "C", "The British expansion of colonial territories in Southeast Asia",
+          "B", "The British expansion of colonial territories in Southeast Asia",
+          "C", "The growth of the Indian independence movement, including the strategies of leaders like Gandhi and Nehru",
           "D", "The decline of nationalist movements in India in favor of acceptance of British rule"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 41,
@@ -1435,11 +1435,11 @@ const ALL_TESTS = [
         stem: "Which of the following was a major factor enabling European imperial expansion in Africa and Asia during the period Naoroji describes?",
         choices: [
           "A", "The voluntary invitation of European powers by African and Asian rulers to govern their territories",
-          "B", "Technological advantages including steamships, the telegraph, quinine, and advanced weaponry",
-          "C", "The collapse of all indigenous political structures before any European contact",
+          "B", "The collapse of all indigenous political structures before any European contact",
+          "C", "Technological advantages including steamships, the telegraph, quinine, and advanced weaponry",
           "D", "The complete absence of any resistance to European rule in colonized territories"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 43,
@@ -1447,11 +1447,11 @@ const ALL_TESTS = [
         stem: "A historian analyzing Naoroji's account should most importantly consider which of the following about the author's perspective?",
         choices: [
           "A", "Naoroji had never visited India and had no firsthand knowledge of conditions there",
-          "B", "As an Indian nationalist, Naoroji may have emphasized the negative economic effects of British rule to support his political arguments for greater Indian self-governance",
-          "C", "Naoroji was a British government official who was defending colonial policies",
+          "B", "Naoroji was a British government official who was defending colonial policies",
+          "C", "As an Indian nationalist, Naoroji may have emphasized the negative economic effects of British rule to support his political arguments for greater Indian self-governance",
           "D", "Naoroji's account was written before British rule began and therefore describes a hypothetical situation"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 44,
@@ -1472,11 +1472,11 @@ const ALL_TESTS = [
         stem: "Ho Chi Minh's deliberate quotation of the United States Declaration of Independence in his speech most directly served which of the following purposes?",
         choices: [
           "A", "Expressing admiration for American culture and requesting annexation by the United States",
-          "B", "Appealing to American ideals of self-determination to legitimize Vietnamese independence and highlight the hypocrisy of Western colonial powers",
-          "C", "Rejecting all Western political thought in favor of traditional Vietnamese values",
+          "B", "Rejecting all Western political thought in favor of traditional Vietnamese values",
+          "C", "Appealing to American ideals of self-determination to legitimize Vietnamese independence and highlight the hypocrisy of Western colonial powers",
           "D", "Demonstrating that the Vietnamese revolution was identical in all respects to the American Revolution"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 46,
@@ -1496,11 +1496,11 @@ const ALL_TESTS = [
         stem: "The timing of Ho Chi Minh's declaration in September 1945 was most directly influenced by which of the following events?",
         choices: [
           "A", "The French defeat of Japan and reestablishment of colonial authority in Indochina",
-          "B", "The Japanese surrender ending World War II, which created a power vacuum in colonial Southeast Asia",
-          "C", "The United Nations' declaration granting immediate independence to all colonial territories",
+          "B", "The United Nations' declaration granting immediate independence to all colonial territories",
+          "C", "The Japanese surrender ending World War II, which created a power vacuum in colonial Southeast Asia",
           "D", "The Soviet Union's invasion of Southeast Asia to establish communist governments"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 48,
@@ -1988,11 +1988,11 @@ const ALL_TESTS = [
         stem: "The casta system described in the passage most closely served which of the following functions in Spanish colonial society?",
         choices: [
           "A", "Promoting social mobility and equality among all colonial subjects",
-          "B", "Reinforcing a hierarchical social order based on racial and ethnic categories",
+          "B", "Eliminating all cultural differences within the Spanish colonial population",
           "C", "Encouraging intermarriage between Spanish colonists and indigenous peoples",
-          "D", "Eliminating all cultural differences within the Spanish colonial population"
+          "D", "Reinforcing a hierarchical social order based on racial and ethnic categories"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 15,
@@ -2012,11 +2012,11 @@ const ALL_TESTS = [
         stem: "The massive quantities of silver extracted from Potosí most directly contributed to which of the following economic developments in Europe?",
         choices: [
           "A", "A prolonged period of deflation that reduced the cost of living for ordinary Europeans",
-          "B", "A significant price revolution characterized by inflation across the European economy",
+          "B", "The complete abandonment of gold as a medium of exchange",
           "C", "The decline of European trade with Asia due to an oversupply of precious metals",
-          "D", "The complete abandonment of gold as a medium of exchange"
+          "D", "A significant price revolution characterized by inflation across the European economy"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 17,
@@ -2024,11 +2024,11 @@ const ALL_TESTS = [
         stem: "The distinction between peninsulares and criollos in the casta system most directly contributed to which of the following later developments?",
         choices: [
           "A", "The abolition of slavery throughout the Spanish Americas in the sixteenth century",
-          "B", "Criollo resentment of peninsular privilege, which fueled nineteenth-century independence movements",
+          "B", "The voluntary return of all Spanish colonists to the Iberian Peninsula",
           "C", "The peaceful unification of all Spanish colonial territories into a single nation-state",
-          "D", "The voluntary return of all Spanish colonists to the Iberian Peninsula"
+          "D", "Criollo resentment of peninsular privilege, which fueled nineteenth-century independence movements"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 18,
@@ -2047,12 +2047,12 @@ const ALL_TESTS = [
         set: 2,
         stem: "The labor conditions in the silver mines of Potosí as described in the passage would most likely be criticized by which of the following contemporaries?",
         choices: [
-          "A", "Bartolomé de las Casas, who advocated for the rights of indigenous peoples",
+          "A", "Zheng He, who commanded Chinese maritime expeditions in the Indian Ocean",
           "B", "Niccolò Machiavelli, who argued that rulers should prioritize state power above moral concerns",
           "C", "Martin Luther, who focused his reform efforts on Church theology rather than colonial policy",
-          "D", "Zheng He, who commanded Chinese maritime expeditions in the Indian Ocean"
+          "D", "Bartolomé de las Casas, who advocated for the rights of indigenous peoples"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 20,
@@ -2060,23 +2060,23 @@ const ALL_TESTS = [
         stem: "The demographic consequences of the Spanish colonial system in the Americas were most directly comparable to which of the following?",
         choices: [
           "A", "The population growth experienced in China during the Song Dynasty",
-          "B", "The devastation caused by the Black Death in fourteenth-century Europe",
+          "B", "The urban growth driven by the Industrial Revolution in nineteenth-century England",
           "C", "The expansion of agricultural settlement in medieval Eastern Europe",
-          "D", "The urban growth driven by the Industrial Revolution in nineteenth-century England"
+          "D", "The devastation caused by the Black Death in fourteenth-century Europe"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 21,
         set: 2,
         stem: "Which of the following best describes a key difference between the Spanish encomienda system and the later Atlantic plantation system?",
         choices: [
-          "A", "The encomienda system compelled indigenous labor through legal obligation, while plantation systems relied primarily on enslaved African labor",
+          "A", "The plantation system was a voluntary arrangement, while the encomienda was based on military conquest",
           "B", "The plantation system was exclusively located in Asia, while the encomienda was limited to Africa",
           "C", "The encomienda system produced manufactured goods, while plantations focused on mineral extraction",
-          "D", "The plantation system was a voluntary arrangement, while the encomienda was based on military conquest"
+          "D", "The encomienda system compelled indigenous labor through legal obligation, while plantation systems relied primarily on enslaved African labor"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 22,
@@ -2084,11 +2084,11 @@ const ALL_TESTS = [
         stem: "A historian analyzing the casta system would most likely conclude that it served primarily to accomplish which of the following?",
         choices: [
           "A", "Ensure equal representation of all ethnic groups in colonial government",
-          "B", "Maintain Spanish colonial power by institutionalizing racial hierarchies that privileged European ancestry",
+          "B", "Encourage the rapid assimilation of all colonial subjects into Spanish culture",
           "C", "Promote scientific understanding of human biological diversity",
-          "D", "Encourage the rapid assimilation of all colonial subjects into Spanish culture"
+          "D", "Maintain Spanish colonial power by institutionalizing racial hierarchies that privileged European ancestry"
         ],
-        answer: "B"
+        answer: "D"
       },
       // SET 3 — Questions 23-33: Meiji Restoration (c. 1750-1900)
       {
@@ -2097,11 +2097,11 @@ const ALL_TESTS = [
         stem: "Commodore Perry's arrival in Japan in 1853 most directly led to which of the following?",
         choices: [
           "A", "Japan's immediate colonization by the United States",
-          "B", "The signing of unequal treaties that opened Japanese ports to foreign trade",
+          "B", "The formation of a military alliance between Japan and China against Western powers",
           "C", "A period of Japanese isolation even more restrictive than that under the Tokugawa",
-          "D", "The formation of a military alliance between Japan and China against Western powers"
+          "D", "The signing of unequal treaties that opened Japanese ports to foreign trade"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 24,
@@ -2109,35 +2109,35 @@ const ALL_TESTS = [
         stem: "The Meiji government's slogan 'rich country, strong army' most directly reflected which of the following goals?",
         choices: [
           "A", "Restoring Japan to its pre-Tokugawa feudal political structure",
-          "B", "Building national wealth and military power to resist Western imperialism",
+          "B", "Abandoning all aspects of Japanese culture in favor of Western civilization",
           "C", "Establishing a communist economic system modeled on Marxist principles",
-          "D", "Abandoning all aspects of Japanese culture in favor of Western civilization"
+          "D", "Building national wealth and military power to resist Western imperialism"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 25,
         set: 3,
         stem: "The Iwakura Mission of 1871-1873 is most significant because it demonstrates which of the following aspects of Meiji modernization?",
         choices: [
-          "A", "Japan's deliberate and systematic study of Western institutions as models for reform",
+          "A", "Japan's desire to export its own cultural and political institutions to the West",
           "B", "Japan's attempt to form a military alliance with European colonial powers",
           "C", "The Meiji government's rejection of all Western influence on Japanese society",
-          "D", "Japan's desire to export its own cultural and political institutions to the West"
+          "D", "Japan's deliberate and systematic study of Western institutions as models for reform"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 26,
         set: 3,
         stem: "The replacement of the samurai warrior class with a modern conscript army most directly reflected which of the following broader patterns of nineteenth-century state-building?",
         choices: [
-          "A", "The trend toward professional, centralized national armies replacing feudal military arrangements",
+          "A", "The restoration of aristocratic military privileges in response to popular demands",
           "B", "The global decline of military conflict as nations adopted pacifist foreign policies",
           "C", "The increasing reliance on mercenary forces by modernizing states",
-          "D", "The restoration of aristocratic military privileges in response to popular demands"
+          "D", "The trend toward professional, centralized national armies replacing feudal military arrangements"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 27,
@@ -2145,35 +2145,35 @@ const ALL_TESTS = [
         stem: "Japan's adoption of a constitution modeled partly on Prussia's in 1889 most directly served which of the following purposes?",
         choices: [
           "A", "Establishing a fully democratic republic with universal suffrage",
-          "B", "Creating a constitutional framework that modernized governance while preserving imperial authority",
+          "B", "Rejecting Western political models in favor of traditional Confucian governance",
           "C", "Abolishing the emperor's role and transferring all power to an elected parliament",
-          "D", "Rejecting Western political models in favor of traditional Confucian governance"
+          "D", "Creating a constitutional framework that modernized governance while preserving imperial authority"
         ],
-        answer: "B"
+        answer: "D"
       },
       {
         num: 28,
         set: 3,
         stem: "Japan's victory in the Sino-Japanese War of 1894-1895 was globally significant primarily because it demonstrated which of the following?",
         choices: [
-          "A", "That non-Western nations could successfully adopt Western-style industrialization and military modernization",
+          "A", "That traditional military tactics were superior to modern industrial warfare",
           "B", "That China had become the dominant military power in East Asia",
           "C", "That Western nations were willing to support Asian countries against each other",
-          "D", "That traditional military tactics were superior to modern industrial warfare"
+          "D", "That non-Western nations could successfully adopt Western-style industrialization and military modernization"
         ],
-        answer: "A"
+        answer: "D"
       },
       {
         num: 29,
         set: 3,
         stem: "The Meiji government's use of foreign advisors in building modern factories is most comparable to which of the following developments in other states?",
         choices: [
-          "A", "Peter the Great's hiring of Western European experts to modernize Russia's military and industry",
+          "A", "The Ottoman Empire's reliance on the devshirme system to recruit government officials",
           "B", "The Qing Dynasty's complete rejection of all foreign technology and expertise",
-          "C", "The Ottoman Empire's reliance on the devshirme system to recruit government officials",
+          "C", "Peter the Great's hiring of Western European experts to modernize Russia's military and industry",
           "D", "The Mughal Empire's use of Hindu administrators in its bureaucratic system"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 30,
@@ -2181,35 +2181,35 @@ const ALL_TESTS = [
         stem: "Which of the following best explains why the Tokugawa shogunate was unable to resist Perry's demands in 1853?",
         choices: [
           "A", "Japan had been weakened by decades of civil war immediately prior to Perry's arrival",
-          "B", "Japan's military technology had fallen behind that of Western industrialized nations during its period of relative isolation",
-          "C", "The Japanese emperor had already secretly agreed to open the country to American trade",
+          "B", "The Japanese emperor had already secretly agreed to open the country to American trade",
+          "C", "Japan's military technology had fallen behind that of Western industrialized nations during its period of relative isolation",
           "D", "Perry offered Japan advanced weapons technology in exchange for trade concessions"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 31,
         set: 3,
         stem: "The Meiji Restoration differed most significantly from China's Self-Strengthening Movement (1861-1895) in which of the following ways?",
         choices: [
-          "A", "Japan pursued comprehensive institutional reforms while China attempted to adopt Western technology without fundamentally changing its political system",
+          "A", "Japan rejected all Western influence while China embraced it enthusiastically",
           "B", "China modernized more rapidly and successfully than Japan during this period",
-          "C", "Japan rejected all Western influence while China embraced it enthusiastically",
+          "C", "Japan pursued comprehensive institutional reforms while China attempted to adopt Western technology without fundamentally changing its political system",
           "D", "China's reforms were led by a revolutionary new government while Japan's were directed by the existing ruling class"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 32,
         set: 3,
         stem: "The acquisition of Taiwan following the Sino-Japanese War marked the beginning of which of the following developments in Japanese history?",
         choices: [
-          "A", "Japan's transformation from a target of imperialism to an imperial power in its own right",
+          "A", "The peaceful unification of all East Asian nations under Japanese leadership",
           "B", "Japan's withdrawal from international affairs and return to isolationism",
-          "C", "The peaceful unification of all East Asian nations under Japanese leadership",
+          "C", "Japan's transformation from a target of imperialism to an imperial power in its own right",
           "D", "The decline of Japanese military power and industrial capacity"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 33,
@@ -2217,11 +2217,11 @@ const ALL_TESTS = [
         stem: "A historian would most likely use the Meiji Restoration as evidence to support which of the following arguments?",
         choices: [
           "A", "Industrialization was only possible in societies with a Western cultural heritage",
-          "B", "Centralized state direction and selective borrowing from foreign models could enable rapid modernization",
-          "C", "Democratic governance was a necessary precondition for successful industrialization",
+          "B", "Democratic governance was a necessary precondition for successful industrialization",
+          "C", "Centralized state direction and selective borrowing from foreign models could enable rapid modernization",
           "D", "Modernization inevitably led to the complete abandonment of traditional cultural values"
         ],
-        answer: "B"
+        answer: "C"
       },
       // SET 4 — Questions 34-44: World War I & Global Consequences (c. 1900-present)
       {
@@ -2230,23 +2230,23 @@ const ALL_TESTS = [
         stem: "The concept of 'total war' as described in the passage most directly refers to which of the following?",
         choices: [
           "A", "Warfare limited exclusively to professional armies fighting on defined battlefields",
-          "B", "The mobilization of entire societies — including civilian populations, economies, and industrial resources — for the war effort",
-          "C", "The use of nuclear weapons to achieve decisive military victory",
+          "B", "The use of nuclear weapons to achieve decisive military victory",
+          "C", "The mobilization of entire societies — including civilian populations, economies, and industrial resources — for the war effort",
           "D", "Diplomatic negotiations that replaced armed conflict between major powers"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 35,
         set: 4,
         stem: "The League of Nations mandate system described in the passage most directly reflected which of the following contradictions in the post-World War I settlement?",
         choices: [
-          "A", "The promise of self-determination was applied selectively, as European powers maintained control over former Ottoman territories",
+          "A", "The mandate system was designed to expand the Ottoman Empire rather than dismantle it",
           "B", "The League of Nations granted immediate independence to all former colonial territories",
-          "C", "The mandate system was designed to expand the Ottoman Empire rather than dismantle it",
+          "C", "The promise of self-determination was applied selectively, as European powers maintained control over former Ottoman territories",
           "D", "European powers voluntarily withdrew from all Middle Eastern territories after the war"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 36,
@@ -2254,11 +2254,11 @@ const ALL_TESTS = [
         stem: "The service of over one million Indian troops in the British armed forces during World War I most directly contributed to which of the following developments?",
         choices: [
           "A", "The immediate granting of full independence to India in 1918",
-          "B", "Growing demands for political rights and self-governance among Indian colonial subjects",
-          "C", "The strengthening of British colonial control over India through military gratitude",
+          "B", "The strengthening of British colonial control over India through military gratitude",
+          "C", "Growing demands for political rights and self-governance among Indian colonial subjects",
           "D", "The decline of Indian nationalist movements as colonial subjects embraced British identity"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 37,
@@ -2266,11 +2266,11 @@ const ALL_TESTS = [
         stem: "The collapse of the Ottoman Empire after World War I most directly led to which of the following geopolitical developments?",
         choices: [
           "A", "The unification of all Middle Eastern peoples into a single Arab state",
-          "B", "The creation of new nation-states and European-controlled mandates in the Middle East",
-          "C", "The restoration of Byzantine authority over former Ottoman territories",
+          "B", "The restoration of Byzantine authority over former Ottoman territories",
+          "C", "The creation of new nation-states and European-controlled mandates in the Middle East",
           "D", "The voluntary adoption of European-style democratic governance throughout the region"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 38,
@@ -2278,11 +2278,11 @@ const ALL_TESTS = [
         stem: "The use of propaganda on an 'unprecedented scale' during World War I as described in the passage most directly demonstrates which of the following?",
         choices: [
           "A", "The declining importance of public opinion in modern warfare",
-          "B", "Governments' recognition that sustaining civilian morale was essential to the total war effort",
-          "C", "The absence of censorship in wartime democracies",
+          "B", "The absence of censorship in wartime democracies",
+          "C", "Governments' recognition that sustaining civilian morale was essential to the total war effort",
           "D", "The success of pacifist movements in ending the war quickly"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 39,
@@ -2290,11 +2290,11 @@ const ALL_TESTS = [
         stem: "France's recruitment of hundreds of thousands of soldiers from West and North Africa during World War I is most directly comparable to which of the following?",
         choices: [
           "A", "The Ottoman devshirme system of recruiting Christian boys for military service",
-          "B", "Britain's use of Indian sepoys in colonial military campaigns during the eighteenth and nineteenth centuries",
-          "C", "The use of mercenary forces by Italian city-states during the Renaissance",
+          "B", "The use of mercenary forces by Italian city-states during the Renaissance",
+          "C", "Britain's use of Indian sepoys in colonial military campaigns during the eighteenth and nineteenth centuries",
           "D", "The Mongol practice of incorporating conquered peoples into their armies"
         ],
-        answer: "B"
+        answer: "C"
       },
       {
         num: 40,
@@ -2313,12 +2313,12 @@ const ALL_TESTS = [
         set: 4,
         stem: "The transformation of warfare described in the passage — including the use of industrial technology, conscription, and economic mobilization — most directly resulted from which of the following earlier developments?",
         choices: [
-          "A", "The Industrial Revolution's creation of new weapons technology and mass production capabilities",
+          "A", "The spread of Enlightenment ideas about the moral limitations of warfare",
           "B", "The decline of European monarchies and the rise of pacifist governments",
-          "C", "The spread of Enlightenment ideas about the moral limitations of warfare",
+          "C", "The Industrial Revolution's creation of new weapons technology and mass production capabilities",
           "D", "The global decline of military spending in the decades before 1914"
         ],
-        answer: "A"
+        answer: "C"
       },
       {
         num: 42,
